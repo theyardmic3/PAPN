@@ -1,11 +1,17 @@
 from sklearn.linear_model import LinearRegression
 import pandas as pd
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import MinMaxScaler
 
+# Load data
 transaction_data = pd.read_csv('transaction_data.csv')
 
 # Preprocessing
-transaction_data.dropna(inplace=True)
-transaction_data['amount_scaled'] = transaction_data['amount'] / transaction_data['amount'].max()
+imputer = SimpleImputer(strategy='mean')
+transaction_data['amount'] = imputer.fit_transform(transaction_data[['amount']])
+scaler = MinMaxScaler()
+transaction_data['amount_scaled'] = scaler.fit_transform(transaction_data[['amount']])
+
 
 # Assuming data is loaded and preprocessed
 model = LinearRegression()
