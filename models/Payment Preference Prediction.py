@@ -7,21 +7,21 @@ from sklearn.impute import SimpleImputer
 import joblib
 
 # Load data
-customer_data = pd.read_csv('customer_data.csv')
+transaction_data = pd.read_csv('data/transactions.csv', on_bad_lines='skip')
 
 # Preprocessing
 imputer = SimpleImputer(strategy='most_frequent')
-customer_data['gender'] = imputer.fit_transform(customer_data[['gender']])
-customer_data = pd.get_dummies(customer_data, columns=['gender', 'payment_method'])
+transaction_data['product_class'] = imputer.fit_transform(transaction_data[['product_class']])
+transaction_data['product_size'] = imputer.fit_transform(transaction_data[['product_size']])
+transaction_data = pd.get_dummies(transaction_data, columns=['brand', 'product_line', 'product_class', 'product_size'])
 
 # Feature engineering
-# Add more features based on the transaction history, demographics, and behavior
-customer_data['avg_order_value'] = customer_data['total_sales'] / customer_data['num_orders']
-customer_data['frequency_of_orders'] = customer_data['num_orders'] / customer_data['customer_lifetime_days']
+transaction_data['order_value'] = transaction_data['list_price'] * transaction_data['order_status'].map({'Approved': 1, 'Declined': 0})
+transaction_data['online_order_ratio'] = transaction_data.groupby('customer_id')['online_order'].transform('mean')
 
 # Split data
-features = customer_data.drop('payment_method', axis=1)
-label = customer_data['payment_method']
+features = transaction_data.drop(['transaction_id', 'product_id', 'customer_id', 'transaction_date', 'order_status', 'list_price', 'standard_cost', 'product_first_sold_date'], axis=1)
+label = transaction_data['order_status']
 X_train, X_test, y_train, y_test = train_test_split(features, label, test_size=0.2)
 
 # Train model
@@ -34,4 +34,4 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
 # Save model
-joblib.dump(clf, 'customer_payment_preference_model.pkl')
+joblib.dump(clf, 'order_status_prediction_model.pkl')
