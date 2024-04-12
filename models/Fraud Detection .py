@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import joblib
 
 # Load data
-transaction_data = pd.read_csv('transaction_data.csv')
+transaction_data = pd.read_csv('data/fraud_data.csv')
 
 # Preprocessing
 imputer = SimpleImputer(strategy='constant', fill_value='not_fraud')

@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import joblib
 
 # Load data
-purchase_data = pd.read_csv('purchase_data.csv')
+purchase_data = pd.read_csv('data/promo_data.csv')
 
 # Preprocessing
 imputer = SimpleImputer(strategy='most_frequent')

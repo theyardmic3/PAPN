@@ -7,7 +7,7 @@ from nltk.stem import WordNetLemmatizer
 import string
 
 # Load data
-customer_reviews = pd.read_csv('customer_reviews.csv')
+customer_reviews = pd.read_csv('/data/customer_reviews.csv')
 
 # Preprocessing
 def preprocess_text(text):

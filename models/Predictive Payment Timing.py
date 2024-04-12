@@ -6,7 +6,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 import joblib
 
 # Load data
-payment_data = pd.read_csv('data/customer_data.csv')
+payment_data = pd.read_csv('data/payment_data.csv')
 
 # Preprocessing
 imputer = SimpleImputer(strategy='most_frequent')
