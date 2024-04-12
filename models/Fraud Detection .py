@@ -2,7 +2,9 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
 import joblib
 
 # Load data
@@ -12,27 +14,38 @@ transaction_data = pd.read_csv('data/fraud_data.csv')
 transaction_data['fraud_label'] = (transaction_data['flagged_transaction'] == 'fraud').astype(int)
 
 # Select features and target variable
-X = transaction_data[['amount']]  # Using 'amount' as the feature for now
+features = ['amount', 'time_of_day', 'point_of_transaction', 'country']
+X = transaction_data[features]
 y = transaction_data['fraud_label']
 
-# Standardize the features
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
+# Preprocessing: Standardize numerical features and one-hot encode categorical features
+numerical_features = ['amount', 'time_of_day']
+categorical_features = ['point_of_transaction', 'country']
+
+preprocessor = ColumnTransformer(
+    transformers=[
+        ('num', StandardScaler(), numerical_features),
+        ('cat', OneHotEncoder(handle_unknown='ignore'), categorical_features)
+    ]
+)
+
+# Create a pipeline that first preprocesses the data then fits the classifier
+pipeline = Pipeline(steps=[
+    ('preprocessor', preprocessor),
+    ('classifier', RandomForestClassifier(random_state=42))
+])
 
 # Split data into training and test sets
-X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Initialize the Random Forest classifier
-clf = RandomForestClassifier(random_state=42)
-
-# Train the classifier
-clf.fit(X_train, y_train)
+# Train the classifier within the pipeline
+pipeline.fit(X_train, y_train)
 
 # Predict on the test set
-y_pred = clf.predict(X_test)
+y_pred = pipeline.predict(X_test)
 
 # Evaluate the classifier
 print(classification_report(y_test, y_pred))
 
 # Save the model
-joblib.dump(clf, 'fraud_detection_model.pkl')
+joblib.dump(pipeline, 'fraud_detection_model.pkl')
