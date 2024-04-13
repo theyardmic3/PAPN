@@ -1,13 +1,14 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+import joblib
 
 # Load the dataset
 purchase_data = pd.read_csv('data/promo_data.csv')
 
 # Create a new column that combines all the features you want to use for recommendations
-# For this example, we'll combine 'product_category', 'promotion_applied', and 'country'
-purchase_data['features'] = purchase_data.apply(lambda x: f"{x['product_category']} {'Promo' if x['promotion_applied'] else 'NoPromo'} {x['country']}", axis=1)
+# Now including 'payment_method' and 'payment_fee_percentage'
+purchase_data['features'] = purchase_data.apply(lambda x: f"{x['product_category']} {'Promo' if x['promotion_applied'] else 'NoPromo'} {x['country']} {x['payment_method']} {'HighFee' if x['payment_fee_percentage'] > 3 else 'LowFee'}", axis=1)
 
 # Create a TF-IDF Vectorizer object
 tfidf_vectorizer = TfidfVectorizer(stop_words='english')
@@ -43,3 +44,6 @@ def get_recommendations(customer_id, purchase_data, cosine_sim):
 # Example usage: Get recommendations for customer with ID 1
 recommended_payments = get_recommendations(1, purchase_data, cosine_sim)
 print(recommended_payments)
+
+# Save the model to a file
+joblib.dump(cosine_sim, 'Payment_Offers_model.pkl')
