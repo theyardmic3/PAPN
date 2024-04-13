@@ -15,6 +15,9 @@ countries = [
     'Sweden', 'Switzerland'
 ]
 
+# Define possible payment methods
+payment_methods = ['Credit Card', 'Debit Card', 'E-Wallet', 'Bank Transfer', 'Cash' , 'Paypal']
+
 # Generate purchase data with promotional information
 purchase_data = pd.DataFrame({
     'customer_id': np.random.randint(1, 1001, size=5000),
@@ -23,6 +26,8 @@ purchase_data = pd.DataFrame({
     'promotion_applied': np.random.choice([True, False], size=5000, p=[0.3, 0.7]),
     'promotion_discount': np.round(np.random.uniform(3, 20, size=5000), 0) / 100,  # Discounts between 3% and 20%
     'country': np.random.choice(countries, size=5000),  # Add country location
+    'payment_method': np.random.choice(payment_methods, size=5000),  # Add payment methods
+    'payment_fee_percentage': np.round(np.random.uniform(0.5, 5, size=5000), 2),  # Payment fee between 0.5% and 5%
     # Add more purchase-related features as needed
 })
 
