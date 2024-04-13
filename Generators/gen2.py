@@ -16,8 +16,8 @@ transaction_data = pd.DataFrame({
 # Generate fee structures
 fee_structures = pd.DataFrame({
     'payment_method': ['Credit Card', 'Debit Card', 'PayPal'],
-    'fee_percentage': [0.02, 0.01, 0.005],
-    # Add more fee-related features as needed
+    'fee_percentage': [0.02, 0.01, 0.005]
+    
 })
 
 # Save datasets to CSV

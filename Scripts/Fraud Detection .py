@@ -47,5 +47,6 @@ y_pred = pipeline.predict(X_test)
 # Evaluate the classifier
 print(classification_report(y_test, y_pred))
 
-# Save the model
-joblib.dump(pipeline, 'fraud_detection_model.pkl')
+# Save the model into the /Models directory
+joblib.dump(pipeline, 'Models/fraud_detection_model.pkl')
+

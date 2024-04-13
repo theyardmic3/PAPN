@@ -71,5 +71,5 @@ print(f"R-squared: {r_squared:.2f}")
 mdape = np.median(np.abs((y_test - predicted_fees) / y_test)) * 100
 print(f"Median Absolute Percentage Error: {mdape:.2f}%")
 
-# Save model
-joblib.dump(model, 'payment_fee_optimization_model.pkl')
+# Save the model into the /Models directory
+joblib.dump(model, 'Models/payment_fee_optimization_model.pkl')

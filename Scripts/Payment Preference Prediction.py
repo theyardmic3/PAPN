@@ -46,5 +46,5 @@ print("Accuracy:", accuracy)
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
 
-# Save model
-joblib.dump(clf, 'Model_1.pkl')
+# Save the model into the /Models directory
+joblib.dump(clf, 'Models/Payment Preference Prediction.pkl')

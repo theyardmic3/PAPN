@@ -68,4 +68,4 @@ print(f"Mean Absolute Error: {mae:.2f}")
 print(f"Mean Squared Error: {mse:.2f}")
 
 # Save model
-joblib.dump(model, 'payment_timing_prediction_model.pkl')
+joblib.dump(model, 'Models/payment_timing_prediction_model.pkl')

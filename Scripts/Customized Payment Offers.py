@@ -45,5 +45,6 @@ def get_recommendations(customer_id, purchase_data, cosine_sim):
 recommended_payments = get_recommendations(1, purchase_data, cosine_sim)
 print(recommended_payments)
 
-# Save the model to a file
-joblib.dump(cosine_sim, 'Payment_Offers_model.pkl')
+# Save the TF-IDF vectorizer and the cosine similarity matrix 
+joblib.dump(tfidf_vectorizer, 'Models/CustomizedPaymentOffers_vectorizer.pkl')
+joblib.dump(cosine_sim, 'Models/CustomizedPaymentOffers_similarity_matrix.pkl')

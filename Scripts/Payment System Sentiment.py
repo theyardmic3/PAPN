@@ -7,6 +7,7 @@ from imblearn.over_sampling import SMOTE
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from joblib import dump, load
+import joblib
 
 # Load the dataset
 data = pd.read_csv('data/sentiment_data.csv')
@@ -51,5 +52,5 @@ for method in payment_methods:
     print(f"Sentiment analysis for {method}:")
     print(f"Positive: {positive_sentiment}, Neutral: {neutral_sentiment}, Negative: {negative_sentiment}")
 
-# Save the model to a file
-dump(model, 'Payment_Sentiment_model.joblib')
+# Save the model to a file in the /Models directory
+joblib.dump(model, 'Models/Payment_Sentiment_model.joblib')
