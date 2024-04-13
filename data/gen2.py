@@ -9,7 +9,7 @@ transaction_data = pd.DataFrame({
     'transaction_id': np.arange(1, 5001),
     'amount': np.random.randint(10, 1000, size=5000),
     'merchant_category': np.random.choice(['Retail', 'Food', 'Travel'], size=5000),
-    'payment_method': np.random.choice(['Credit Card', 'Debit Card', 'PayPal'], size=5000),
+    'payment_method': np.random.choice(['Credit Card', 'Debit Card', 'E-Wallet', 'Bank Transfer', 'Cash' , 'Paypal'], size=3000),
     # Add more transaction-related features as needed
 })
 

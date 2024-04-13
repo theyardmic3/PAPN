@@ -1,0 +1,3001 @@
+review_id,customer_id,payment_method,rating,review_text,point_of_transaction,country
+1,103,Credit Card,1,Terrible experience...,Amusement Park,Spain
+2,436,Debit Card,1,Average quality.,Supermarket,New Zealand
+3,861,Credit Card,2,Excellent service!,Cinema,France
+4,271,Debit Card,1,Excellent service!,Cinema,India
+5,107,Debit Card,2,Excellent service!,Online,Singapore
+6,72,PayPal,5,Excellent service!,Online,Canada
+7,701,Debit Card,2,Average quality.,Online,India
+8,21,Credit Card,1,Terrible experience...,Bar,Spain
+9,615,Credit Card,5,Average quality.,Fitness Center,New Zealand
+10,122,Debit Card,1,Terrible experience...,Fitness Center,Brazil
+11,467,PayPal,2,Average quality.,Amusement Park,Canada
+12,215,PayPal,3,Excellent service!,Hotel,Russia
+13,331,Credit Card,4,Excellent service!,ATM,Germany
+14,459,PayPal,1,Average quality.,Retail Store,New Zealand
+15,88,Debit Card,2,Average quality.,Gas Station,Mexico
+16,373,Debit Card,5,Terrible experience...,ATM,Singapore
+17,100,Credit Card,1,Average quality.,Hotel,Mexico
+18,872,Debit Card,1,Average quality.,Amusement Park,Canada
+19,664,Credit Card,4,Terrible experience...,Bar,China
+20,131,Debit Card,2,Terrible experience...,Supermarket,Brazil
+21,662,Credit Card,3,Terrible experience...,ATM,Netherlands
+22,309,PayPal,5,Average quality.,Supermarket,Germany
+23,770,Debit Card,2,Terrible experience...,Retail Store,Brazil
+24,344,Debit Card,5,Excellent service!,Fitness Center,Switzerland
+25,492,Credit Card,1,Excellent service!,Hotel,Canada
+26,414,Credit Card,4,Excellent service!,Museum,Australia
+27,806,Debit Card,4,Average quality.,Amusement Park,Canada
+28,386,Credit Card,3,Excellent service!,Hotel,Sweden
+29,192,Debit Card,4,Average quality.,Gas Station,Japan
+30,956,PayPal,1,Average quality.,Bar,Switzerland
+31,277,Credit Card,3,Excellent service!,Gas Station,Brazil
+32,161,Debit Card,2,Terrible experience...,Hotel,Brazil
+33,460,PayPal,4,Average quality.,Gas Station,France
+34,314,PayPal,3,Excellent service!,Fitness Center,Sweden
+35,22,Debit Card,1,Average quality.,Restaurant,United Kingdom
+36,253,Credit Card,5,Terrible experience...,Hotel,Australia
+37,748,Debit Card,5,Terrible experience...,Amusement Park,China
+38,857,PayPal,1,Excellent service!,ATM,Russia
+39,561,Debit Card,1,Average quality.,Amusement Park,China
+40,475,Credit Card,5,Average quality.,Restaurant,Russia
+41,59,PayPal,3,Average quality.,Museum,Brazil
+42,511,Debit Card,5,Average quality.,ATM,Australia
+43,682,Credit Card,1,Excellent service!,Restaurant,France
+44,476,PayPal,4,Terrible experience...,ATM,Singapore
+45,700,Credit Card,2,Excellent service!,Museum,China
+46,976,PayPal,4,Average quality.,Amusement Park,India
+47,783,Debit Card,4,Average quality.,Museum,France
+48,190,Credit Card,1,Terrible experience...,Hotel,France
+49,958,PayPal,5,Average quality.,Online,Russia
+50,687,Credit Card,3,Excellent service!,Cinema,New Zealand
+51,958,Credit Card,4,Excellent service!,Cinema,Germany
+52,563,Debit Card,5,Terrible experience...,Restaurant,South Africa
+53,876,Credit Card,3,Excellent service!,Cinema,Brazil
+54,567,PayPal,4,Excellent service!,Amusement Park,Japan
+55,244,PayPal,3,Excellent service!,Supermarket,New Zealand
+56,832,PayPal,5,Excellent service!,Restaurant,Germany
+57,505,PayPal,2,Average quality.,ATM,United Kingdom
+58,131,Debit Card,5,Excellent service!,Museum,Russia
+59,485,Credit Card,1,Terrible experience...,Museum,Sweden
+60,819,Debit Card,3,Terrible experience...,Bar,Russia
+61,647,Credit Card,2,Excellent service!,Gas Station,Netherlands
+62,21,Credit Card,3,Terrible experience...,Amusement Park,India
+63,841,Credit Card,3,Excellent service!,ATM,France
+64,167,Debit Card,4,Terrible experience...,Supermarket,Sweden
+65,274,Credit Card,1,Terrible experience...,Bar,Italy
+66,388,Debit Card,3,Excellent service!,Cinema,Japan
+67,601,PayPal,5,Excellent service!,Supermarket,United Kingdom
+68,316,PayPal,5,Average quality.,Restaurant,Mexico
+69,14,Credit Card,4,Excellent service!,Fitness Center,Japan
+70,242,Debit Card,1,Excellent service!,Museum,France
+71,777,PayPal,1,Average quality.,Retail Store,South Africa
+72,346,Debit Card,5,Excellent service!,Retail Store,Russia
+73,565,Debit Card,2,Excellent service!,Cinema,Canada
+74,898,Credit Card,4,Average quality.,Retail Store,Mexico
+75,340,PayPal,4,Excellent service!,Retail Store,Mexico
+76,92,Credit Card,5,Excellent service!,ATM,India
+77,367,Credit Card,5,Average quality.,ATM,Russia
+78,956,PayPal,2,Average quality.,Gas Station,Singapore
+79,455,PayPal,2,Terrible experience...,Hotel,South Africa
+80,428,Debit Card,1,Excellent service!,Cinema,Brazil
+81,509,PayPal,4,Terrible experience...,Retail Store,South Africa
+82,776,Debit Card,4,Terrible experience...,Gas Station,South Africa
+83,943,Debit Card,5,Average quality.,Cinema,Canada
+84,35,Debit Card,1,Excellent service!,Retail Store,United Kingdom
+85,206,PayPal,4,Excellent service!,Amusement Park,Netherlands
+86,81,Credit Card,1,Average quality.,Museum,Spain
+87,932,Debit Card,1,Terrible experience...,Online,Italy
+88,562,Credit Card,5,Average quality.,Amusement Park,France
+89,872,Credit Card,1,Excellent service!,Bar,Canada
+90,388,PayPal,2,Average quality.,Cinema,Spain
+91,2,Credit Card,2,Excellent service!,Hotel,USA
+92,390,Credit Card,3,Terrible experience...,Bar,Sweden
+93,566,PayPal,5,Excellent service!,Gas Station,Mexico
+94,106,Debit Card,3,Terrible experience...,Gas Station,Germany
+95,772,Credit Card,2,Terrible experience...,Retail Store,USA
+96,822,PayPal,3,Excellent service!,Bar,Switzerland
+97,477,Credit Card,5,Excellent service!,Museum,Spain
+98,703,Credit Card,5,Terrible experience...,Retail Store,South Africa
+99,402,Debit Card,1,Average quality.,Cinema,India
+100,730,Credit Card,4,Excellent service!,Gas Station,France
+101,556,PayPal,1,Terrible experience...,Online,Italy
+102,162,Credit Card,5,Terrible experience...,Gas Station,USA
+103,202,Debit Card,2,Average quality.,ATM,Australia
+104,958,Debit Card,2,Excellent service!,Fitness Center,Russia
+105,996,PayPal,1,Terrible experience...,Supermarket,South Africa
+106,270,Debit Card,5,Average quality.,Hotel,Mexico
+107,863,Credit Card,2,Terrible experience...,Bar,Russia
+108,816,Debit Card,5,Excellent service!,Retail Store,South Africa
+109,271,PayPal,2,Average quality.,Supermarket,Australia
+110,456,Debit Card,5,Terrible experience...,Supermarket,Brazil
+111,462,Debit Card,3,Average quality.,Amusement Park,Sweden
+112,727,Debit Card,5,Excellent service!,Fitness Center,Japan
+113,252,PayPal,5,Average quality.,Restaurant,United Kingdom
+114,702,Debit Card,1,Excellent service!,Amusement Park,Spain
+115,296,Debit Card,3,Terrible experience...,Amusement Park,Switzerland
+116,725,Credit Card,4,Excellent service!,Hotel,Sweden
+117,720,PayPal,1,Terrible experience...,ATM,Germany
+118,749,Debit Card,4,Terrible experience...,Gas Station,Germany
+119,338,PayPal,2,Excellent service!,Amusement Park,Switzerland
+120,879,Debit Card,4,Terrible experience...,Cinema,Japan
+121,53,Debit Card,5,Average quality.,Gas Station,Canada
+122,792,Debit Card,4,Terrible experience...,ATM,Spain
+123,922,Credit Card,1,Excellent service!,Retail Store,United Kingdom
+124,217,Credit Card,1,Average quality.,Restaurant,Canada
+125,764,Credit Card,4,Average quality.,Gas Station,Sweden
+126,188,PayPal,1,Terrible experience...,Bar,France
+127,380,PayPal,1,Terrible experience...,Hotel,Germany
+128,493,Credit Card,4,Excellent service!,Supermarket,New Zealand
+129,41,PayPal,3,Average quality.,Museum,New Zealand
+130,157,Debit Card,3,Excellent service!,Fitness Center,South Africa
+131,15,Debit Card,2,Terrible experience...,Retail Store,China
+132,813,Debit Card,1,Average quality.,ATM,Spain
+133,65,Credit Card,4,Excellent service!,Amusement Park,Spain
+134,857,PayPal,1,Excellent service!,Cinema,United Kingdom
+135,839,Credit Card,5,Excellent service!,Cinema,Switzerland
+136,521,PayPal,1,Excellent service!,Restaurant,Spain
+137,344,Debit Card,1,Excellent service!,ATM,Switzerland
+138,129,Credit Card,3,Average quality.,Retail Store,Canada
+139,648,PayPal,4,Excellent service!,Bar,Australia
+140,472,PayPal,1,Average quality.,Supermarket,China
+141,63,Debit Card,3,Excellent service!,Amusement Park,Sweden
+142,139,Credit Card,2,Terrible experience...,Museum,Spain
+143,499,Credit Card,3,Terrible experience...,Fitness Center,Germany
+144,593,Credit Card,3,Excellent service!,Hotel,India
+145,392,Debit Card,3,Terrible experience...,Online,Russia
+146,675,Credit Card,1,Average quality.,Online,Japan
+147,419,Debit Card,1,Excellent service!,Amusement Park,Sweden
+148,289,Debit Card,2,Average quality.,Retail Store,Brazil
+149,379,Debit Card,5,Excellent service!,Amusement Park,Japan
+150,773,PayPal,5,Terrible experience...,ATM,Canada
+151,490,Credit Card,5,Average quality.,Fitness Center,Brazil
+152,231,Credit Card,2,Terrible experience...,Online,Australia
+153,41,Debit Card,5,Terrible experience...,Restaurant,China
+154,28,Debit Card,5,Excellent service!,ATM,USA
+155,135,Credit Card,3,Average quality.,Online,Canada
+156,201,Debit Card,1,Terrible experience...,Bar,Singapore
+157,840,Credit Card,1,Excellent service!,Fitness Center,United Kingdom
+158,780,PayPal,3,Excellent service!,Museum,China
+159,930,Debit Card,3,Excellent service!,Supermarket,China
+160,33,Credit Card,3,Terrible experience...,Cinema,Russia
+161,48,Debit Card,1,Excellent service!,ATM,Russia
+162,503,Credit Card,5,Average quality.,Cinema,India
+163,407,Credit Card,3,Average quality.,Cinema,Russia
+164,574,Debit Card,2,Terrible experience...,Fitness Center,France
+165,728,PayPal,3,Average quality.,Fitness Center,New Zealand
+166,805,Credit Card,4,Excellent service!,Online,Switzerland
+167,99,Credit Card,3,Terrible experience...,ATM,Sweden
+168,684,Credit Card,1,Excellent service!,Supermarket,France
+169,872,PayPal,3,Terrible experience...,Bar,United Kingdom
+170,726,PayPal,4,Terrible experience...,Gas Station,South Africa
+171,987,Debit Card,2,Excellent service!,Restaurant,Brazil
+172,547,PayPal,5,Average quality.,Cinema,Switzerland
+173,961,Debit Card,3,Average quality.,Supermarket,Italy
+174,739,Debit Card,4,Terrible experience...,Fitness Center,Netherlands
+175,613,PayPal,4,Excellent service!,Hotel,Russia
+176,943,Debit Card,2,Excellent service!,Hotel,Switzerland
+177,462,PayPal,1,Terrible experience...,Gas Station,USA
+178,643,Debit Card,3,Average quality.,Gas Station,Singapore
+179,769,PayPal,4,Excellent service!,Gas Station,France
+180,5,PayPal,2,Average quality.,Museum,France
+181,218,Debit Card,5,Average quality.,Restaurant,France
+182,503,Credit Card,4,Terrible experience...,Restaurant,Japan
+183,767,Debit Card,2,Terrible experience...,Bar,France
+184,398,PayPal,1,Average quality.,Cinema,New Zealand
+185,871,Credit Card,1,Excellent service!,Retail Store,Switzerland
+186,795,Debit Card,4,Excellent service!,Museum,Canada
+187,393,Debit Card,4,Terrible experience...,Hotel,South Africa
+188,207,Debit Card,3,Average quality.,Online,Spain
+189,15,Credit Card,2,Excellent service!,Online,Switzerland
+190,858,PayPal,4,Excellent service!,Gas Station,China
+191,554,Debit Card,3,Terrible experience...,Amusement Park,Switzerland
+192,892,Debit Card,3,Average quality.,Hotel,Netherlands
+193,461,Debit Card,4,Excellent service!,Retail Store,Australia
+194,691,Debit Card,1,Terrible experience...,Museum,Australia
+195,575,Debit Card,2,Excellent service!,Retail Store,Canada
+196,864,PayPal,2,Excellent service!,Online,USA
+197,743,PayPal,1,Excellent service!,Amusement Park,Russia
+198,241,Debit Card,4,Terrible experience...,Retail Store,France
+199,564,Credit Card,2,Average quality.,Hotel,Spain
+200,96,PayPal,4,Terrible experience...,Cinema,Sweden
+201,900,Credit Card,4,Average quality.,Supermarket,China
+202,734,PayPal,3,Excellent service!,Amusement Park,Russia
+203,485,Debit Card,1,Average quality.,Retail Store,Canada
+204,407,PayPal,4,Excellent service!,Fitness Center,Brazil
+205,231,Debit Card,5,Excellent service!,Amusement Park,France
+206,749,PayPal,1,Terrible experience...,Amusement Park,New Zealand
+207,655,Debit Card,2,Excellent service!,Cinema,India
+208,171,Debit Card,3,Terrible experience...,Hotel,South Africa
+209,541,Debit Card,2,Average quality.,Museum,Canada
+210,36,Debit Card,2,Average quality.,Online,USA
+211,525,Credit Card,1,Excellent service!,Fitness Center,United Kingdom
+212,160,Debit Card,2,Terrible experience...,Cinema,Brazil
+213,839,Credit Card,4,Excellent service!,Retail Store,Mexico
+214,699,Credit Card,2,Terrible experience...,Gas Station,China
+215,243,Debit Card,3,Terrible experience...,Cinema,Spain
+216,86,Credit Card,3,Terrible experience...,Gas Station,Canada
+217,796,PayPal,5,Average quality.,ATM,Russia
+218,578,Debit Card,3,Terrible experience...,Online,India
+219,682,Credit Card,2,Average quality.,Hotel,Netherlands
+220,557,Debit Card,3,Terrible experience...,Supermarket,Brazil
+221,574,Debit Card,1,Average quality.,Amusement Park,New Zealand
+222,953,Debit Card,3,Average quality.,Gas Station,Netherlands
+223,646,Credit Card,4,Average quality.,Supermarket,Japan
+224,796,PayPal,1,Excellent service!,Supermarket,Netherlands
+225,28,PayPal,5,Terrible experience...,Gas Station,Japan
+226,620,Credit Card,4,Excellent service!,Supermarket,Italy
+227,556,Debit Card,2,Terrible experience...,Amusement Park,Japan
+228,340,Credit Card,2,Terrible experience...,Museum,Switzerland
+229,798,Credit Card,2,Excellent service!,Bar,Russia
+230,958,Credit Card,4,Average quality.,ATM,Brazil
+231,331,Debit Card,4,Terrible experience...,Gas Station,Spain
+232,640,Credit Card,4,Average quality.,Amusement Park,South Africa
+233,506,Debit Card,1,Excellent service!,Fitness Center,Germany
+234,348,Credit Card,1,Average quality.,Online,Italy
+235,473,PayPal,2,Terrible experience...,Gas Station,Spain
+236,231,Credit Card,3,Terrible experience...,Museum,Switzerland
+237,190,Credit Card,2,Terrible experience...,Amusement Park,Russia
+238,225,PayPal,5,Excellent service!,Amusement Park,New Zealand
+239,385,Debit Card,1,Terrible experience...,Fitness Center,Switzerland
+240,377,Debit Card,4,Excellent service!,Cinema,Japan
+241,283,Credit Card,1,Average quality.,Bar,New Zealand
+242,958,PayPal,4,Terrible experience...,Museum,Brazil
+243,633,Debit Card,5,Terrible experience...,Gas Station,China
+244,628,Credit Card,5,Terrible experience...,Fitness Center,India
+245,973,PayPal,1,Average quality.,Hotel,United Kingdom
+246,745,Debit Card,4,Terrible experience...,Amusement Park,Switzerland
+247,259,Debit Card,5,Excellent service!,ATM,South Africa
+248,359,PayPal,2,Average quality.,Cinema,United Kingdom
+249,710,PayPal,2,Average quality.,Amusement Park,United Kingdom
+250,456,PayPal,4,Average quality.,Gas Station,Australia
+251,411,PayPal,1,Average quality.,Retail Store,France
+252,649,Credit Card,5,Average quality.,Amusement Park,Netherlands
+253,318,PayPal,1,Excellent service!,Restaurant,Australia
+254,677,Debit Card,2,Average quality.,Retail Store,Switzerland
+255,225,Debit Card,5,Terrible experience...,Amusement Park,Brazil
+256,819,Credit Card,1,Average quality.,Supermarket,New Zealand
+257,234,Debit Card,3,Average quality.,Museum,Italy
+258,684,Debit Card,4,Average quality.,Amusement Park,Sweden
+259,664,PayPal,4,Average quality.,Online,United Kingdom
+260,975,Debit Card,3,Average quality.,Supermarket,France
+261,827,Credit Card,2,Excellent service!,Gas Station,Switzerland
+262,374,PayPal,5,Excellent service!,ATM,China
+263,672,PayPal,4,Average quality.,Retail Store,USA
+264,608,Credit Card,3,Excellent service!,Hotel,Canada
+265,472,PayPal,3,Terrible experience...,Cinema,South Africa
+266,233,PayPal,2,Average quality.,Fitness Center,Canada
+267,692,Credit Card,2,Terrible experience...,ATM,Sweden
+268,113,PayPal,1,Terrible experience...,Supermarket,Netherlands
+269,830,Credit Card,4,Average quality.,Cinema,Netherlands
+270,497,Credit Card,1,Terrible experience...,Retail Store,Spain
+271,442,Debit Card,3,Terrible experience...,Hotel,India
+272,564,Debit Card,5,Terrible experience...,Restaurant,China
+273,268,PayPal,5,Average quality.,Restaurant,Sweden
+274,510,PayPal,2,Average quality.,Museum,China
+275,807,Credit Card,5,Terrible experience...,Hotel,New Zealand
+276,386,PayPal,5,Average quality.,Cinema,Brazil
+277,387,Credit Card,5,Average quality.,Gas Station,Mexico
+278,113,Credit Card,3,Terrible experience...,Cinema,South Africa
+279,613,PayPal,5,Average quality.,Museum,India
+280,625,Credit Card,5,Excellent service!,Amusement Park,South Africa
+281,952,Debit Card,5,Average quality.,Cinema,Canada
+282,81,PayPal,1,Excellent service!,Gas Station,Sweden
+283,699,Debit Card,3,Terrible experience...,ATM,United Kingdom
+284,113,PayPal,2,Average quality.,Retail Store,Brazil
+285,2,Credit Card,1,Terrible experience...,Cinema,Singapore
+286,642,PayPal,4,Terrible experience...,Fitness Center,Italy
+287,220,Debit Card,3,Terrible experience...,Retail Store,France
+288,566,Credit Card,3,Terrible experience...,Supermarket,Brazil
+289,855,PayPal,4,Terrible experience...,Restaurant,South Africa
+290,997,PayPal,4,Average quality.,Restaurant,Brazil
+291,736,PayPal,4,Excellent service!,Gas Station,Japan
+292,225,Debit Card,2,Average quality.,Supermarket,Australia
+293,385,Debit Card,5,Average quality.,Restaurant,Sweden
+294,403,PayPal,3,Average quality.,Museum,China
+295,638,Credit Card,5,Average quality.,Gas Station,Japan
+296,130,Credit Card,5,Excellent service!,Cinema,Netherlands
+297,53,Debit Card,4,Average quality.,Supermarket,Spain
+298,684,Credit Card,2,Terrible experience...,Museum,New Zealand
+299,730,Debit Card,1,Average quality.,Amusement Park,United Kingdom
+300,672,PayPal,2,Average quality.,Amusement Park,USA
+301,710,Debit Card,5,Excellent service!,Amusement Park,Japan
+302,416,Debit Card,2,Excellent service!,ATM,New Zealand
+303,247,PayPal,4,Terrible experience...,Amusement Park,South Africa
+304,836,Credit Card,1,Average quality.,Supermarket,Switzerland
+305,439,Debit Card,4,Average quality.,Online,United Kingdom
+306,203,Debit Card,1,Average quality.,Restaurant,Mexico
+307,184,PayPal,5,Terrible experience...,Amusement Park,Switzerland
+308,123,Credit Card,1,Excellent service!,Supermarket,Sweden
+309,401,Debit Card,1,Terrible experience...,Museum,Sweden
+310,767,PayPal,1,Average quality.,Bar,New Zealand
+311,294,Debit Card,2,Excellent service!,Museum,Sweden
+312,280,PayPal,2,Excellent service!,Cinema,Mexico
+313,837,Credit Card,5,Terrible experience...,Museum,Australia
+314,884,Credit Card,1,Excellent service!,ATM,South Africa
+315,610,Credit Card,3,Excellent service!,Retail Store,Switzerland
+316,198,Credit Card,5,Average quality.,Gas Station,Sweden
+317,982,Debit Card,1,Average quality.,Bar,Singapore
+318,907,Debit Card,1,Excellent service!,Museum,United Kingdom
+319,511,Credit Card,2,Excellent service!,Bar,Germany
+320,752,Credit Card,5,Terrible experience...,ATM,Switzerland
+321,144,Credit Card,1,Terrible experience...,Gas Station,Netherlands
+322,609,Debit Card,1,Excellent service!,ATM,South Africa
+323,201,Credit Card,5,Average quality.,Amusement Park,Mexico
+324,124,Credit Card,3,Excellent service!,Retail Store,United Kingdom
+325,187,Credit Card,5,Excellent service!,Gas Station,Brazil
+326,326,PayPal,5,Average quality.,Supermarket,China
+327,464,Credit Card,3,Average quality.,Museum,Switzerland
+328,349,PayPal,5,Terrible experience...,Museum,France
+329,771,PayPal,1,Terrible experience...,Restaurant,India
+330,660,Credit Card,5,Terrible experience...,ATM,China
+331,764,PayPal,3,Terrible experience...,Retail Store,South Africa
+332,955,Credit Card,4,Average quality.,Cinema,Brazil
+333,932,Debit Card,5,Excellent service!,Online,Canada
+334,403,Debit Card,2,Terrible experience...,Cinema,Spain
+335,346,Debit Card,1,Terrible experience...,Online,India
+336,963,Debit Card,1,Average quality.,Hotel,Germany
+337,511,PayPal,2,Average quality.,Supermarket,Switzerland
+338,147,Credit Card,2,Excellent service!,Hotel,USA
+339,148,Credit Card,5,Excellent service!,ATM,New Zealand
+340,864,Credit Card,2,Average quality.,ATM,China
+341,711,Debit Card,4,Terrible experience...,Museum,Singapore
+342,820,Debit Card,3,Terrible experience...,Online,Australia
+343,489,Credit Card,2,Terrible experience...,Gas Station,Germany
+344,929,Debit Card,2,Excellent service!,Fitness Center,Spain
+345,936,Credit Card,4,Terrible experience...,Retail Store,South Africa
+346,640,Credit Card,1,Terrible experience...,Amusement Park,Canada
+347,551,Credit Card,1,Average quality.,Bar,Netherlands
+348,338,Credit Card,5,Terrible experience...,ATM,France
+349,872,Credit Card,4,Average quality.,Hotel,New Zealand
+350,641,Credit Card,3,Terrible experience...,Hotel,Spain
+351,779,Credit Card,3,Excellent service!,Fitness Center,USA
+352,988,Debit Card,4,Terrible experience...,Cinema,Italy
+353,953,Credit Card,3,Terrible experience...,Supermarket,Switzerland
+354,473,Credit Card,1,Average quality.,Online,Switzerland
+355,946,Debit Card,3,Average quality.,Bar,Germany
+356,151,Debit Card,3,Average quality.,Online,South Africa
+357,415,Debit Card,4,Terrible experience...,ATM,China
+358,990,Credit Card,4,Terrible experience...,Museum,Australia
+359,298,PayPal,3,Excellent service!,Restaurant,India
+360,611,PayPal,2,Terrible experience...,Bar,Spain
+361,263,Debit Card,4,Excellent service!,Cinema,Italy
+362,764,PayPal,5,Average quality.,Hotel,Sweden
+363,144,Debit Card,5,Average quality.,Cinema,New Zealand
+364,346,Credit Card,1,Average quality.,Museum,USA
+365,624,PayPal,3,Excellent service!,ATM,Brazil
+366,572,Credit Card,2,Terrible experience...,Restaurant,Italy
+367,881,PayPal,1,Average quality.,Amusement Park,Singapore
+368,2,Credit Card,3,Terrible experience...,Bar,Italy
+369,897,PayPal,4,Terrible experience...,Fitness Center,Mexico
+370,304,Credit Card,5,Average quality.,Online,Japan
+371,254,Credit Card,2,Excellent service!,Bar,Sweden
+372,652,PayPal,5,Terrible experience...,Hotel,India
+373,453,Credit Card,4,Average quality.,Online,Netherlands
+374,37,Credit Card,3,Terrible experience...,Amusement Park,Switzerland
+375,160,Credit Card,4,Terrible experience...,Fitness Center,Singapore
+376,9,PayPal,4,Terrible experience...,Amusement Park,Germany
+377,233,PayPal,5,Terrible experience...,Fitness Center,Spain
+378,99,Credit Card,2,Terrible experience...,Supermarket,Netherlands
+379,659,Credit Card,4,Excellent service!,Online,Canada
+380,816,PayPal,5,Excellent service!,Retail Store,New Zealand
+381,208,PayPal,2,Average quality.,Restaurant,USA
+382,131,Credit Card,3,Excellent service!,Retail Store,Italy
+383,404,Credit Card,3,Excellent service!,Amusement Park,Singapore
+384,152,Credit Card,1,Excellent service!,Online,Canada
+385,54,Debit Card,5,Terrible experience...,Supermarket,Netherlands
+386,120,PayPal,2,Terrible experience...,Bar,Canada
+387,673,Debit Card,4,Average quality.,Bar,Russia
+388,920,PayPal,3,Average quality.,Bar,Mexico
+389,628,PayPal,2,Average quality.,Museum,Mexico
+390,587,PayPal,5,Terrible experience...,Supermarket,France
+391,625,PayPal,1,Excellent service!,Museum,Japan
+392,968,PayPal,3,Excellent service!,ATM,Spain
+393,420,PayPal,2,Terrible experience...,Online,Brazil
+394,422,PayPal,2,Average quality.,Retail Store,United Kingdom
+395,104,Debit Card,2,Average quality.,Restaurant,USA
+396,852,Credit Card,5,Average quality.,Amusement Park,Spain
+397,254,Credit Card,5,Terrible experience...,Restaurant,USA
+398,227,Debit Card,5,Average quality.,Amusement Park,Mexico
+399,112,Debit Card,4,Average quality.,Online,India
+400,510,Debit Card,2,Terrible experience...,Online,Switzerland
+401,473,Debit Card,3,Excellent service!,Cinema,Australia
+402,99,PayPal,5,Terrible experience...,Retail Store,Italy
+403,153,Credit Card,5,Terrible experience...,Hotel,Germany
+404,861,PayPal,2,Terrible experience...,Amusement Park,Netherlands
+405,914,Credit Card,5,Terrible experience...,Gas Station,Italy
+406,896,Credit Card,4,Excellent service!,Hotel,Singapore
+407,878,Debit Card,4,Average quality.,Bar,Sweden
+408,338,PayPal,5,Terrible experience...,Restaurant,Germany
+409,706,Debit Card,2,Excellent service!,Fitness Center,Germany
+410,822,PayPal,2,Average quality.,Fitness Center,Netherlands
+411,163,Credit Card,2,Average quality.,Online,Switzerland
+412,720,Debit Card,1,Average quality.,Gas Station,France
+413,957,Debit Card,5,Terrible experience...,Amusement Park,Singapore
+414,681,Credit Card,2,Terrible experience...,ATM,USA
+415,996,Credit Card,4,Average quality.,Amusement Park,United Kingdom
+416,161,Credit Card,3,Average quality.,Fitness Center,China
+417,580,Debit Card,3,Average quality.,Restaurant,France
+418,801,PayPal,2,Average quality.,Amusement Park,Switzerland
+419,398,Debit Card,3,Average quality.,Amusement Park,Spain
+420,277,PayPal,3,Average quality.,Supermarket,USA
+421,816,Debit Card,1,Excellent service!,Retail Store,South Africa
+422,916,Debit Card,4,Average quality.,Hotel,Germany
+423,504,Credit Card,4,Terrible experience...,ATM,India
+424,896,PayPal,1,Terrible experience...,Online,Switzerland
+425,392,Debit Card,1,Terrible experience...,Amusement Park,Russia
+426,135,Debit Card,3,Average quality.,ATM,Mexico
+427,195,Credit Card,5,Terrible experience...,Cinema,India
+428,401,Credit Card,3,Excellent service!,Amusement Park,Mexico
+429,640,PayPal,1,Average quality.,Museum,Spain
+430,33,Debit Card,4,Terrible experience...,Museum,Italy
+431,688,PayPal,3,Excellent service!,Supermarket,Canada
+432,460,Debit Card,5,Excellent service!,Museum,Australia
+433,955,PayPal,3,Terrible experience...,Supermarket,Japan
+434,883,Credit Card,2,Excellent service!,Gas Station,France
+435,470,Debit Card,3,Terrible experience...,Bar,India
+436,375,PayPal,1,Excellent service!,Restaurant,Brazil
+437,22,Credit Card,4,Average quality.,Hotel,China
+438,750,Credit Card,4,Average quality.,Cinema,Mexico
+439,670,PayPal,1,Average quality.,Restaurant,Australia
+440,38,Debit Card,2,Average quality.,Museum,India
+441,230,Debit Card,1,Average quality.,Restaurant,Canada
+442,365,Credit Card,3,Terrible experience...,Gas Station,Russia
+443,563,Debit Card,1,Average quality.,Supermarket,Netherlands
+444,438,Debit Card,1,Average quality.,Retail Store,New Zealand
+445,776,Debit Card,2,Average quality.,ATM,Sweden
+446,283,Credit Card,3,Average quality.,Online,Italy
+447,27,PayPal,5,Excellent service!,Retail Store,Spain
+448,226,Debit Card,5,Average quality.,Retail Store,Italy
+449,277,Credit Card,4,Average quality.,Bar,Italy
+450,798,Credit Card,1,Terrible experience...,Bar,New Zealand
+451,609,PayPal,4,Excellent service!,Retail Store,Netherlands
+452,284,Debit Card,2,Terrible experience...,Supermarket,France
+453,879,Debit Card,5,Average quality.,Restaurant,United Kingdom
+454,960,PayPal,1,Terrible experience...,ATM,France
+455,481,PayPal,2,Terrible experience...,Restaurant,South Africa
+456,453,Credit Card,2,Average quality.,Restaurant,Mexico
+457,829,Credit Card,1,Excellent service!,Restaurant,Canada
+458,816,PayPal,2,Excellent service!,ATM,South Africa
+459,659,Debit Card,1,Terrible experience...,ATM,Italy
+460,516,Credit Card,1,Average quality.,Gas Station,USA
+461,547,Credit Card,3,Terrible experience...,Hotel,Spain
+462,192,Debit Card,4,Terrible experience...,Fitness Center,France
+463,49,Credit Card,2,Terrible experience...,Fitness Center,Russia
+464,512,Debit Card,2,Average quality.,Fitness Center,Russia
+465,17,Debit Card,3,Average quality.,Retail Store,United Kingdom
+466,172,Debit Card,3,Excellent service!,Amusement Park,France
+467,220,PayPal,3,Average quality.,Gas Station,India
+468,158,PayPal,5,Terrible experience...,Gas Station,Brazil
+469,477,PayPal,5,Terrible experience...,Online,USA
+470,46,Debit Card,5,Excellent service!,Amusement Park,China
+471,373,Debit Card,1,Average quality.,Bar,Switzerland
+472,518,PayPal,2,Terrible experience...,Online,New Zealand
+473,99,Credit Card,4,Excellent service!,Bar,Spain
+474,892,Debit Card,1,Excellent service!,Hotel,Canada
+475,745,Credit Card,2,Terrible experience...,Cinema,Sweden
+476,37,Credit Card,2,Terrible experience...,Bar,China
+477,280,Debit Card,3,Average quality.,Restaurant,Italy
+478,349,Debit Card,3,Excellent service!,Bar,China
+479,497,Credit Card,1,Terrible experience...,Museum,New Zealand
+480,302,Credit Card,3,Excellent service!,Amusement Park,Russia
+481,181,PayPal,2,Average quality.,Fitness Center,India
+482,607,PayPal,3,Terrible experience...,Fitness Center,Italy
+483,99,Debit Card,5,Average quality.,ATM,Switzerland
+484,700,PayPal,3,Excellent service!,Amusement Park,India
+485,993,PayPal,2,Average quality.,Hotel,Netherlands
+486,116,PayPal,1,Average quality.,Fitness Center,Japan
+487,191,PayPal,4,Excellent service!,Gas Station,France
+488,253,Credit Card,3,Average quality.,Restaurant,Canada
+489,981,Debit Card,2,Excellent service!,Cinema,United Kingdom
+490,928,PayPal,4,Terrible experience...,Hotel,Russia
+491,983,Credit Card,4,Excellent service!,Gas Station,South Africa
+492,161,Credit Card,5,Excellent service!,Supermarket,Russia
+493,256,Credit Card,4,Terrible experience...,Amusement Park,Canada
+494,323,PayPal,2,Excellent service!,Museum,United Kingdom
+495,128,PayPal,2,Terrible experience...,Hotel,Japan
+496,18,Debit Card,3,Terrible experience...,Amusement Park,USA
+497,793,PayPal,3,Excellent service!,Cinema,Switzerland
+498,735,PayPal,3,Average quality.,Gas Station,Russia
+499,566,Credit Card,4,Average quality.,Amusement Park,South Africa
+500,570,Debit Card,4,Terrible experience...,ATM,Australia
+501,323,PayPal,5,Average quality.,Bar,Germany
+502,872,PayPal,3,Average quality.,Online,India
+503,686,Credit Card,1,Excellent service!,Cinema,South Africa
+504,792,Credit Card,5,Terrible experience...,Online,India
+505,626,PayPal,1,Terrible experience...,Retail Store,India
+506,288,Debit Card,4,Excellent service!,Bar,Japan
+507,943,Debit Card,5,Average quality.,Cinema,Brazil
+508,854,Credit Card,5,Terrible experience...,Hotel,Sweden
+509,663,Credit Card,2,Average quality.,ATM,Brazil
+510,962,PayPal,4,Terrible experience...,Hotel,Australia
+511,639,Credit Card,4,Terrible experience...,Supermarket,South Africa
+512,155,PayPal,5,Terrible experience...,Retail Store,USA
+513,490,Debit Card,4,Terrible experience...,ATM,USA
+514,386,Debit Card,5,Average quality.,Museum,Russia
+515,986,PayPal,2,Average quality.,Fitness Center,India
+516,785,Credit Card,5,Average quality.,Amusement Park,Singapore
+517,104,Debit Card,4,Average quality.,Amusement Park,Russia
+518,929,Credit Card,4,Excellent service!,Fitness Center,Japan
+519,393,Debit Card,5,Terrible experience...,Restaurant,India
+520,811,PayPal,5,Terrible experience...,Amusement Park,United Kingdom
+521,246,PayPal,5,Terrible experience...,Gas Station,USA
+522,176,PayPal,3,Excellent service!,Retail Store,India
+523,39,Debit Card,4,Average quality.,Gas Station,Netherlands
+524,477,Credit Card,4,Terrible experience...,Fitness Center,China
+525,682,Credit Card,3,Average quality.,Bar,Italy
+526,759,Credit Card,5,Average quality.,Restaurant,Australia
+527,538,Debit Card,2,Excellent service!,Restaurant,Mexico
+528,867,Debit Card,5,Excellent service!,Fitness Center,China
+529,818,Debit Card,5,Average quality.,Fitness Center,Australia
+530,921,Debit Card,3,Terrible experience...,Amusement Park,Russia
+531,408,Debit Card,4,Terrible experience...,ATM,Canada
+532,525,Credit Card,5,Excellent service!,Bar,Japan
+533,828,Debit Card,4,Excellent service!,Supermarket,Sweden
+534,506,Debit Card,1,Excellent service!,Retail Store,Italy
+535,903,Credit Card,4,Excellent service!,Retail Store,Canada
+536,825,Debit Card,2,Excellent service!,Cinema,France
+537,36,Credit Card,2,Excellent service!,Hotel,Australia
+538,685,Credit Card,5,Excellent service!,Amusement Park,Singapore
+539,20,PayPal,4,Terrible experience...,Cinema,United Kingdom
+540,321,PayPal,5,Excellent service!,Supermarket,Netherlands
+541,776,PayPal,3,Excellent service!,Restaurant,Mexico
+542,512,PayPal,2,Terrible experience...,Fitness Center,China
+543,400,Debit Card,5,Terrible experience...,Online,Australia
+544,654,PayPal,3,Average quality.,Fitness Center,United Kingdom
+545,972,Credit Card,5,Excellent service!,Supermarket,Italy
+546,883,Debit Card,4,Excellent service!,Supermarket,Germany
+547,471,PayPal,4,Excellent service!,ATM,Brazil
+548,143,Credit Card,4,Excellent service!,ATM,Netherlands
+549,92,Debit Card,4,Average quality.,ATM,New Zealand
+550,354,Debit Card,1,Terrible experience...,ATM,South Africa
+551,834,PayPal,3,Terrible experience...,Hotel,Italy
+552,800,Debit Card,3,Excellent service!,Amusement Park,Switzerland
+553,727,Credit Card,4,Excellent service!,Museum,Canada
+554,959,Debit Card,1,Excellent service!,Retail Store,Singapore
+555,854,Credit Card,4,Average quality.,Amusement Park,Sweden
+556,51,Debit Card,1,Average quality.,Amusement Park,Netherlands
+557,665,PayPal,4,Terrible experience...,Retail Store,South Africa
+558,698,Credit Card,2,Excellent service!,ATM,USA
+559,575,Debit Card,2,Excellent service!,Amusement Park,India
+560,190,Debit Card,5,Excellent service!,Fitness Center,Italy
+561,125,Debit Card,4,Excellent service!,Hotel,Sweden
+562,150,Credit Card,3,Average quality.,ATM,France
+563,314,Credit Card,5,Terrible experience...,Hotel,Canada
+564,570,Credit Card,2,Terrible experience...,Cinema,Mexico
+565,342,PayPal,4,Average quality.,Museum,New Zealand
+566,305,PayPal,5,Excellent service!,Amusement Park,Mexico
+567,692,Credit Card,4,Terrible experience...,Fitness Center,New Zealand
+568,682,Debit Card,2,Terrible experience...,Museum,South Africa
+569,838,PayPal,5,Average quality.,Gas Station,China
+570,783,Credit Card,2,Excellent service!,Hotel,Netherlands
+571,54,Debit Card,1,Terrible experience...,Cinema,China
+572,444,PayPal,2,Excellent service!,Bar,Brazil
+573,613,Debit Card,4,Terrible experience...,Bar,Switzerland
+574,993,Debit Card,3,Average quality.,Cinema,Spain
+575,264,Debit Card,2,Excellent service!,Restaurant,Spain
+576,53,Debit Card,3,Average quality.,Restaurant,USA
+577,572,PayPal,1,Terrible experience...,ATM,Switzerland
+578,620,PayPal,5,Average quality.,Restaurant,Japan
+579,5,PayPal,5,Average quality.,Bar,Japan
+580,103,Credit Card,3,Average quality.,Fitness Center,Japan
+581,196,PayPal,5,Terrible experience...,Restaurant,Spain
+582,774,Debit Card,2,Excellent service!,Gas Station,Canada
+583,877,PayPal,3,Average quality.,Bar,China
+584,992,Debit Card,4,Excellent service!,Hotel,Japan
+585,884,Credit Card,2,Terrible experience...,Supermarket,India
+586,350,Debit Card,2,Excellent service!,Restaurant,Australia
+587,47,Debit Card,2,Average quality.,Restaurant,Brazil
+588,867,Debit Card,4,Average quality.,Amusement Park,India
+589,823,Credit Card,1,Average quality.,Retail Store,Australia
+590,936,PayPal,5,Average quality.,Gas Station,Japan
+591,820,PayPal,3,Average quality.,Bar,Singapore
+592,656,Credit Card,1,Average quality.,Bar,Netherlands
+593,269,Debit Card,3,Terrible experience...,Museum,India
+594,370,PayPal,5,Terrible experience...,Online,Switzerland
+595,636,Credit Card,4,Terrible experience...,Retail Store,Mexico
+596,106,PayPal,2,Excellent service!,Restaurant,Brazil
+597,670,Credit Card,2,Excellent service!,Cinema,New Zealand
+598,659,Debit Card,4,Terrible experience...,Amusement Park,Japan
+599,657,PayPal,1,Excellent service!,Museum,Germany
+600,120,Credit Card,1,Excellent service!,Fitness Center,Japan
+601,831,PayPal,3,Average quality.,Museum,Japan
+602,787,PayPal,4,Average quality.,Hotel,Spain
+603,604,PayPal,1,Excellent service!,Amusement Park,United Kingdom
+604,58,PayPal,4,Excellent service!,Restaurant,Russia
+605,951,Credit Card,5,Terrible experience...,Online,Mexico
+606,346,Debit Card,2,Excellent service!,Supermarket,Canada
+607,741,Credit Card,2,Average quality.,Fitness Center,Russia
+608,474,Credit Card,2,Excellent service!,Bar,Brazil
+609,117,Credit Card,4,Terrible experience...,Hotel,Mexico
+610,830,Debit Card,4,Average quality.,Retail Store,Japan
+611,791,PayPal,3,Average quality.,Fitness Center,Brazil
+612,127,PayPal,2,Average quality.,Restaurant,United Kingdom
+613,393,PayPal,3,Average quality.,Museum,India
+614,908,Debit Card,2,Excellent service!,Gas Station,India
+615,641,PayPal,3,Terrible experience...,Cinema,Canada
+616,58,Debit Card,3,Excellent service!,Amusement Park,South Africa
+617,634,PayPal,5,Excellent service!,Online,Brazil
+618,513,PayPal,3,Average quality.,Fitness Center,Russia
+619,751,Credit Card,4,Terrible experience...,Supermarket,Netherlands
+620,802,Debit Card,3,Average quality.,ATM,China
+621,96,Credit Card,2,Excellent service!,Museum,New Zealand
+622,638,Credit Card,3,Excellent service!,Cinema,Italy
+623,118,Credit Card,1,Average quality.,Restaurant,Sweden
+624,560,Debit Card,2,Excellent service!,Supermarket,Spain
+625,601,Debit Card,1,Excellent service!,Museum,Brazil
+626,488,PayPal,2,Average quality.,Cinema,Singapore
+627,237,Credit Card,4,Excellent service!,Cinema,Singapore
+628,885,PayPal,4,Terrible experience...,Bar,Canada
+629,897,Credit Card,4,Average quality.,Cinema,Russia
+630,272,Debit Card,1,Terrible experience...,Gas Station,Spain
+631,189,Debit Card,5,Excellent service!,Supermarket,India
+632,999,Debit Card,2,Excellent service!,Restaurant,Netherlands
+633,704,Credit Card,4,Average quality.,Restaurant,Spain
+634,447,Debit Card,2,Excellent service!,Gas Station,Netherlands
+635,581,Credit Card,1,Average quality.,Retail Store,Spain
+636,790,PayPal,5,Average quality.,Fitness Center,Germany
+637,861,Credit Card,1,Average quality.,Supermarket,Russia
+638,247,PayPal,2,Average quality.,Cinema,Germany
+639,963,Credit Card,5,Average quality.,Fitness Center,Netherlands
+640,76,PayPal,5,Terrible experience...,Online,South Africa
+641,154,Debit Card,1,Average quality.,Hotel,Brazil
+642,656,PayPal,4,Terrible experience...,Supermarket,South Africa
+643,435,Debit Card,2,Excellent service!,ATM,Australia
+644,997,Debit Card,3,Average quality.,Online,China
+645,86,PayPal,3,Excellent service!,Gas Station,South Africa
+646,697,Credit Card,1,Average quality.,Cinema,USA
+647,285,Credit Card,2,Terrible experience...,Retail Store,Brazil
+648,974,Credit Card,2,Terrible experience...,ATM,Sweden
+649,220,Credit Card,1,Terrible experience...,Retail Store,Canada
+650,69,Credit Card,2,Excellent service!,Retail Store,Russia
+651,47,Debit Card,4,Average quality.,Amusement Park,New Zealand
+652,94,Credit Card,1,Excellent service!,Museum,China
+653,750,Debit Card,4,Terrible experience...,Museum,Russia
+654,958,Debit Card,2,Excellent service!,Bar,Sweden
+655,453,Debit Card,1,Terrible experience...,ATM,Sweden
+656,204,PayPal,2,Terrible experience...,Hotel,France
+657,912,PayPal,1,Terrible experience...,Bar,Sweden
+658,218,Debit Card,2,Average quality.,ATM,United Kingdom
+659,474,PayPal,4,Average quality.,Retail Store,Switzerland
+660,432,Credit Card,4,Terrible experience...,Bar,Sweden
+661,341,Credit Card,2,Excellent service!,ATM,USA
+662,551,Debit Card,1,Excellent service!,Hotel,Sweden
+663,612,Credit Card,3,Average quality.,Fitness Center,Brazil
+664,289,Debit Card,4,Terrible experience...,Online,Mexico
+665,254,Debit Card,4,Excellent service!,Fitness Center,Germany
+666,734,Credit Card,3,Terrible experience...,Supermarket,France
+667,357,PayPal,2,Excellent service!,Fitness Center,Mexico
+668,23,Credit Card,1,Average quality.,Fitness Center,South Africa
+669,762,Credit Card,2,Terrible experience...,Cinema,Singapore
+670,522,Debit Card,5,Terrible experience...,Fitness Center,Italy
+671,758,Debit Card,4,Excellent service!,ATM,Singapore
+672,837,Debit Card,5,Excellent service!,Hotel,Spain
+673,100,Debit Card,4,Excellent service!,Supermarket,New Zealand
+674,802,PayPal,4,Terrible experience...,Bar,Singapore
+675,180,PayPal,5,Average quality.,ATM,Sweden
+676,223,PayPal,5,Average quality.,ATM,Switzerland
+677,906,Debit Card,2,Excellent service!,Gas Station,France
+678,762,Debit Card,5,Average quality.,ATM,Switzerland
+679,659,Debit Card,2,Excellent service!,Cinema,United Kingdom
+680,442,PayPal,2,Average quality.,Museum,Germany
+681,608,Debit Card,2,Terrible experience...,Gas Station,Australia
+682,769,Credit Card,4,Excellent service!,Supermarket,China
+683,325,Credit Card,4,Average quality.,Bar,Canada
+684,516,Debit Card,5,Terrible experience...,Museum,Spain
+685,16,Credit Card,4,Average quality.,Bar,South Africa
+686,792,Credit Card,5,Terrible experience...,Restaurant,France
+687,336,PayPal,4,Terrible experience...,Restaurant,Japan
+688,759,Debit Card,1,Average quality.,Supermarket,Sweden
+689,258,Debit Card,1,Average quality.,Amusement Park,Netherlands
+690,497,PayPal,5,Terrible experience...,Hotel,China
+691,988,Credit Card,4,Terrible experience...,Amusement Park,Netherlands
+692,896,Credit Card,4,Terrible experience...,Hotel,Netherlands
+693,160,Debit Card,2,Excellent service!,Gas Station,Russia
+694,475,Credit Card,3,Terrible experience...,Supermarket,United Kingdom
+695,852,PayPal,5,Excellent service!,Hotel,France
+696,664,PayPal,3,Terrible experience...,Restaurant,Spain
+697,908,Debit Card,3,Excellent service!,Restaurant,Netherlands
+698,690,PayPal,5,Terrible experience...,Retail Store,China
+699,675,PayPal,4,Terrible experience...,Hotel,Brazil
+700,380,Debit Card,5,Terrible experience...,Fitness Center,USA
+701,545,PayPal,3,Average quality.,Supermarket,USA
+702,929,PayPal,4,Average quality.,Museum,Germany
+703,957,PayPal,1,Terrible experience...,Online,Netherlands
+704,691,Credit Card,5,Excellent service!,Gas Station,Italy
+705,427,Debit Card,5,Excellent service!,ATM,India
+706,613,Debit Card,4,Terrible experience...,Fitness Center,Spain
+707,268,Debit Card,1,Average quality.,ATM,South Africa
+708,835,Credit Card,1,Excellent service!,Hotel,China
+709,577,Credit Card,4,Average quality.,Museum,India
+710,417,Debit Card,2,Excellent service!,Fitness Center,India
+711,168,Credit Card,5,Terrible experience...,Amusement Park,Japan
+712,842,Debit Card,5,Average quality.,Gas Station,Mexico
+713,43,Credit Card,3,Excellent service!,Fitness Center,New Zealand
+714,556,PayPal,4,Terrible experience...,Bar,Australia
+715,285,PayPal,3,Terrible experience...,Museum,Australia
+716,397,Debit Card,3,Terrible experience...,Cinema,Italy
+717,12,Credit Card,1,Average quality.,ATM,India
+718,607,Credit Card,5,Average quality.,Restaurant,India
+719,302,PayPal,3,Terrible experience...,Gas Station,South Africa
+720,898,PayPal,1,Average quality.,Fitness Center,China
+721,253,Credit Card,4,Excellent service!,Amusement Park,New Zealand
+722,499,Credit Card,3,Terrible experience...,Supermarket,Switzerland
+723,754,Credit Card,5,Terrible experience...,Museum,United Kingdom
+724,35,Credit Card,3,Average quality.,Amusement Park,India
+725,727,Credit Card,4,Terrible experience...,Gas Station,France
+726,849,Credit Card,3,Excellent service!,Bar,Netherlands
+727,90,Debit Card,5,Average quality.,ATM,Sweden
+728,776,Credit Card,1,Average quality.,Museum,New Zealand
+729,605,PayPal,5,Terrible experience...,Restaurant,Germany
+730,922,Debit Card,1,Terrible experience...,Online,India
+731,970,Credit Card,2,Terrible experience...,Supermarket,Italy
+732,602,PayPal,5,Average quality.,Museum,Mexico
+733,418,Debit Card,5,Terrible experience...,Restaurant,United Kingdom
+734,115,PayPal,4,Excellent service!,Bar,Switzerland
+735,617,Credit Card,3,Terrible experience...,Cinema,France
+736,903,Credit Card,1,Terrible experience...,Bar,Switzerland
+737,196,Credit Card,1,Average quality.,Bar,Netherlands
+738,826,Credit Card,4,Terrible experience...,Fitness Center,USA
+739,501,Debit Card,4,Average quality.,ATM,Australia
+740,626,Debit Card,3,Terrible experience...,Gas Station,Netherlands
+741,493,PayPal,3,Excellent service!,Museum,Sweden
+742,75,Credit Card,5,Excellent service!,Gas Station,Spain
+743,413,PayPal,2,Average quality.,Museum,Russia
+744,376,Debit Card,3,Average quality.,Restaurant,Switzerland
+745,420,Credit Card,4,Terrible experience...,Cinema,Sweden
+746,729,Credit Card,3,Terrible experience...,Fitness Center,Brazil
+747,277,Debit Card,1,Excellent service!,Cinema,Japan
+748,761,Debit Card,2,Terrible experience...,Amusement Park,Italy
+749,676,Debit Card,5,Excellent service!,Fitness Center,Russia
+750,394,Debit Card,1,Average quality.,Online,Canada
+751,869,Debit Card,1,Terrible experience...,Bar,USA
+752,457,Credit Card,2,Average quality.,Online,New Zealand
+753,920,Debit Card,5,Terrible experience...,Retail Store,Switzerland
+754,192,Credit Card,4,Excellent service!,Hotel,South Africa
+755,739,Credit Card,5,Average quality.,Bar,Australia
+756,689,Debit Card,3,Average quality.,Online,India
+757,99,Debit Card,1,Terrible experience...,ATM,Spain
+758,548,Credit Card,3,Average quality.,Hotel,Netherlands
+759,978,Debit Card,4,Excellent service!,Cinema,Netherlands
+760,999,Debit Card,3,Average quality.,Bar,Switzerland
+761,96,Debit Card,5,Average quality.,Bar,Netherlands
+762,664,PayPal,3,Terrible experience...,Cinema,China
+763,663,Credit Card,4,Average quality.,Amusement Park,Spain
+764,190,PayPal,4,Terrible experience...,ATM,United Kingdom
+765,736,Debit Card,4,Terrible experience...,Bar,Canada
+766,37,PayPal,5,Average quality.,Online,Russia
+767,780,Debit Card,4,Excellent service!,Bar,India
+768,369,PayPal,1,Terrible experience...,Hotel,Canada
+769,695,Debit Card,4,Average quality.,Bar,South Africa
+770,525,PayPal,3,Terrible experience...,Online,Japan
+771,279,PayPal,3,Excellent service!,Supermarket,Russia
+772,217,PayPal,3,Excellent service!,Hotel,Mexico
+773,867,Credit Card,5,Terrible experience...,Museum,Russia
+774,873,PayPal,3,Excellent service!,Restaurant,Italy
+775,798,Credit Card,5,Average quality.,Restaurant,United Kingdom
+776,273,Debit Card,5,Average quality.,Hotel,India
+777,881,PayPal,4,Terrible experience...,Museum,Switzerland
+778,62,Debit Card,1,Excellent service!,ATM,USA
+779,596,Debit Card,4,Average quality.,Supermarket,Italy
+780,880,PayPal,4,Average quality.,Hotel,Brazil
+781,729,Credit Card,5,Average quality.,Online,South Africa
+782,342,PayPal,5,Terrible experience...,Fitness Center,Netherlands
+783,397,Debit Card,3,Terrible experience...,Retail Store,Canada
+784,699,Debit Card,3,Average quality.,Fitness Center,France
+785,19,PayPal,4,Average quality.,Gas Station,Switzerland
+786,177,Credit Card,2,Excellent service!,Bar,Spain
+787,612,Credit Card,2,Excellent service!,Museum,Germany
+788,396,Debit Card,3,Excellent service!,Amusement Park,Singapore
+789,445,Debit Card,2,Terrible experience...,Supermarket,Italy
+790,233,Credit Card,3,Average quality.,Online,France
+791,915,PayPal,5,Terrible experience...,Amusement Park,India
+792,76,Debit Card,4,Average quality.,Restaurant,Australia
+793,265,Credit Card,1,Excellent service!,Hotel,China
+794,455,Debit Card,4,Excellent service!,Supermarket,Brazil
+795,796,PayPal,3,Excellent service!,Fitness Center,India
+796,718,Credit Card,3,Excellent service!,Cinema,Japan
+797,735,Debit Card,4,Average quality.,Bar,Sweden
+798,384,PayPal,3,Excellent service!,Gas Station,Germany
+799,564,Debit Card,2,Average quality.,Museum,Australia
+800,851,PayPal,2,Average quality.,Fitness Center,Netherlands
+801,506,PayPal,3,Terrible experience...,Restaurant,India
+802,367,Credit Card,3,Excellent service!,Hotel,Spain
+803,144,PayPal,2,Excellent service!,Bar,Switzerland
+804,885,Debit Card,3,Terrible experience...,Restaurant,Japan
+805,69,PayPal,3,Average quality.,Cinema,Canada
+806,99,PayPal,4,Excellent service!,Amusement Park,Japan
+807,396,Credit Card,1,Average quality.,Fitness Center,South Africa
+808,25,PayPal,2,Terrible experience...,Gas Station,Spain
+809,948,PayPal,4,Average quality.,Gas Station,Singapore
+810,891,Debit Card,1,Excellent service!,Bar,New Zealand
+811,469,Credit Card,3,Average quality.,Online,Netherlands
+812,484,Credit Card,3,Average quality.,Bar,USA
+813,565,Credit Card,4,Excellent service!,Restaurant,Spain
+814,151,PayPal,3,Excellent service!,Museum,New Zealand
+815,144,Credit Card,5,Average quality.,Online,China
+816,569,PayPal,4,Average quality.,Gas Station,Canada
+817,39,PayPal,1,Terrible experience...,Retail Store,Mexico
+818,109,Debit Card,4,Excellent service!,Gas Station,Russia
+819,693,Debit Card,2,Average quality.,Bar,China
+820,42,Debit Card,4,Excellent service!,Restaurant,Russia
+821,186,Debit Card,3,Terrible experience...,Online,United Kingdom
+822,935,Debit Card,3,Average quality.,Hotel,China
+823,398,PayPal,5,Average quality.,Online,Sweden
+824,223,PayPal,5,Average quality.,Cinema,Netherlands
+825,634,Credit Card,5,Excellent service!,ATM,Germany
+826,133,PayPal,1,Terrible experience...,Fitness Center,Germany
+827,163,PayPal,5,Excellent service!,ATM,Mexico
+828,215,Debit Card,1,Average quality.,Supermarket,Switzerland
+829,733,PayPal,5,Terrible experience...,Amusement Park,Japan
+830,235,Debit Card,1,Average quality.,Supermarket,Switzerland
+831,843,Credit Card,4,Average quality.,Museum,New Zealand
+832,658,Credit Card,4,Excellent service!,Museum,Australia
+833,751,PayPal,3,Average quality.,Supermarket,Japan
+834,588,Credit Card,1,Terrible experience...,Online,Russia
+835,9,PayPal,2,Average quality.,Restaurant,Brazil
+836,74,Credit Card,3,Average quality.,Fitness Center,South Africa
+837,954,Debit Card,4,Excellent service!,Supermarket,United Kingdom
+838,492,Debit Card,1,Terrible experience...,Bar,Switzerland
+839,913,Debit Card,5,Excellent service!,Online,China
+840,253,Debit Card,2,Average quality.,Restaurant,Brazil
+841,230,PayPal,4,Excellent service!,ATM,France
+842,519,Credit Card,3,Excellent service!,Retail Store,Italy
+843,174,PayPal,1,Excellent service!,Museum,New Zealand
+844,653,Debit Card,2,Excellent service!,Bar,Russia
+845,168,PayPal,1,Average quality.,Hotel,China
+846,170,Credit Card,5,Average quality.,Amusement Park,China
+847,393,PayPal,3,Terrible experience...,Hotel,Germany
+848,946,Credit Card,1,Excellent service!,Restaurant,United Kingdom
+849,795,PayPal,4,Excellent service!,Fitness Center,Germany
+850,634,Credit Card,3,Terrible experience...,Cinema,Canada
+851,194,Credit Card,4,Excellent service!,Restaurant,Switzerland
+852,517,Debit Card,1,Terrible experience...,Retail Store,Netherlands
+853,29,Credit Card,3,Average quality.,ATM,Netherlands
+854,165,Debit Card,4,Terrible experience...,Gas Station,Japan
+855,422,Debit Card,5,Excellent service!,Restaurant,China
+856,339,Debit Card,5,Terrible experience...,ATM,Mexico
+857,648,PayPal,1,Average quality.,Fitness Center,USA
+858,496,PayPal,3,Excellent service!,Hotel,New Zealand
+859,365,PayPal,2,Average quality.,Restaurant,USA
+860,833,PayPal,3,Average quality.,Restaurant,South Africa
+861,342,Credit Card,5,Terrible experience...,Supermarket,United Kingdom
+862,500,Credit Card,4,Average quality.,Hotel,New Zealand
+863,657,PayPal,2,Excellent service!,Amusement Park,Netherlands
+864,511,Credit Card,1,Average quality.,Amusement Park,Italy
+865,327,Credit Card,2,Average quality.,Bar,Sweden
+866,217,Debit Card,1,Terrible experience...,Cinema,New Zealand
+867,301,Debit Card,2,Average quality.,Museum,Germany
+868,132,Debit Card,1,Terrible experience...,Gas Station,Canada
+869,804,Debit Card,1,Terrible experience...,Restaurant,Brazil
+870,70,Credit Card,2,Excellent service!,Restaurant,Singapore
+871,252,PayPal,2,Excellent service!,Bar,China
+872,415,Credit Card,1,Excellent service!,Cinema,Brazil
+873,787,Credit Card,5,Excellent service!,Hotel,Germany
+874,445,Credit Card,2,Terrible experience...,Restaurant,China
+875,876,Debit Card,3,Average quality.,ATM,Switzerland
+876,182,Debit Card,4,Excellent service!,Online,Switzerland
+877,167,Debit Card,1,Excellent service!,Museum,China
+878,91,PayPal,1,Excellent service!,Cinema,Singapore
+879,714,Credit Card,4,Average quality.,Restaurant,Russia
+880,858,PayPal,5,Excellent service!,Cinema,Singapore
+881,531,Debit Card,4,Average quality.,Amusement Park,France
+882,39,PayPal,2,Terrible experience...,Fitness Center,Russia
+883,126,Credit Card,4,Terrible experience...,Gas Station,Canada
+884,451,Credit Card,1,Terrible experience...,Restaurant,United Kingdom
+885,173,Debit Card,4,Average quality.,Gas Station,Spain
+886,653,Debit Card,3,Excellent service!,Retail Store,Netherlands
+887,754,PayPal,2,Excellent service!,Fitness Center,Brazil
+888,220,Debit Card,4,Excellent service!,Online,United Kingdom
+889,638,Debit Card,1,Excellent service!,Bar,Singapore
+890,58,Credit Card,2,Excellent service!,Gas Station,Netherlands
+891,660,Debit Card,1,Average quality.,Restaurant,Brazil
+892,476,Debit Card,5,Terrible experience...,Supermarket,United Kingdom
+893,456,Credit Card,3,Excellent service!,Bar,Netherlands
+894,829,Credit Card,5,Terrible experience...,Museum,France
+895,895,PayPal,3,Average quality.,Bar,Switzerland
+896,361,Debit Card,4,Average quality.,Hotel,Brazil
+897,935,Credit Card,2,Excellent service!,Gas Station,Mexico
+898,1,PayPal,4,Average quality.,Supermarket,South Africa
+899,387,PayPal,3,Terrible experience...,Gas Station,Brazil
+900,973,Debit Card,3,Excellent service!,Hotel,Sweden
+901,348,Debit Card,3,Excellent service!,Fitness Center,Switzerland
+902,190,PayPal,1,Terrible experience...,Fitness Center,Italy
+903,505,Credit Card,2,Excellent service!,Museum,Brazil
+904,191,PayPal,4,Excellent service!,Online,South Africa
+905,508,Debit Card,4,Terrible experience...,Restaurant,Brazil
+906,369,Credit Card,5,Excellent service!,Amusement Park,India
+907,409,Credit Card,3,Excellent service!,Fitness Center,Netherlands
+908,824,PayPal,3,Terrible experience...,Amusement Park,Spain
+909,929,Debit Card,3,Average quality.,Gas Station,Brazil
+910,934,PayPal,4,Terrible experience...,Museum,South Africa
+911,117,PayPal,5,Excellent service!,Hotel,France
+912,134,PayPal,1,Terrible experience...,Cinema,France
+913,58,Credit Card,2,Excellent service!,Restaurant,United Kingdom
+914,556,Credit Card,1,Excellent service!,Gas Station,Canada
+915,685,Debit Card,4,Terrible experience...,Cinema,South Africa
+916,672,Debit Card,3,Excellent service!,Restaurant,France
+917,173,PayPal,2,Average quality.,Cinema,Spain
+918,829,PayPal,4,Excellent service!,Bar,New Zealand
+919,815,PayPal,4,Terrible experience...,Gas Station,Singapore
+920,149,Debit Card,4,Average quality.,Museum,Canada
+921,80,Credit Card,2,Average quality.,Museum,Canada
+922,886,Credit Card,2,Excellent service!,Hotel,Russia
+923,213,PayPal,5,Terrible experience...,Restaurant,United Kingdom
+924,203,PayPal,5,Excellent service!,Amusement Park,Brazil
+925,764,PayPal,1,Excellent service!,Gas Station,Italy
+926,229,PayPal,2,Terrible experience...,Restaurant,Russia
+927,676,Debit Card,2,Terrible experience...,Restaurant,Japan
+928,227,Credit Card,2,Excellent service!,Museum,Japan
+929,659,PayPal,5,Average quality.,Cinema,New Zealand
+930,532,Debit Card,4,Excellent service!,Fitness Center,Australia
+931,441,PayPal,3,Average quality.,Cinema,USA
+932,402,PayPal,5,Excellent service!,Supermarket,France
+933,47,Credit Card,2,Terrible experience...,Gas Station,Brazil
+934,233,PayPal,5,Average quality.,Retail Store,United Kingdom
+935,305,Credit Card,1,Terrible experience...,ATM,Germany
+936,526,Credit Card,2,Terrible experience...,Retail Store,Sweden
+937,143,Credit Card,1,Terrible experience...,Restaurant,Brazil
+938,415,Debit Card,2,Terrible experience...,Supermarket,Russia
+939,513,Debit Card,5,Terrible experience...,Museum,Canada
+940,373,Credit Card,4,Excellent service!,Restaurant,Australia
+941,566,PayPal,3,Average quality.,Retail Store,France
+942,886,Credit Card,1,Excellent service!,Fitness Center,United Kingdom
+943,259,PayPal,5,Excellent service!,Restaurant,South Africa
+944,656,Credit Card,4,Excellent service!,Cinema,New Zealand
+945,471,PayPal,5,Terrible experience...,Gas Station,China
+946,953,Debit Card,1,Excellent service!,Fitness Center,Brazil
+947,971,PayPal,3,Average quality.,Amusement Park,Netherlands
+948,12,Credit Card,5,Excellent service!,Retail Store,India
+949,330,Debit Card,2,Terrible experience...,ATM,New Zealand
+950,736,PayPal,4,Average quality.,ATM,New Zealand
+951,784,PayPal,5,Average quality.,Cinema,Russia
+952,968,PayPal,4,Average quality.,Gas Station,Russia
+953,358,PayPal,2,Average quality.,Online,Russia
+954,972,PayPal,3,Excellent service!,Online,Japan
+955,408,Debit Card,3,Terrible experience...,Hotel,Japan
+956,668,Debit Card,2,Average quality.,Hotel,China
+957,373,Debit Card,4,Average quality.,Retail Store,China
+958,8,Debit Card,5,Terrible experience...,Cinema,New Zealand
+959,122,Credit Card,2,Excellent service!,Cinema,Russia
+960,348,Debit Card,1,Average quality.,Restaurant,USA
+961,676,PayPal,4,Excellent service!,ATM,Singapore
+962,90,PayPal,3,Excellent service!,ATM,Switzerland
+963,648,Debit Card,2,Excellent service!,Fitness Center,Singapore
+964,698,PayPal,3,Excellent service!,ATM,Singapore
+965,316,Debit Card,4,Average quality.,Supermarket,Canada
+966,178,PayPal,3,Average quality.,Gas Station,South Africa
+967,540,Credit Card,2,Excellent service!,Bar,USA
+968,732,Credit Card,4,Excellent service!,Museum,USA
+969,869,Debit Card,1,Terrible experience...,Museum,Japan
+970,41,Debit Card,2,Terrible experience...,Museum,Brazil
+971,740,Debit Card,5,Terrible experience...,Restaurant,Netherlands
+972,704,PayPal,2,Average quality.,Online,United Kingdom
+973,923,Debit Card,4,Terrible experience...,Cinema,Germany
+974,502,Credit Card,2,Average quality.,Online,Canada
+975,959,PayPal,1,Average quality.,Supermarket,Mexico
+976,145,Debit Card,1,Average quality.,Online,New Zealand
+977,201,PayPal,5,Average quality.,ATM,Sweden
+978,929,PayPal,3,Terrible experience...,Amusement Park,Spain
+979,724,Debit Card,4,Excellent service!,Restaurant,Mexico
+980,461,PayPal,4,Excellent service!,Amusement Park,Switzerland
+981,732,Credit Card,3,Excellent service!,Hotel,Sweden
+982,752,Credit Card,1,Terrible experience...,Amusement Park,France
+983,925,PayPal,1,Excellent service!,Bar,Germany
+984,909,Debit Card,2,Terrible experience...,Fitness Center,Spain
+985,558,PayPal,5,Terrible experience...,Cinema,Switzerland
+986,547,Credit Card,5,Terrible experience...,Supermarket,USA
+987,253,PayPal,5,Excellent service!,Museum,Singapore
+988,390,PayPal,2,Excellent service!,Cinema,South Africa
+989,594,Credit Card,5,Excellent service!,Bar,South Africa
+990,883,PayPal,3,Average quality.,Cinema,Sweden
+991,256,PayPal,2,Terrible experience...,Amusement Park,India
+992,709,Debit Card,3,Average quality.,Gas Station,Italy
+993,815,Debit Card,2,Terrible experience...,Cinema,Brazil
+994,921,Credit Card,5,Excellent service!,Hotel,United Kingdom
+995,450,Credit Card,3,Terrible experience...,Restaurant,Netherlands
+996,10,Credit Card,3,Terrible experience...,Restaurant,Singapore
+997,824,Debit Card,3,Average quality.,Online,Singapore
+998,798,Credit Card,2,Terrible experience...,Retail Store,Singapore
+999,242,Credit Card,4,Excellent service!,Amusement Park,Switzerland
+1000,251,Credit Card,5,Terrible experience...,ATM,United Kingdom
+1001,877,Debit Card,3,Terrible experience...,Bar,USA
+1002,5,PayPal,4,Terrible experience...,Supermarket,France
+1003,119,Credit Card,5,Average quality.,Fitness Center,Russia
+1004,801,PayPal,5,Terrible experience...,Amusement Park,Sweden
+1005,374,Credit Card,3,Terrible experience...,Museum,France
+1006,65,PayPal,3,Average quality.,Restaurant,Russia
+1007,146,Debit Card,2,Average quality.,Online,South Africa
+1008,224,Debit Card,4,Average quality.,Fitness Center,Netherlands
+1009,239,Credit Card,4,Average quality.,Museum,South Africa
+1010,177,PayPal,3,Excellent service!,Fitness Center,Spain
+1011,779,Debit Card,5,Excellent service!,Cinema,France
+1012,853,Credit Card,3,Terrible experience...,ATM,Sweden
+1013,282,Credit Card,5,Excellent service!,ATM,Brazil
+1014,63,Debit Card,5,Terrible experience...,Retail Store,France
+1015,217,Debit Card,3,Excellent service!,Gas Station,USA
+1016,854,Credit Card,1,Average quality.,Fitness Center,Germany
+1017,827,PayPal,4,Average quality.,Retail Store,India
+1018,795,PayPal,5,Excellent service!,Cinema,Canada
+1019,689,PayPal,5,Excellent service!,Fitness Center,United Kingdom
+1020,461,Credit Card,1,Terrible experience...,Amusement Park,Germany
+1021,929,Debit Card,2,Terrible experience...,Hotel,Germany
+1022,610,Credit Card,1,Terrible experience...,Bar,Italy
+1023,105,Debit Card,1,Average quality.,ATM,Australia
+1024,99,PayPal,5,Average quality.,Supermarket,United Kingdom
+1025,511,PayPal,4,Average quality.,Amusement Park,India
+1026,385,Debit Card,1,Average quality.,Supermarket,China
+1027,405,Debit Card,2,Terrible experience...,Online,China
+1028,823,Credit Card,3,Average quality.,Supermarket,United Kingdom
+1029,518,PayPal,1,Average quality.,ATM,Switzerland
+1030,476,Credit Card,1,Average quality.,Museum,Spain
+1031,977,Credit Card,2,Average quality.,ATM,Italy
+1032,709,Credit Card,4,Excellent service!,ATM,Singapore
+1033,863,PayPal,1,Terrible experience...,Amusement Park,Russia
+1034,645,Credit Card,1,Terrible experience...,Museum,Canada
+1035,870,Credit Card,4,Average quality.,Museum,Australia
+1036,771,Credit Card,2,Excellent service!,Amusement Park,Netherlands
+1037,437,Credit Card,1,Terrible experience...,Museum,Mexico
+1038,23,Credit Card,4,Terrible experience...,Bar,Mexico
+1039,997,Credit Card,1,Average quality.,Restaurant,Singapore
+1040,565,PayPal,3,Average quality.,Gas Station,Russia
+1041,677,Credit Card,5,Terrible experience...,Cinema,Netherlands
+1042,714,Debit Card,3,Terrible experience...,Cinema,Switzerland
+1043,458,Credit Card,1,Excellent service!,Online,Singapore
+1044,83,Credit Card,2,Terrible experience...,Retail Store,Netherlands
+1045,145,PayPal,5,Terrible experience...,Bar,Germany
+1046,85,PayPal,3,Average quality.,Restaurant,South Africa
+1047,78,Debit Card,4,Terrible experience...,Hotel,Mexico
+1048,457,Debit Card,2,Average quality.,Online,USA
+1049,878,PayPal,3,Terrible experience...,Fitness Center,Singapore
+1050,1,PayPal,4,Terrible experience...,Amusement Park,USA
+1051,51,Credit Card,1,Terrible experience...,Fitness Center,Brazil
+1052,685,PayPal,4,Excellent service!,Restaurant,Russia
+1053,717,Debit Card,3,Average quality.,Museum,Germany
+1054,772,Credit Card,3,Excellent service!,Fitness Center,France
+1055,446,Debit Card,1,Terrible experience...,ATM,India
+1056,449,Credit Card,4,Excellent service!,Amusement Park,United Kingdom
+1057,881,PayPal,4,Average quality.,Fitness Center,Mexico
+1058,488,Debit Card,1,Terrible experience...,Fitness Center,Singapore
+1059,800,Credit Card,4,Excellent service!,Retail Store,China
+1060,34,Credit Card,1,Excellent service!,Retail Store,Brazil
+1061,348,PayPal,2,Average quality.,Cinema,Canada
+1062,95,PayPal,3,Excellent service!,Gas Station,Italy
+1063,72,PayPal,2,Average quality.,Gas Station,Sweden
+1064,551,Debit Card,5,Terrible experience...,Hotel,Italy
+1065,154,Credit Card,5,Terrible experience...,Amusement Park,United Kingdom
+1066,250,PayPal,5,Excellent service!,Amusement Park,India
+1067,674,Debit Card,1,Terrible experience...,Retail Store,Australia
+1068,438,Debit Card,4,Terrible experience...,ATM,Canada
+1069,118,Debit Card,2,Excellent service!,ATM,Switzerland
+1070,771,PayPal,2,Terrible experience...,Supermarket,Germany
+1071,891,PayPal,2,Excellent service!,ATM,Mexico
+1072,306,Credit Card,2,Average quality.,Museum,Australia
+1073,268,Credit Card,5,Average quality.,Restaurant,Australia
+1074,961,PayPal,2,Average quality.,Gas Station,Germany
+1075,54,Debit Card,4,Excellent service!,ATM,Mexico
+1076,236,Debit Card,5,Excellent service!,Bar,Australia
+1077,389,Debit Card,2,Terrible experience...,Amusement Park,Spain
+1078,990,Credit Card,1,Terrible experience...,ATM,South Africa
+1079,734,Debit Card,3,Terrible experience...,Supermarket,Switzerland
+1080,763,Credit Card,3,Terrible experience...,Hotel,Singapore
+1081,825,Credit Card,3,Terrible experience...,Hotel,Canada
+1082,401,Debit Card,5,Excellent service!,Retail Store,Japan
+1083,624,Debit Card,2,Excellent service!,ATM,New Zealand
+1084,767,PayPal,5,Average quality.,Fitness Center,Sweden
+1085,303,PayPal,4,Average quality.,Amusement Park,Japan
+1086,919,Debit Card,1,Average quality.,Amusement Park,Switzerland
+1087,207,Credit Card,1,Average quality.,Gas Station,Netherlands
+1088,229,Credit Card,3,Excellent service!,Hotel,United Kingdom
+1089,853,Credit Card,3,Excellent service!,Retail Store,India
+1090,910,Credit Card,3,Excellent service!,ATM,Japan
+1091,578,Credit Card,2,Terrible experience...,Hotel,Netherlands
+1092,75,PayPal,4,Terrible experience...,Hotel,Spain
+1093,435,Debit Card,4,Average quality.,Amusement Park,Netherlands
+1094,103,PayPal,4,Terrible experience...,ATM,India
+1095,422,Credit Card,4,Excellent service!,Fitness Center,Sweden
+1096,704,Credit Card,3,Average quality.,Online,Russia
+1097,764,Credit Card,1,Average quality.,Fitness Center,China
+1098,738,Credit Card,3,Terrible experience...,ATM,Australia
+1099,806,Debit Card,4,Average quality.,Restaurant,Germany
+1100,306,Credit Card,3,Terrible experience...,Hotel,New Zealand
+1101,98,Debit Card,4,Terrible experience...,Gas Station,Russia
+1102,850,Credit Card,5,Average quality.,Museum,United Kingdom
+1103,798,Debit Card,1,Terrible experience...,Museum,Russia
+1104,335,PayPal,5,Terrible experience...,Online,Netherlands
+1105,859,Credit Card,2,Terrible experience...,Supermarket,China
+1106,435,Debit Card,3,Terrible experience...,Retail Store,Brazil
+1107,447,PayPal,2,Average quality.,Fitness Center,Russia
+1108,994,Credit Card,3,Excellent service!,ATM,India
+1109,308,Credit Card,5,Excellent service!,Gas Station,China
+1110,249,Credit Card,4,Terrible experience...,Supermarket,Switzerland
+1111,166,Debit Card,4,Terrible experience...,Supermarket,South Africa
+1112,481,Debit Card,3,Terrible experience...,Hotel,Canada
+1113,984,PayPal,4,Excellent service!,Restaurant,South Africa
+1114,335,Debit Card,5,Terrible experience...,Hotel,USA
+1115,542,Debit Card,4,Average quality.,Retail Store,France
+1116,759,Credit Card,5,Average quality.,Online,Sweden
+1117,106,Credit Card,2,Average quality.,Fitness Center,Germany
+1118,563,Credit Card,5,Excellent service!,Amusement Park,Switzerland
+1119,81,Credit Card,1,Terrible experience...,Bar,United Kingdom
+1120,133,Credit Card,1,Terrible experience...,Online,Brazil
+1121,797,Credit Card,1,Terrible experience...,Fitness Center,Brazil
+1122,900,Credit Card,3,Excellent service!,Retail Store,New Zealand
+1123,138,PayPal,3,Excellent service!,Museum,New Zealand
+1124,184,PayPal,3,Excellent service!,Fitness Center,Canada
+1125,401,PayPal,5,Excellent service!,Amusement Park,China
+1126,330,PayPal,3,Average quality.,Supermarket,Russia
+1127,785,Credit Card,2,Excellent service!,Online,New Zealand
+1128,508,PayPal,1,Excellent service!,Amusement Park,Netherlands
+1129,852,Credit Card,5,Excellent service!,ATM,Russia
+1130,984,PayPal,1,Terrible experience...,Hotel,Germany
+1131,69,Debit Card,3,Terrible experience...,Fitness Center,Mexico
+1132,546,PayPal,5,Terrible experience...,Bar,South Africa
+1133,774,PayPal,4,Average quality.,Gas Station,Germany
+1134,53,Credit Card,2,Average quality.,Fitness Center,Mexico
+1135,450,PayPal,3,Excellent service!,ATM,Germany
+1136,205,Debit Card,3,Terrible experience...,Online,France
+1137,126,Credit Card,2,Average quality.,Fitness Center,Japan
+1138,747,Credit Card,2,Terrible experience...,Cinema,China
+1139,43,PayPal,4,Average quality.,Amusement Park,Sweden
+1140,752,Credit Card,3,Average quality.,Supermarket,Canada
+1141,971,Credit Card,3,Excellent service!,Supermarket,France
+1142,883,Credit Card,1,Excellent service!,Cinema,Italy
+1143,111,Credit Card,5,Average quality.,Online,France
+1144,761,Credit Card,5,Excellent service!,Supermarket,Singapore
+1145,663,Credit Card,1,Average quality.,Fitness Center,New Zealand
+1146,183,Debit Card,5,Average quality.,Restaurant,Sweden
+1147,848,PayPal,2,Terrible experience...,Museum,New Zealand
+1148,95,Debit Card,5,Excellent service!,Supermarket,Spain
+1149,971,Credit Card,5,Excellent service!,Museum,Russia
+1150,374,Credit Card,1,Excellent service!,Bar,United Kingdom
+1151,912,PayPal,4,Terrible experience...,Restaurant,New Zealand
+1152,520,Debit Card,5,Terrible experience...,Retail Store,New Zealand
+1153,900,PayPal,5,Terrible experience...,Fitness Center,United Kingdom
+1154,360,Debit Card,4,Excellent service!,Fitness Center,France
+1155,900,Credit Card,1,Excellent service!,Retail Store,Brazil
+1156,696,PayPal,4,Excellent service!,Amusement Park,Italy
+1157,281,PayPal,1,Terrible experience...,Restaurant,Canada
+1158,195,Credit Card,2,Terrible experience...,ATM,Singapore
+1159,864,PayPal,1,Average quality.,Amusement Park,Germany
+1160,195,Debit Card,2,Terrible experience...,ATM,Australia
+1161,667,Debit Card,2,Average quality.,Bar,Sweden
+1162,93,Debit Card,1,Excellent service!,Hotel,Spain
+1163,672,Debit Card,3,Terrible experience...,Online,Italy
+1164,946,Credit Card,1,Excellent service!,Fitness Center,Australia
+1165,61,PayPal,5,Excellent service!,Fitness Center,India
+1166,634,Debit Card,5,Excellent service!,Restaurant,Russia
+1167,51,Credit Card,3,Excellent service!,Cinema,Japan
+1168,403,PayPal,2,Terrible experience...,Gas Station,Spain
+1169,789,PayPal,3,Excellent service!,Online,Sweden
+1170,5,Credit Card,5,Average quality.,Bar,New Zealand
+1171,466,Credit Card,3,Terrible experience...,Restaurant,Australia
+1172,604,Debit Card,1,Excellent service!,Retail Store,Switzerland
+1173,682,PayPal,3,Terrible experience...,Fitness Center,India
+1174,829,PayPal,2,Average quality.,Online,United Kingdom
+1175,534,Credit Card,1,Excellent service!,Fitness Center,Switzerland
+1176,405,PayPal,4,Average quality.,Fitness Center,Australia
+1177,838,Debit Card,5,Excellent service!,Fitness Center,Italy
+1178,513,PayPal,5,Average quality.,ATM,Sweden
+1179,645,Credit Card,3,Excellent service!,Cinema,Sweden
+1180,233,Credit Card,1,Terrible experience...,Online,Japan
+1181,524,Debit Card,4,Excellent service!,Gas Station,USA
+1182,346,Debit Card,1,Terrible experience...,Bar,Canada
+1183,46,PayPal,5,Excellent service!,Bar,Spain
+1184,546,PayPal,1,Excellent service!,Amusement Park,Spain
+1185,945,Credit Card,4,Average quality.,Fitness Center,Canada
+1186,78,Debit Card,3,Average quality.,Museum,Sweden
+1187,730,Debit Card,2,Average quality.,Museum,United Kingdom
+1188,813,Debit Card,1,Excellent service!,Bar,Italy
+1189,923,PayPal,2,Excellent service!,Amusement Park,USA
+1190,73,Debit Card,5,Excellent service!,Bar,Netherlands
+1191,794,Credit Card,3,Terrible experience...,Gas Station,France
+1192,249,Credit Card,3,Terrible experience...,Bar,Singapore
+1193,47,PayPal,1,Excellent service!,Cinema,New Zealand
+1194,121,PayPal,3,Average quality.,Hotel,Sweden
+1195,214,Debit Card,1,Average quality.,Fitness Center,Brazil
+1196,239,PayPal,1,Average quality.,Retail Store,Sweden
+1197,56,Credit Card,2,Excellent service!,Cinema,China
+1198,350,Debit Card,3,Average quality.,Museum,Netherlands
+1199,107,Credit Card,1,Excellent service!,Bar,Singapore
+1200,831,Debit Card,2,Terrible experience...,Restaurant,Switzerland
+1201,48,PayPal,4,Average quality.,Fitness Center,Switzerland
+1202,573,Debit Card,2,Terrible experience...,ATM,Japan
+1203,337,Debit Card,2,Average quality.,Hotel,India
+1204,26,Credit Card,1,Excellent service!,Retail Store,Japan
+1205,804,Credit Card,5,Excellent service!,ATM,Germany
+1206,257,Debit Card,5,Excellent service!,Fitness Center,Netherlands
+1207,8,PayPal,5,Excellent service!,Cinema,Italy
+1208,625,PayPal,2,Average quality.,Gas Station,South Africa
+1209,867,Credit Card,1,Terrible experience...,Gas Station,Germany
+1210,253,PayPal,3,Excellent service!,ATM,Mexico
+1211,692,Credit Card,2,Average quality.,Restaurant,Mexico
+1212,719,PayPal,2,Terrible experience...,ATM,Spain
+1213,303,Debit Card,1,Excellent service!,Cinema,Russia
+1214,639,Credit Card,4,Terrible experience...,ATM,South Africa
+1215,56,Credit Card,2,Excellent service!,Retail Store,New Zealand
+1216,726,Debit Card,4,Terrible experience...,Fitness Center,Sweden
+1217,526,Credit Card,4,Terrible experience...,Restaurant,Italy
+1218,474,PayPal,5,Excellent service!,Supermarket,Italy
+1219,28,PayPal,1,Average quality.,Online,New Zealand
+1220,983,Credit Card,4,Terrible experience...,Fitness Center,Singapore
+1221,78,PayPal,1,Excellent service!,Museum,Brazil
+1222,216,Credit Card,5,Terrible experience...,Supermarket,New Zealand
+1223,386,Debit Card,1,Terrible experience...,Amusement Park,Italy
+1224,365,Credit Card,2,Average quality.,ATM,Russia
+1225,666,Debit Card,4,Terrible experience...,Gas Station,China
+1226,526,PayPal,1,Terrible experience...,Supermarket,United Kingdom
+1227,699,Debit Card,3,Excellent service!,Bar,Canada
+1228,312,PayPal,1,Excellent service!,Cinema,New Zealand
+1229,883,Credit Card,4,Average quality.,Supermarket,Italy
+1230,7,PayPal,5,Terrible experience...,Hotel,United Kingdom
+1231,3,Credit Card,5,Terrible experience...,Restaurant,Spain
+1232,623,Credit Card,4,Terrible experience...,Fitness Center,Switzerland
+1233,919,Debit Card,2,Average quality.,Cinema,France
+1234,750,Debit Card,2,Terrible experience...,Gas Station,New Zealand
+1235,363,Debit Card,5,Excellent service!,Amusement Park,Australia
+1236,751,Debit Card,5,Average quality.,Museum,Singapore
+1237,508,PayPal,4,Excellent service!,Supermarket,USA
+1238,274,PayPal,2,Excellent service!,Restaurant,India
+1239,506,PayPal,5,Average quality.,Online,Australia
+1240,806,Credit Card,2,Excellent service!,Restaurant,Sweden
+1241,739,PayPal,5,Terrible experience...,Restaurant,Japan
+1242,883,PayPal,1,Average quality.,Cinema,Switzerland
+1243,15,PayPal,3,Excellent service!,Online,Australia
+1244,192,Debit Card,1,Terrible experience...,Restaurant,South Africa
+1245,985,PayPal,5,Terrible experience...,Hotel,South Africa
+1246,631,Credit Card,3,Excellent service!,Museum,Brazil
+1247,485,Debit Card,3,Terrible experience...,Supermarket,Canada
+1248,28,Credit Card,5,Average quality.,Supermarket,India
+1249,714,PayPal,5,Excellent service!,Fitness Center,United Kingdom
+1250,39,Debit Card,2,Terrible experience...,Hotel,Singapore
+1251,953,Credit Card,5,Terrible experience...,Supermarket,Japan
+1252,273,PayPal,4,Excellent service!,Restaurant,Spain
+1253,231,Credit Card,5,Excellent service!,Amusement Park,Singapore
+1254,86,Credit Card,4,Excellent service!,Restaurant,Russia
+1255,474,Credit Card,5,Excellent service!,Cinema,Netherlands
+1256,126,PayPal,2,Average quality.,Bar,Mexico
+1257,812,PayPal,4,Excellent service!,Fitness Center,New Zealand
+1258,537,Credit Card,1,Average quality.,Amusement Park,Mexico
+1259,145,Debit Card,4,Average quality.,Gas Station,France
+1260,525,Debit Card,2,Excellent service!,Gas Station,Canada
+1261,212,PayPal,4,Average quality.,Amusement Park,Australia
+1262,25,PayPal,5,Excellent service!,Restaurant,Mexico
+1263,580,PayPal,5,Excellent service!,ATM,New Zealand
+1264,394,PayPal,2,Terrible experience...,Bar,Australia
+1265,67,PayPal,3,Excellent service!,Hotel,China
+1266,233,Debit Card,5,Terrible experience...,Restaurant,Mexico
+1267,109,PayPal,1,Average quality.,Amusement Park,Mexico
+1268,146,Credit Card,2,Terrible experience...,ATM,Switzerland
+1269,111,Credit Card,4,Average quality.,Restaurant,Mexico
+1270,228,Debit Card,4,Excellent service!,ATM,Sweden
+1271,111,Credit Card,1,Average quality.,Amusement Park,USA
+1272,470,Debit Card,5,Average quality.,Restaurant,Germany
+1273,34,Debit Card,2,Excellent service!,Online,Singapore
+1274,623,Credit Card,1,Average quality.,Supermarket,Singapore
+1275,776,PayPal,5,Excellent service!,Amusement Park,Russia
+1276,936,Credit Card,2,Terrible experience...,Gas Station,Canada
+1277,369,Credit Card,4,Excellent service!,Gas Station,Japan
+1278,748,Debit Card,2,Excellent service!,Bar,Canada
+1279,595,Credit Card,3,Average quality.,Retail Store,New Zealand
+1280,554,Debit Card,2,Terrible experience...,Gas Station,Spain
+1281,425,PayPal,3,Excellent service!,Retail Store,Sweden
+1282,613,PayPal,2,Terrible experience...,Online,Germany
+1283,518,PayPal,3,Terrible experience...,Amusement Park,Switzerland
+1284,692,Credit Card,4,Average quality.,ATM,Canada
+1285,282,Debit Card,5,Excellent service!,Fitness Center,Mexico
+1286,320,PayPal,3,Average quality.,Bar,New Zealand
+1287,738,Debit Card,3,Excellent service!,Supermarket,India
+1288,443,Debit Card,4,Terrible experience...,Fitness Center,Singapore
+1289,952,PayPal,3,Excellent service!,Hotel,France
+1290,315,PayPal,1,Excellent service!,Retail Store,Mexico
+1291,877,Debit Card,4,Terrible experience...,Supermarket,Sweden
+1292,966,PayPal,1,Terrible experience...,Bar,France
+1293,741,Debit Card,4,Excellent service!,Bar,Japan
+1294,377,Debit Card,3,Average quality.,Gas Station,Russia
+1295,289,PayPal,1,Excellent service!,Supermarket,Switzerland
+1296,437,Credit Card,3,Terrible experience...,Restaurant,Japan
+1297,662,PayPal,4,Average quality.,Cinema,Russia
+1298,277,Credit Card,3,Terrible experience...,Bar,Japan
+1299,710,Debit Card,1,Terrible experience...,Retail Store,India
+1300,582,Debit Card,1,Average quality.,Fitness Center,Netherlands
+1301,503,Credit Card,3,Terrible experience...,Hotel,Italy
+1302,624,Debit Card,2,Terrible experience...,Hotel,South Africa
+1303,516,Credit Card,4,Terrible experience...,Museum,Japan
+1304,350,Credit Card,4,Terrible experience...,Fitness Center,Germany
+1305,843,Debit Card,3,Terrible experience...,Online,India
+1306,446,Credit Card,2,Terrible experience...,Online,Germany
+1307,830,PayPal,1,Terrible experience...,Fitness Center,Sweden
+1308,350,PayPal,5,Terrible experience...,Gas Station,South Africa
+1309,607,Debit Card,5,Terrible experience...,Restaurant,Netherlands
+1310,664,Debit Card,3,Excellent service!,Gas Station,China
+1311,823,Credit Card,2,Excellent service!,Hotel,Japan
+1312,137,Credit Card,2,Terrible experience...,ATM,Netherlands
+1313,759,Credit Card,4,Excellent service!,Hotel,Brazil
+1314,899,Credit Card,1,Average quality.,Bar,South Africa
+1315,243,PayPal,2,Excellent service!,Supermarket,China
+1316,543,PayPal,5,Terrible experience...,Supermarket,Sweden
+1317,40,Debit Card,1,Terrible experience...,Bar,China
+1318,229,Credit Card,1,Excellent service!,Bar,Germany
+1319,548,Credit Card,3,Terrible experience...,Hotel,Sweden
+1320,920,Debit Card,2,Average quality.,Supermarket,Brazil
+1321,223,Credit Card,3,Average quality.,Supermarket,India
+1322,6,Credit Card,2,Terrible experience...,Amusement Park,Sweden
+1323,322,Credit Card,4,Average quality.,Museum,France
+1324,468,Credit Card,3,Average quality.,Supermarket,Singapore
+1325,732,Credit Card,3,Excellent service!,Bar,Sweden
+1326,75,Debit Card,5,Average quality.,Online,Mexico
+1327,4,Credit Card,3,Excellent service!,Restaurant,China
+1328,847,Debit Card,2,Terrible experience...,ATM,Singapore
+1329,646,Credit Card,5,Excellent service!,Fitness Center,Mexico
+1330,118,PayPal,3,Terrible experience...,Bar,Australia
+1331,881,PayPal,3,Terrible experience...,Museum,Australia
+1332,606,PayPal,4,Terrible experience...,Supermarket,New Zealand
+1333,504,PayPal,3,Terrible experience...,Retail Store,Mexico
+1334,998,Debit Card,1,Terrible experience...,Hotel,Switzerland
+1335,947,Debit Card,5,Excellent service!,Hotel,New Zealand
+1336,574,Credit Card,1,Terrible experience...,Restaurant,China
+1337,441,PayPal,5,Average quality.,Bar,Brazil
+1338,194,Debit Card,4,Average quality.,Restaurant,Singapore
+1339,847,Credit Card,3,Terrible experience...,Online,Switzerland
+1340,715,Credit Card,3,Average quality.,Cinema,Singapore
+1341,392,Debit Card,3,Excellent service!,Gas Station,Spain
+1342,26,PayPal,5,Excellent service!,Retail Store,China
+1343,435,Credit Card,3,Terrible experience...,Gas Station,New Zealand
+1344,173,PayPal,1,Terrible experience...,Cinema,Japan
+1345,300,PayPal,3,Terrible experience...,Retail Store,Switzerland
+1346,645,PayPal,4,Average quality.,Gas Station,France
+1347,326,Credit Card,1,Average quality.,Retail Store,Australia
+1348,410,PayPal,3,Excellent service!,Restaurant,Canada
+1349,118,Credit Card,3,Average quality.,ATM,Japan
+1350,836,PayPal,2,Excellent service!,Amusement Park,USA
+1351,787,Credit Card,5,Average quality.,Retail Store,China
+1352,724,PayPal,1,Excellent service!,Cinema,USA
+1353,225,Debit Card,2,Terrible experience...,Restaurant,India
+1354,532,PayPal,4,Average quality.,Amusement Park,Brazil
+1355,113,PayPal,5,Excellent service!,Restaurant,Sweden
+1356,140,Credit Card,1,Average quality.,Online,Italy
+1357,559,Credit Card,3,Terrible experience...,Supermarket,USA
+1358,1,PayPal,1,Excellent service!,Hotel,Brazil
+1359,90,Debit Card,3,Average quality.,Online,Sweden
+1360,654,Debit Card,5,Average quality.,Cinema,Spain
+1361,320,Credit Card,3,Terrible experience...,Bar,Italy
+1362,550,Debit Card,4,Terrible experience...,Fitness Center,Italy
+1363,805,PayPal,3,Excellent service!,Bar,Spain
+1364,894,Credit Card,4,Average quality.,Hotel,Russia
+1365,139,PayPal,5,Average quality.,Restaurant,Italy
+1366,511,Credit Card,5,Terrible experience...,ATM,Switzerland
+1367,868,Credit Card,1,Terrible experience...,Fitness Center,Italy
+1368,845,Credit Card,4,Excellent service!,Cinema,India
+1369,259,Credit Card,4,Average quality.,Hotel,Singapore
+1370,673,Debit Card,2,Average quality.,Museum,Switzerland
+1371,902,PayPal,2,Excellent service!,Amusement Park,Netherlands
+1372,690,PayPal,2,Excellent service!,Amusement Park,Canada
+1373,10,PayPal,3,Terrible experience...,Bar,Brazil
+1374,261,Credit Card,2,Terrible experience...,Supermarket,Netherlands
+1375,919,Debit Card,4,Excellent service!,Fitness Center,Italy
+1376,650,PayPal,3,Excellent service!,Museum,Germany
+1377,172,Debit Card,5,Average quality.,Restaurant,USA
+1378,898,Credit Card,1,Excellent service!,Bar,China
+1379,13,PayPal,2,Excellent service!,ATM,South Africa
+1380,168,Debit Card,5,Average quality.,Fitness Center,USA
+1381,642,Credit Card,4,Excellent service!,Hotel,New Zealand
+1382,596,Debit Card,1,Terrible experience...,Retail Store,Spain
+1383,321,PayPal,5,Terrible experience...,ATM,USA
+1384,319,PayPal,1,Average quality.,Fitness Center,Germany
+1385,613,Credit Card,2,Excellent service!,Retail Store,New Zealand
+1386,329,Credit Card,4,Terrible experience...,Restaurant,United Kingdom
+1387,785,Credit Card,1,Terrible experience...,Hotel,Singapore
+1388,777,Debit Card,5,Terrible experience...,Museum,Japan
+1389,971,Debit Card,2,Terrible experience...,Amusement Park,USA
+1390,911,Debit Card,2,Excellent service!,Museum,South Africa
+1391,920,Credit Card,5,Excellent service!,Museum,Germany
+1392,550,PayPal,5,Excellent service!,Museum,Canada
+1393,419,PayPal,1,Excellent service!,Amusement Park,France
+1394,606,Debit Card,3,Terrible experience...,Online,Brazil
+1395,95,Debit Card,2,Average quality.,Amusement Park,France
+1396,817,PayPal,1,Average quality.,Cinema,India
+1397,581,PayPal,5,Terrible experience...,Online,China
+1398,318,Debit Card,1,Terrible experience...,Online,Germany
+1399,956,Debit Card,5,Average quality.,Fitness Center,China
+1400,236,PayPal,4,Average quality.,Amusement Park,New Zealand
+1401,946,Credit Card,5,Terrible experience...,Bar,New Zealand
+1402,334,Debit Card,5,Terrible experience...,Supermarket,India
+1403,885,PayPal,5,Excellent service!,Supermarket,Canada
+1404,376,PayPal,3,Excellent service!,Fitness Center,France
+1405,459,PayPal,5,Average quality.,Cinema,Japan
+1406,137,PayPal,2,Terrible experience...,Gas Station,Italy
+1407,930,Credit Card,2,Average quality.,Bar,Sweden
+1408,588,PayPal,1,Excellent service!,Gas Station,Canada
+1409,995,Debit Card,3,Excellent service!,Retail Store,Canada
+1410,547,Credit Card,1,Average quality.,Museum,Russia
+1411,513,PayPal,2,Excellent service!,Bar,China
+1412,296,Credit Card,2,Terrible experience...,Fitness Center,Switzerland
+1413,320,Debit Card,4,Average quality.,Hotel,Canada
+1414,918,PayPal,5,Terrible experience...,Gas Station,Japan
+1415,572,Debit Card,2,Terrible experience...,Cinema,Sweden
+1416,832,PayPal,1,Excellent service!,Cinema,Netherlands
+1417,349,PayPal,1,Terrible experience...,Bar,Brazil
+1418,840,PayPal,5,Average quality.,Online,Spain
+1419,779,PayPal,5,Terrible experience...,Hotel,Italy
+1420,873,PayPal,4,Terrible experience...,Restaurant,Australia
+1421,229,Credit Card,3,Terrible experience...,Hotel,Spain
+1422,270,PayPal,1,Terrible experience...,Fitness Center,China
+1423,828,PayPal,5,Terrible experience...,Cinema,Russia
+1424,798,Credit Card,1,Excellent service!,Retail Store,Netherlands
+1425,291,Credit Card,5,Average quality.,Museum,Spain
+1426,725,Credit Card,2,Excellent service!,Gas Station,Japan
+1427,165,Credit Card,1,Average quality.,Gas Station,South Africa
+1428,5,Credit Card,2,Average quality.,Retail Store,Australia
+1429,851,Credit Card,1,Average quality.,ATM,Canada
+1430,379,PayPal,3,Average quality.,Museum,Sweden
+1431,78,PayPal,4,Average quality.,Bar,South Africa
+1432,410,Debit Card,2,Terrible experience...,Fitness Center,France
+1433,574,PayPal,5,Excellent service!,Cinema,Spain
+1434,132,PayPal,3,Excellent service!,Supermarket,Brazil
+1435,601,Credit Card,1,Terrible experience...,Amusement Park,Netherlands
+1436,749,Credit Card,2,Average quality.,Retail Store,Italy
+1437,42,PayPal,1,Excellent service!,Retail Store,Russia
+1438,89,Debit Card,1,Terrible experience...,Hotel,Russia
+1439,402,Credit Card,1,Terrible experience...,Bar,China
+1440,296,PayPal,4,Excellent service!,Bar,Australia
+1441,840,PayPal,4,Excellent service!,Supermarket,China
+1442,295,Debit Card,5,Average quality.,Amusement Park,Sweden
+1443,616,Debit Card,2,Average quality.,Bar,Switzerland
+1444,526,Credit Card,3,Excellent service!,Online,Russia
+1445,800,Debit Card,3,Average quality.,Cinema,South Africa
+1446,691,PayPal,3,Terrible experience...,Fitness Center,Germany
+1447,637,PayPal,1,Average quality.,Online,Sweden
+1448,422,Debit Card,4,Average quality.,ATM,Japan
+1449,865,Debit Card,2,Terrible experience...,Fitness Center,Russia
+1450,23,Debit Card,1,Average quality.,Cinema,United Kingdom
+1451,575,Debit Card,4,Terrible experience...,Museum,Switzerland
+1452,143,Credit Card,4,Average quality.,Restaurant,India
+1453,993,Debit Card,2,Excellent service!,Cinema,India
+1454,665,Credit Card,2,Average quality.,Cinema,Australia
+1455,145,PayPal,2,Excellent service!,Supermarket,China
+1456,225,Debit Card,1,Excellent service!,Museum,Australia
+1457,503,Credit Card,5,Excellent service!,Online,Mexico
+1458,962,Debit Card,2,Excellent service!,Amusement Park,Australia
+1459,974,PayPal,5,Excellent service!,Hotel,Singapore
+1460,821,PayPal,1,Terrible experience...,Supermarket,New Zealand
+1461,616,PayPal,5,Terrible experience...,Cinema,USA
+1462,104,Debit Card,3,Terrible experience...,Hotel,United Kingdom
+1463,947,Debit Card,5,Excellent service!,Fitness Center,United Kingdom
+1464,39,Credit Card,2,Average quality.,Museum,Singapore
+1465,947,PayPal,1,Terrible experience...,Fitness Center,USA
+1466,198,Debit Card,2,Average quality.,Gas Station,Japan
+1467,646,PayPal,3,Average quality.,Hotel,Australia
+1468,579,PayPal,2,Excellent service!,Retail Store,Germany
+1469,391,Credit Card,2,Excellent service!,Supermarket,Italy
+1470,179,Credit Card,2,Excellent service!,Supermarket,Italy
+1471,968,Credit Card,4,Terrible experience...,Retail Store,Spain
+1472,554,Credit Card,3,Excellent service!,Gas Station,Italy
+1473,448,PayPal,2,Terrible experience...,Bar,United Kingdom
+1474,500,Credit Card,2,Terrible experience...,Bar,Spain
+1475,15,Credit Card,2,Terrible experience...,Bar,Germany
+1476,623,Credit Card,1,Terrible experience...,Bar,Japan
+1477,669,Credit Card,4,Excellent service!,Online,China
+1478,289,PayPal,1,Terrible experience...,Retail Store,Italy
+1479,478,Credit Card,4,Excellent service!,Fitness Center,Sweden
+1480,231,PayPal,2,Excellent service!,Gas Station,Sweden
+1481,923,Debit Card,3,Terrible experience...,Fitness Center,Mexico
+1482,420,PayPal,5,Excellent service!,Cinema,India
+1483,157,PayPal,5,Average quality.,ATM,Netherlands
+1484,550,Credit Card,2,Excellent service!,Supermarket,USA
+1485,441,Debit Card,1,Excellent service!,Hotel,Italy
+1486,97,Debit Card,3,Terrible experience...,Bar,Russia
+1487,997,Debit Card,4,Terrible experience...,Hotel,India
+1488,411,Debit Card,2,Excellent service!,ATM,USA
+1489,951,PayPal,3,Terrible experience...,Supermarket,Canada
+1490,289,Debit Card,3,Average quality.,Restaurant,Mexico
+1491,254,PayPal,4,Average quality.,Fitness Center,Australia
+1492,196,PayPal,3,Terrible experience...,Amusement Park,Singapore
+1493,598,PayPal,1,Excellent service!,Gas Station,India
+1494,834,Debit Card,1,Average quality.,Online,India
+1495,522,Credit Card,1,Average quality.,Hotel,Switzerland
+1496,517,Credit Card,3,Excellent service!,Bar,Canada
+1497,635,Debit Card,1,Terrible experience...,Retail Store,Singapore
+1498,842,Credit Card,4,Average quality.,Hotel,India
+1499,865,Credit Card,3,Excellent service!,Supermarket,France
+1500,118,PayPal,5,Excellent service!,Restaurant,Russia
+1501,806,PayPal,3,Average quality.,Gas Station,Germany
+1502,909,Debit Card,4,Terrible experience...,Retail Store,France
+1503,159,Debit Card,5,Average quality.,Amusement Park,Canada
+1504,815,Credit Card,3,Excellent service!,Supermarket,Netherlands
+1505,228,PayPal,1,Average quality.,Restaurant,Italy
+1506,877,Debit Card,2,Terrible experience...,Retail Store,Sweden
+1507,216,Debit Card,2,Excellent service!,Amusement Park,Brazil
+1508,948,Debit Card,1,Terrible experience...,Hotel,Netherlands
+1509,696,Debit Card,2,Average quality.,Supermarket,United Kingdom
+1510,15,Debit Card,2,Average quality.,Fitness Center,Switzerland
+1511,157,Debit Card,1,Terrible experience...,Museum,Mexico
+1512,648,Credit Card,1,Average quality.,Cinema,Italy
+1513,261,PayPal,3,Terrible experience...,Museum,China
+1514,157,PayPal,3,Average quality.,Amusement Park,New Zealand
+1515,47,Debit Card,1,Terrible experience...,Restaurant,Sweden
+1516,324,PayPal,4,Terrible experience...,Cinema,United Kingdom
+1517,844,PayPal,2,Excellent service!,Cinema,China
+1518,685,PayPal,3,Excellent service!,Online,Germany
+1519,130,Debit Card,2,Terrible experience...,Restaurant,Mexico
+1520,411,Debit Card,5,Average quality.,Cinema,China
+1521,95,PayPal,1,Average quality.,Hotel,New Zealand
+1522,627,PayPal,4,Average quality.,Supermarket,Spain
+1523,755,Debit Card,5,Terrible experience...,Supermarket,Japan
+1524,932,Credit Card,5,Terrible experience...,Museum,France
+1525,292,PayPal,5,Terrible experience...,Hotel,Japan
+1526,794,Credit Card,1,Terrible experience...,Online,United Kingdom
+1527,811,PayPal,3,Excellent service!,Gas Station,China
+1528,283,Credit Card,1,Terrible experience...,Online,Russia
+1529,69,Credit Card,3,Average quality.,Supermarket,Italy
+1530,660,Credit Card,5,Excellent service!,Gas Station,Australia
+1531,11,Debit Card,5,Average quality.,Online,Singapore
+1532,254,Credit Card,4,Terrible experience...,Cinema,South Africa
+1533,842,Credit Card,3,Excellent service!,Fitness Center,India
+1534,872,Credit Card,5,Terrible experience...,Gas Station,Russia
+1535,550,PayPal,2,Excellent service!,Fitness Center,France
+1536,134,Credit Card,4,Average quality.,Supermarket,Sweden
+1537,712,PayPal,1,Terrible experience...,Hotel,United Kingdom
+1538,23,Credit Card,4,Terrible experience...,Bar,China
+1539,815,Credit Card,2,Excellent service!,Fitness Center,China
+1540,346,Debit Card,3,Excellent service!,Museum,USA
+1541,302,PayPal,1,Terrible experience...,Cinema,Italy
+1542,363,Credit Card,1,Excellent service!,Cinema,Singapore
+1543,396,PayPal,3,Terrible experience...,Bar,Russia
+1544,218,PayPal,4,Excellent service!,Amusement Park,Singapore
+1545,141,Debit Card,5,Average quality.,Museum,Singapore
+1546,616,Debit Card,4,Excellent service!,Fitness Center,Switzerland
+1547,958,Debit Card,2,Average quality.,Fitness Center,Mexico
+1548,210,Debit Card,5,Excellent service!,ATM,United Kingdom
+1549,985,Debit Card,4,Excellent service!,Fitness Center,Netherlands
+1550,993,Debit Card,3,Terrible experience...,Retail Store,China
+1551,623,Debit Card,2,Excellent service!,Restaurant,Russia
+1552,616,Debit Card,2,Excellent service!,Online,Sweden
+1553,828,Credit Card,2,Average quality.,ATM,Netherlands
+1554,683,PayPal,5,Excellent service!,Online,Japan
+1555,460,Debit Card,1,Terrible experience...,ATM,Brazil
+1556,356,Debit Card,5,Average quality.,Gas Station,South Africa
+1557,324,PayPal,4,Terrible experience...,Hotel,South Africa
+1558,133,Credit Card,1,Terrible experience...,Fitness Center,Sweden
+1559,888,PayPal,4,Terrible experience...,Fitness Center,China
+1560,805,PayPal,1,Terrible experience...,Restaurant,United Kingdom
+1561,840,Debit Card,5,Average quality.,Restaurant,Netherlands
+1562,127,PayPal,2,Excellent service!,Online,Italy
+1563,106,PayPal,3,Terrible experience...,Bar,United Kingdom
+1564,604,Debit Card,2,Average quality.,Gas Station,Japan
+1565,799,Debit Card,5,Terrible experience...,Amusement Park,Germany
+1566,378,Debit Card,1,Excellent service!,Restaurant,South Africa
+1567,905,Debit Card,2,Average quality.,Retail Store,USA
+1568,51,PayPal,5,Average quality.,Fitness Center,India
+1569,29,PayPal,4,Excellent service!,Online,China
+1570,462,Credit Card,3,Average quality.,Cinema,Japan
+1571,296,Credit Card,2,Excellent service!,Retail Store,Mexico
+1572,297,PayPal,1,Average quality.,Supermarket,Germany
+1573,726,Credit Card,4,Average quality.,Online,New Zealand
+1574,779,PayPal,5,Excellent service!,Online,China
+1575,407,Credit Card,3,Excellent service!,Cinema,New Zealand
+1576,769,Debit Card,1,Average quality.,Gas Station,Switzerland
+1577,814,Credit Card,5,Average quality.,Cinema,Spain
+1578,613,Debit Card,5,Excellent service!,Museum,Germany
+1579,405,Debit Card,2,Excellent service!,Restaurant,USA
+1580,346,Debit Card,2,Average quality.,Hotel,New Zealand
+1581,622,Debit Card,1,Average quality.,Online,Russia
+1582,420,Credit Card,5,Average quality.,Supermarket,Germany
+1583,182,PayPal,2,Excellent service!,Bar,India
+1584,983,Debit Card,3,Average quality.,Online,United Kingdom
+1585,825,Credit Card,3,Terrible experience...,Cinema,Italy
+1586,1,Debit Card,5,Excellent service!,ATM,Switzerland
+1587,831,Credit Card,2,Average quality.,Online,New Zealand
+1588,950,Credit Card,1,Excellent service!,Online,Canada
+1589,567,Credit Card,1,Terrible experience...,Museum,Spain
+1590,371,PayPal,1,Excellent service!,Supermarket,France
+1591,936,Credit Card,3,Average quality.,Museum,France
+1592,911,Credit Card,2,Terrible experience...,Supermarket,United Kingdom
+1593,661,PayPal,2,Terrible experience...,Online,New Zealand
+1594,431,PayPal,3,Average quality.,ATM,South Africa
+1595,969,Credit Card,1,Average quality.,Hotel,Australia
+1596,309,PayPal,1,Average quality.,Amusement Park,France
+1597,137,Debit Card,5,Excellent service!,ATM,New Zealand
+1598,202,Debit Card,4,Excellent service!,ATM,India
+1599,436,PayPal,2,Excellent service!,ATM,South Africa
+1600,313,PayPal,2,Average quality.,Fitness Center,Spain
+1601,117,Credit Card,2,Average quality.,Hotel,South Africa
+1602,666,PayPal,4,Excellent service!,Gas Station,Sweden
+1603,937,Credit Card,5,Terrible experience...,Gas Station,India
+1604,803,Debit Card,4,Excellent service!,ATM,China
+1605,575,PayPal,1,Terrible experience...,Amusement Park,Singapore
+1606,244,Credit Card,1,Average quality.,Museum,France
+1607,537,Credit Card,2,Average quality.,Cinema,USA
+1608,602,Debit Card,3,Excellent service!,Retail Store,Brazil
+1609,75,PayPal,2,Excellent service!,Gas Station,Spain
+1610,806,Debit Card,3,Average quality.,Bar,Australia
+1611,386,Credit Card,4,Excellent service!,Supermarket,Sweden
+1612,903,Credit Card,1,Average quality.,Hotel,China
+1613,210,PayPal,3,Average quality.,Hotel,Germany
+1614,475,Credit Card,4,Terrible experience...,Retail Store,Mexico
+1615,418,PayPal,1,Excellent service!,Gas Station,New Zealand
+1616,347,Debit Card,3,Average quality.,Amusement Park,Australia
+1617,529,PayPal,2,Excellent service!,Amusement Park,India
+1618,640,PayPal,2,Terrible experience...,Supermarket,Australia
+1619,939,Credit Card,2,Terrible experience...,ATM,Germany
+1620,955,Credit Card,4,Excellent service!,Cinema,Netherlands
+1621,876,PayPal,2,Excellent service!,Gas Station,Sweden
+1622,763,Credit Card,5,Average quality.,Amusement Park,Spain
+1623,179,Credit Card,1,Terrible experience...,Retail Store,India
+1624,182,Credit Card,4,Terrible experience...,Supermarket,Mexico
+1625,664,PayPal,2,Terrible experience...,Online,Russia
+1626,25,Credit Card,1,Excellent service!,Supermarket,India
+1627,967,PayPal,3,Average quality.,Fitness Center,India
+1628,180,Credit Card,2,Excellent service!,Amusement Park,France
+1629,710,Debit Card,1,Excellent service!,Online,Mexico
+1630,501,Credit Card,5,Excellent service!,Bar,China
+1631,856,Credit Card,3,Average quality.,Restaurant,Netherlands
+1632,161,PayPal,5,Excellent service!,Supermarket,France
+1633,177,PayPal,1,Terrible experience...,Retail Store,Brazil
+1634,285,Credit Card,5,Terrible experience...,Retail Store,Brazil
+1635,63,Debit Card,1,Terrible experience...,Fitness Center,USA
+1636,662,Credit Card,1,Average quality.,Cinema,South Africa
+1637,666,Credit Card,5,Excellent service!,ATM,Germany
+1638,156,Debit Card,1,Average quality.,Supermarket,Sweden
+1639,882,PayPal,2,Excellent service!,Amusement Park,South Africa
+1640,469,Credit Card,1,Terrible experience...,Restaurant,France
+1641,49,PayPal,4,Excellent service!,Fitness Center,Sweden
+1642,967,PayPal,1,Excellent service!,Gas Station,Italy
+1643,849,Debit Card,4,Excellent service!,Amusement Park,China
+1644,84,Debit Card,1,Average quality.,Retail Store,Japan
+1645,361,PayPal,1,Excellent service!,Bar,Italy
+1646,689,Credit Card,5,Excellent service!,Amusement Park,Spain
+1647,148,PayPal,2,Excellent service!,Hotel,Russia
+1648,630,Credit Card,2,Average quality.,Museum,Germany
+1649,342,Credit Card,3,Average quality.,Retail Store,United Kingdom
+1650,476,Debit Card,5,Average quality.,Supermarket,Brazil
+1651,63,Credit Card,5,Excellent service!,Bar,China
+1652,701,Credit Card,2,Terrible experience...,Hotel,Spain
+1653,360,PayPal,5,Terrible experience...,Online,United Kingdom
+1654,561,Debit Card,2,Terrible experience...,Restaurant,Italy
+1655,327,Credit Card,5,Excellent service!,Retail Store,Brazil
+1656,769,Credit Card,1,Terrible experience...,Supermarket,United Kingdom
+1657,736,Debit Card,2,Terrible experience...,Hotel,Spain
+1658,141,PayPal,2,Terrible experience...,Hotel,Australia
+1659,990,Debit Card,4,Excellent service!,ATM,China
+1660,215,Debit Card,5,Terrible experience...,Hotel,Australia
+1661,435,Credit Card,5,Terrible experience...,Restaurant,Brazil
+1662,891,Credit Card,2,Excellent service!,Bar,New Zealand
+1663,952,PayPal,1,Average quality.,Fitness Center,Russia
+1664,723,Credit Card,1,Terrible experience...,Bar,New Zealand
+1665,318,Credit Card,1,Average quality.,Hotel,Sweden
+1666,32,Debit Card,5,Terrible experience...,Supermarket,Russia
+1667,670,Credit Card,4,Excellent service!,Retail Store,Switzerland
+1668,285,PayPal,2,Average quality.,Supermarket,India
+1669,305,Debit Card,3,Average quality.,Fitness Center,South Africa
+1670,429,PayPal,4,Average quality.,Museum,Brazil
+1671,477,Debit Card,3,Average quality.,Cinema,Switzerland
+1672,286,Credit Card,4,Terrible experience...,Retail Store,New Zealand
+1673,144,Debit Card,1,Terrible experience...,Online,New Zealand
+1674,424,Debit Card,5,Average quality.,Museum,China
+1675,19,Credit Card,3,Terrible experience...,Restaurant,Switzerland
+1676,18,Credit Card,4,Average quality.,Museum,Sweden
+1677,769,PayPal,5,Average quality.,Supermarket,Canada
+1678,590,PayPal,3,Excellent service!,ATM,South Africa
+1679,371,Credit Card,2,Average quality.,Bar,Mexico
+1680,175,Credit Card,4,Terrible experience...,Hotel,New Zealand
+1681,194,Credit Card,2,Average quality.,Retail Store,Spain
+1682,502,Debit Card,1,Excellent service!,Fitness Center,Netherlands
+1683,988,Debit Card,2,Terrible experience...,Hotel,Netherlands
+1684,113,Debit Card,2,Excellent service!,Online,France
+1685,114,Credit Card,4,Excellent service!,Cinema,Brazil
+1686,222,PayPal,1,Average quality.,Hotel,Netherlands
+1687,678,Credit Card,2,Excellent service!,Supermarket,USA
+1688,947,Debit Card,5,Excellent service!,Retail Store,Canada
+1689,831,Debit Card,3,Terrible experience...,ATM,Japan
+1690,644,Credit Card,2,Excellent service!,Online,Russia
+1691,897,Credit Card,1,Average quality.,Amusement Park,Japan
+1692,264,Debit Card,2,Average quality.,Restaurant,Canada
+1693,925,Debit Card,3,Average quality.,Cinema,South Africa
+1694,55,Debit Card,1,Excellent service!,Supermarket,New Zealand
+1695,871,Credit Card,4,Terrible experience...,Restaurant,Sweden
+1696,643,Debit Card,1,Average quality.,Fitness Center,Russia
+1697,800,Debit Card,4,Excellent service!,ATM,Switzerland
+1698,778,PayPal,1,Average quality.,Restaurant,Singapore
+1699,458,Credit Card,3,Average quality.,Bar,France
+1700,979,PayPal,3,Terrible experience...,Fitness Center,South Africa
+1701,878,PayPal,1,Average quality.,Retail Store,Russia
+1702,162,Debit Card,2,Terrible experience...,Restaurant,South Africa
+1703,380,Credit Card,3,Excellent service!,Supermarket,Germany
+1704,993,Debit Card,4,Average quality.,Amusement Park,United Kingdom
+1705,87,Credit Card,4,Excellent service!,Bar,South Africa
+1706,55,PayPal,5,Excellent service!,Bar,Singapore
+1707,476,Credit Card,4,Excellent service!,Restaurant,South Africa
+1708,800,Debit Card,5,Average quality.,Cinema,Netherlands
+1709,178,Debit Card,1,Terrible experience...,Gas Station,New Zealand
+1710,391,Debit Card,1,Average quality.,Fitness Center,Australia
+1711,349,Credit Card,1,Excellent service!,Cinema,France
+1712,8,PayPal,2,Terrible experience...,Museum,Switzerland
+1713,833,PayPal,2,Excellent service!,Hotel,China
+1714,313,Credit Card,5,Terrible experience...,Supermarket,France
+1715,759,Debit Card,4,Average quality.,Gas Station,South Africa
+1716,835,PayPal,4,Terrible experience...,Retail Store,Canada
+1717,984,Debit Card,1,Average quality.,Bar,France
+1718,983,Credit Card,3,Excellent service!,Supermarket,New Zealand
+1719,443,Debit Card,2,Terrible experience...,Fitness Center,Germany
+1720,767,PayPal,2,Excellent service!,ATM,Netherlands
+1721,328,PayPal,1,Terrible experience...,Hotel,Netherlands
+1722,54,Debit Card,2,Average quality.,Amusement Park,Canada
+1723,761,Credit Card,1,Terrible experience...,Hotel,Canada
+1724,239,Debit Card,5,Terrible experience...,Supermarket,Sweden
+1725,229,Credit Card,4,Average quality.,Retail Store,Australia
+1726,579,Debit Card,3,Average quality.,Bar,France
+1727,51,PayPal,4,Average quality.,Online,Russia
+1728,609,Credit Card,4,Terrible experience...,Online,Russia
+1729,604,Credit Card,5,Excellent service!,Supermarket,Russia
+1730,264,Credit Card,2,Terrible experience...,Restaurant,India
+1731,418,PayPal,3,Terrible experience...,Cinema,Australia
+1732,803,Debit Card,2,Excellent service!,Fitness Center,USA
+1733,96,PayPal,4,Average quality.,Hotel,United Kingdom
+1734,88,Credit Card,1,Terrible experience...,Retail Store,Japan
+1735,78,Debit Card,4,Excellent service!,Fitness Center,USA
+1736,288,PayPal,2,Average quality.,Hotel,France
+1737,120,Credit Card,4,Average quality.,ATM,New Zealand
+1738,814,Credit Card,1,Terrible experience...,Online,South Africa
+1739,491,PayPal,5,Average quality.,Museum,Canada
+1740,912,PayPal,2,Average quality.,Bar,New Zealand
+1741,452,PayPal,4,Excellent service!,Fitness Center,United Kingdom
+1742,500,Credit Card,2,Excellent service!,ATM,Singapore
+1743,165,PayPal,5,Average quality.,Museum,South Africa
+1744,182,Credit Card,4,Excellent service!,Bar,Italy
+1745,469,PayPal,4,Average quality.,Hotel,United Kingdom
+1746,910,Credit Card,2,Terrible experience...,Fitness Center,Italy
+1747,735,Credit Card,2,Excellent service!,Retail Store,Mexico
+1748,823,Debit Card,1,Average quality.,Online,Switzerland
+1749,944,PayPal,5,Average quality.,Hotel,Sweden
+1750,978,PayPal,1,Excellent service!,Online,USA
+1751,7,Credit Card,4,Excellent service!,Supermarket,Australia
+1752,330,Credit Card,2,Terrible experience...,Museum,Italy
+1753,775,Credit Card,4,Average quality.,Amusement Park,Netherlands
+1754,673,Debit Card,4,Terrible experience...,Museum,Germany
+1755,151,Debit Card,3,Terrible experience...,Amusement Park,USA
+1756,85,Credit Card,3,Terrible experience...,Bar,Singapore
+1757,147,PayPal,4,Excellent service!,Hotel,France
+1758,624,PayPal,2,Terrible experience...,Gas Station,Japan
+1759,381,Debit Card,4,Excellent service!,Online,China
+1760,915,Debit Card,3,Excellent service!,Online,Sweden
+1761,548,Credit Card,2,Terrible experience...,Gas Station,South Africa
+1762,285,PayPal,4,Terrible experience...,Restaurant,China
+1763,700,Credit Card,5,Average quality.,Fitness Center,Brazil
+1764,82,Debit Card,5,Terrible experience...,Hotel,China
+1765,514,PayPal,4,Average quality.,Gas Station,South Africa
+1766,897,PayPal,2,Terrible experience...,Amusement Park,Singapore
+1767,815,Debit Card,4,Terrible experience...,Fitness Center,New Zealand
+1768,709,Credit Card,4,Terrible experience...,Online,Japan
+1769,916,Credit Card,3,Terrible experience...,Museum,China
+1770,523,PayPal,5,Average quality.,Amusement Park,Mexico
+1771,746,Debit Card,3,Average quality.,Hotel,Australia
+1772,386,PayPal,3,Terrible experience...,Retail Store,China
+1773,707,Debit Card,4,Terrible experience...,Museum,Australia
+1774,471,Credit Card,3,Average quality.,Retail Store,China
+1775,119,Debit Card,5,Excellent service!,Bar,India
+1776,396,Credit Card,3,Excellent service!,Fitness Center,USA
+1777,532,Debit Card,5,Excellent service!,Amusement Park,Russia
+1778,261,PayPal,3,Average quality.,Amusement Park,United Kingdom
+1779,805,Credit Card,5,Average quality.,Amusement Park,USA
+1780,934,PayPal,3,Excellent service!,Restaurant,France
+1781,256,PayPal,3,Excellent service!,Amusement Park,South Africa
+1782,734,Credit Card,2,Terrible experience...,Retail Store,New Zealand
+1783,905,Credit Card,5,Average quality.,Restaurant,United Kingdom
+1784,226,PayPal,5,Average quality.,Bar,India
+1785,53,PayPal,5,Excellent service!,Supermarket,Singapore
+1786,940,PayPal,1,Excellent service!,ATM,Singapore
+1787,867,PayPal,3,Average quality.,Bar,Germany
+1788,500,Credit Card,5,Terrible experience...,Cinema,Italy
+1789,506,Credit Card,1,Excellent service!,Restaurant,Switzerland
+1790,854,PayPal,2,Average quality.,Retail Store,France
+1791,364,Debit Card,5,Average quality.,Retail Store,Russia
+1792,280,Debit Card,5,Terrible experience...,Hotel,Russia
+1793,593,Credit Card,1,Terrible experience...,Online,Australia
+1794,714,PayPal,3,Excellent service!,Amusement Park,Italy
+1795,158,PayPal,2,Excellent service!,Fitness Center,Switzerland
+1796,632,Credit Card,5,Excellent service!,Retail Store,New Zealand
+1797,59,Debit Card,3,Average quality.,Amusement Park,Italy
+1798,727,Debit Card,2,Excellent service!,Gas Station,Canada
+1799,128,Debit Card,4,Average quality.,Online,Canada
+1800,736,Credit Card,4,Excellent service!,Gas Station,France
+1801,721,Debit Card,2,Terrible experience...,Fitness Center,Singapore
+1802,882,Credit Card,1,Terrible experience...,Museum,New Zealand
+1803,115,Credit Card,2,Average quality.,Amusement Park,Sweden
+1804,209,PayPal,2,Terrible experience...,Restaurant,USA
+1805,526,Debit Card,1,Average quality.,Cinema,Japan
+1806,521,Credit Card,1,Average quality.,Online,Japan
+1807,552,Debit Card,3,Terrible experience...,Fitness Center,Canada
+1808,962,Debit Card,3,Average quality.,Restaurant,Sweden
+1809,237,PayPal,1,Terrible experience...,Retail Store,Italy
+1810,281,Debit Card,4,Excellent service!,Cinema,Singapore
+1811,359,PayPal,4,Excellent service!,Supermarket,Spain
+1812,201,Credit Card,2,Terrible experience...,Retail Store,Switzerland
+1813,758,Debit Card,5,Terrible experience...,ATM,China
+1814,278,Credit Card,2,Terrible experience...,Bar,Australia
+1815,235,Debit Card,2,Terrible experience...,Online,Switzerland
+1816,494,Credit Card,5,Excellent service!,Fitness Center,Spain
+1817,4,Debit Card,1,Average quality.,ATM,South Africa
+1818,666,Debit Card,4,Average quality.,Amusement Park,Brazil
+1819,442,Debit Card,2,Excellent service!,Online,South Africa
+1820,29,Debit Card,5,Average quality.,Museum,New Zealand
+1821,109,Debit Card,3,Excellent service!,Museum,Netherlands
+1822,610,Debit Card,2,Average quality.,Bar,India
+1823,727,Debit Card,4,Terrible experience...,Online,Japan
+1824,805,Debit Card,1,Terrible experience...,Restaurant,China
+1825,75,Debit Card,2,Terrible experience...,Gas Station,Germany
+1826,838,Credit Card,2,Excellent service!,Hotel,Germany
+1827,146,PayPal,5,Excellent service!,Restaurant,Brazil
+1828,128,Debit Card,3,Average quality.,Bar,Netherlands
+1829,853,PayPal,3,Average quality.,Fitness Center,Brazil
+1830,42,Debit Card,1,Average quality.,Museum,Netherlands
+1831,356,Debit Card,4,Excellent service!,Online,Switzerland
+1832,41,Credit Card,1,Average quality.,Restaurant,Singapore
+1833,934,Credit Card,2,Terrible experience...,Gas Station,Japan
+1834,34,PayPal,2,Average quality.,ATM,India
+1835,17,Credit Card,3,Terrible experience...,Restaurant,Russia
+1836,677,Credit Card,4,Excellent service!,Amusement Park,Netherlands
+1837,153,PayPal,5,Terrible experience...,ATM,USA
+1838,998,Credit Card,4,Terrible experience...,Bar,France
+1839,378,Debit Card,2,Terrible experience...,ATM,Spain
+1840,588,PayPal,5,Excellent service!,Online,Brazil
+1841,599,PayPal,4,Excellent service!,Cinema,Netherlands
+1842,629,Debit Card,4,Excellent service!,Cinema,Mexico
+1843,874,Credit Card,5,Excellent service!,Supermarket,Australia
+1844,342,PayPal,2,Average quality.,Amusement Park,Italy
+1845,981,PayPal,4,Excellent service!,Online,Australia
+1846,27,Debit Card,5,Terrible experience...,Bar,China
+1847,825,Debit Card,2,Excellent service!,Retail Store,Singapore
+1848,287,Credit Card,5,Average quality.,Cinema,USA
+1849,646,PayPal,5,Average quality.,Bar,Russia
+1850,731,Credit Card,4,Average quality.,ATM,Switzerland
+1851,168,Credit Card,2,Terrible experience...,Restaurant,India
+1852,610,Debit Card,4,Excellent service!,Cinema,Canada
+1853,268,PayPal,1,Excellent service!,Online,South Africa
+1854,749,PayPal,1,Excellent service!,Cinema,USA
+1855,821,PayPal,2,Terrible experience...,Gas Station,Japan
+1856,455,Debit Card,5,Terrible experience...,Gas Station,Japan
+1857,906,Debit Card,4,Average quality.,Gas Station,Germany
+1858,685,Debit Card,4,Average quality.,Amusement Park,Switzerland
+1859,401,Debit Card,2,Excellent service!,Fitness Center,Netherlands
+1860,922,Debit Card,2,Terrible experience...,Cinema,Spain
+1861,981,PayPal,1,Terrible experience...,Supermarket,New Zealand
+1862,476,Credit Card,3,Excellent service!,Museum,France
+1863,702,PayPal,2,Excellent service!,Bar,USA
+1864,634,Credit Card,3,Average quality.,Fitness Center,China
+1865,558,Debit Card,2,Average quality.,Gas Station,Canada
+1866,576,Credit Card,5,Average quality.,ATM,United Kingdom
+1867,130,PayPal,5,Excellent service!,Online,Switzerland
+1868,822,PayPal,1,Excellent service!,Amusement Park,Germany
+1869,363,Credit Card,1,Average quality.,Hotel,Sweden
+1870,705,Debit Card,3,Average quality.,Gas Station,Germany
+1871,819,Debit Card,2,Terrible experience...,Bar,Canada
+1872,693,PayPal,4,Terrible experience...,ATM,Brazil
+1873,292,Credit Card,1,Average quality.,Online,Australia
+1874,371,Debit Card,4,Average quality.,Restaurant,France
+1875,794,Debit Card,4,Terrible experience...,Retail Store,Australia
+1876,29,PayPal,2,Average quality.,ATM,Spain
+1877,149,Debit Card,3,Terrible experience...,Supermarket,Brazil
+1878,779,Credit Card,2,Terrible experience...,ATM,Australia
+1879,296,PayPal,1,Terrible experience...,ATM,China
+1880,11,PayPal,4,Excellent service!,Fitness Center,New Zealand
+1881,512,Credit Card,2,Excellent service!,Supermarket,Singapore
+1882,676,PayPal,2,Average quality.,Restaurant,Brazil
+1883,113,Debit Card,2,Terrible experience...,Amusement Park,Netherlands
+1884,187,Debit Card,1,Excellent service!,Cinema,Germany
+1885,807,Credit Card,3,Average quality.,Online,Switzerland
+1886,744,Debit Card,2,Average quality.,ATM,South Africa
+1887,227,Credit Card,1,Average quality.,ATM,Russia
+1888,310,Credit Card,4,Average quality.,Museum,Japan
+1889,98,Debit Card,5,Average quality.,Supermarket,Switzerland
+1890,55,Credit Card,1,Terrible experience...,Bar,Russia
+1891,623,Debit Card,5,Average quality.,ATM,Italy
+1892,664,PayPal,2,Terrible experience...,ATM,Canada
+1893,758,PayPal,2,Excellent service!,Supermarket,Spain
+1894,406,Credit Card,1,Average quality.,Bar,USA
+1895,69,Debit Card,5,Excellent service!,Supermarket,Switzerland
+1896,312,Debit Card,2,Terrible experience...,Fitness Center,Brazil
+1897,289,PayPal,4,Terrible experience...,Amusement Park,Netherlands
+1898,762,PayPal,3,Excellent service!,ATM,France
+1899,548,Debit Card,3,Average quality.,Gas Station,Spain
+1900,751,Credit Card,2,Average quality.,Online,Singapore
+1901,148,PayPal,5,Excellent service!,Bar,United Kingdom
+1902,467,Credit Card,2,Excellent service!,Gas Station,India
+1903,739,Credit Card,5,Excellent service!,Supermarket,United Kingdom
+1904,244,PayPal,4,Average quality.,Museum,Mexico
+1905,491,Credit Card,5,Average quality.,ATM,Switzerland
+1906,849,Credit Card,2,Average quality.,Museum,Australia
+1907,958,Debit Card,4,Excellent service!,Fitness Center,Netherlands
+1908,507,Credit Card,1,Average quality.,Museum,China
+1909,365,Debit Card,3,Terrible experience...,Supermarket,Spain
+1910,482,PayPal,2,Excellent service!,Fitness Center,Singapore
+1911,201,PayPal,2,Average quality.,Museum,Switzerland
+1912,154,Debit Card,2,Excellent service!,Cinema,Spain
+1913,450,PayPal,4,Terrible experience...,Cinema,France
+1914,501,Credit Card,1,Terrible experience...,Amusement Park,Brazil
+1915,73,Credit Card,5,Excellent service!,ATM,India
+1916,713,Credit Card,1,Excellent service!,ATM,Spain
+1917,296,PayPal,4,Terrible experience...,Gas Station,France
+1918,17,Credit Card,2,Excellent service!,Fitness Center,China
+1919,641,PayPal,3,Terrible experience...,Hotel,Japan
+1920,217,Credit Card,2,Terrible experience...,ATM,China
+1921,61,Debit Card,5,Average quality.,Amusement Park,Russia
+1922,939,PayPal,3,Excellent service!,Bar,Mexico
+1923,616,PayPal,2,Excellent service!,Museum,Japan
+1924,42,Credit Card,3,Average quality.,Bar,Australia
+1925,25,PayPal,1,Terrible experience...,Supermarket,Canada
+1926,39,PayPal,4,Excellent service!,Gas Station,Switzerland
+1927,803,Debit Card,2,Average quality.,Museum,Singapore
+1928,131,Debit Card,5,Average quality.,Fitness Center,Spain
+1929,498,Credit Card,1,Excellent service!,Museum,Switzerland
+1930,229,Debit Card,2,Average quality.,Restaurant,New Zealand
+1931,108,Credit Card,1,Terrible experience...,Fitness Center,United Kingdom
+1932,172,Credit Card,5,Average quality.,Retail Store,Mexico
+1933,435,Credit Card,2,Terrible experience...,Supermarket,Singapore
+1934,478,PayPal,5,Terrible experience...,ATM,Netherlands
+1935,102,Debit Card,3,Excellent service!,Supermarket,Italy
+1936,866,Credit Card,5,Average quality.,Fitness Center,Sweden
+1937,524,Debit Card,3,Terrible experience...,Restaurant,USA
+1938,275,Credit Card,2,Terrible experience...,Retail Store,New Zealand
+1939,613,Debit Card,3,Average quality.,Fitness Center,Russia
+1940,44,Debit Card,2,Terrible experience...,Restaurant,USA
+1941,955,Credit Card,2,Average quality.,Restaurant,France
+1942,817,PayPal,4,Excellent service!,Cinema,Mexico
+1943,957,Debit Card,2,Terrible experience...,Museum,Switzerland
+1944,17,PayPal,3,Terrible experience...,Bar,China
+1945,330,PayPal,4,Average quality.,Fitness Center,Japan
+1946,569,Credit Card,4,Average quality.,Fitness Center,China
+1947,823,Credit Card,2,Average quality.,Hotel,Russia
+1948,497,Credit Card,5,Average quality.,Fitness Center,USA
+1949,815,Debit Card,5,Terrible experience...,ATM,Netherlands
+1950,12,Credit Card,4,Excellent service!,Amusement Park,Brazil
+1951,318,Credit Card,2,Excellent service!,Gas Station,Mexico
+1952,592,Debit Card,5,Excellent service!,Supermarket,Canada
+1953,216,Debit Card,2,Excellent service!,ATM,Canada
+1954,339,Credit Card,2,Average quality.,Museum,India
+1955,776,Credit Card,4,Terrible experience...,Cinema,Sweden
+1956,991,Credit Card,4,Terrible experience...,Bar,Switzerland
+1957,661,Credit Card,1,Terrible experience...,Supermarket,Russia
+1958,81,PayPal,5,Average quality.,Gas Station,Australia
+1959,727,PayPal,5,Terrible experience...,Hotel,Brazil
+1960,485,Credit Card,5,Average quality.,Museum,Brazil
+1961,374,PayPal,3,Terrible experience...,ATM,Japan
+1962,976,Debit Card,2,Excellent service!,Amusement Park,Germany
+1963,710,PayPal,4,Average quality.,Bar,France
+1964,200,PayPal,5,Terrible experience...,Online,Japan
+1965,537,Credit Card,1,Excellent service!,ATM,Spain
+1966,466,PayPal,5,Excellent service!,Museum,United Kingdom
+1967,89,PayPal,2,Excellent service!,Restaurant,United Kingdom
+1968,268,PayPal,2,Average quality.,Restaurant,Canada
+1969,655,PayPal,4,Average quality.,Amusement Park,New Zealand
+1970,571,Debit Card,3,Terrible experience...,Retail Store,USA
+1971,922,Credit Card,4,Excellent service!,Amusement Park,New Zealand
+1972,489,Credit Card,5,Terrible experience...,Bar,South Africa
+1973,877,Debit Card,1,Terrible experience...,Restaurant,Mexico
+1974,538,PayPal,4,Excellent service!,Hotel,China
+1975,47,Debit Card,3,Terrible experience...,Hotel,United Kingdom
+1976,288,PayPal,4,Average quality.,Restaurant,France
+1977,778,Debit Card,2,Terrible experience...,Bar,France
+1978,16,Credit Card,5,Excellent service!,Cinema,Italy
+1979,711,Credit Card,5,Average quality.,Gas Station,Singapore
+1980,401,Credit Card,5,Average quality.,Gas Station,Switzerland
+1981,919,PayPal,5,Terrible experience...,Bar,India
+1982,794,PayPal,5,Terrible experience...,Online,South Africa
+1983,981,Debit Card,5,Average quality.,Gas Station,Spain
+1984,86,Debit Card,1,Terrible experience...,Supermarket,Canada
+1985,250,Credit Card,3,Excellent service!,Gas Station,Sweden
+1986,391,PayPal,5,Terrible experience...,Supermarket,Singapore
+1987,782,Debit Card,3,Terrible experience...,Restaurant,Japan
+1988,335,PayPal,5,Average quality.,Cinema,Italy
+1989,629,PayPal,4,Terrible experience...,Amusement Park,New Zealand
+1990,519,Credit Card,5,Terrible experience...,Cinema,Brazil
+1991,137,Credit Card,2,Terrible experience...,Gas Station,Switzerland
+1992,883,PayPal,1,Excellent service!,Gas Station,Japan
+1993,688,PayPal,4,Terrible experience...,Fitness Center,Brazil
+1994,840,PayPal,4,Excellent service!,Bar,Singapore
+1995,498,PayPal,2,Excellent service!,Amusement Park,China
+1996,827,Credit Card,5,Excellent service!,Gas Station,Italy
+1997,727,Debit Card,1,Excellent service!,Retail Store,USA
+1998,477,Credit Card,4,Average quality.,Retail Store,Switzerland
+1999,594,Debit Card,1,Excellent service!,Online,New Zealand
+2000,223,PayPal,4,Terrible experience...,Restaurant,United Kingdom
+2001,990,Debit Card,5,Excellent service!,Supermarket,Germany
+2002,372,Credit Card,4,Terrible experience...,Cinema,Sweden
+2003,935,Credit Card,4,Excellent service!,Restaurant,Japan
+2004,995,PayPal,3,Average quality.,Supermarket,India
+2005,402,Credit Card,5,Excellent service!,Supermarket,France
+2006,443,PayPal,2,Excellent service!,ATM,Brazil
+2007,490,Credit Card,2,Average quality.,Fitness Center,Brazil
+2008,615,Credit Card,5,Excellent service!,Gas Station,Netherlands
+2009,273,PayPal,2,Terrible experience...,Online,Spain
+2010,526,Debit Card,5,Excellent service!,Gas Station,Switzerland
+2011,159,Credit Card,2,Excellent service!,Online,Russia
+2012,152,Debit Card,3,Excellent service!,Restaurant,United Kingdom
+2013,995,Credit Card,2,Average quality.,Museum,Netherlands
+2014,620,Credit Card,4,Excellent service!,Museum,China
+2015,188,Credit Card,5,Excellent service!,Bar,Germany
+2016,813,Credit Card,1,Terrible experience...,Bar,New Zealand
+2017,98,Debit Card,1,Excellent service!,Restaurant,Switzerland
+2018,131,Debit Card,5,Excellent service!,Amusement Park,South Africa
+2019,805,Credit Card,3,Excellent service!,Retail Store,China
+2020,171,Credit Card,2,Excellent service!,Fitness Center,Netherlands
+2021,936,Debit Card,3,Terrible experience...,Supermarket,Sweden
+2022,986,PayPal,1,Terrible experience...,Online,India
+2023,183,PayPal,5,Average quality.,Hotel,Japan
+2024,983,Debit Card,5,Excellent service!,Museum,Mexico
+2025,364,Credit Card,3,Average quality.,Gas Station,Singapore
+2026,39,Credit Card,3,Average quality.,Restaurant,Australia
+2027,527,PayPal,2,Excellent service!,Supermarket,USA
+2028,888,PayPal,4,Terrible experience...,Museum,Italy
+2029,497,Debit Card,4,Terrible experience...,Online,China
+2030,516,PayPal,2,Excellent service!,Cinema,China
+2031,349,Debit Card,4,Excellent service!,Amusement Park,Russia
+2032,982,PayPal,1,Terrible experience...,Gas Station,Brazil
+2033,921,PayPal,4,Excellent service!,Bar,France
+2034,397,PayPal,2,Excellent service!,Restaurant,Sweden
+2035,722,Credit Card,4,Excellent service!,Museum,Brazil
+2036,161,Credit Card,5,Terrible experience...,Bar,Australia
+2037,16,Credit Card,3,Average quality.,Online,Australia
+2038,493,PayPal,1,Average quality.,Bar,New Zealand
+2039,426,Debit Card,5,Excellent service!,Museum,Switzerland
+2040,108,Debit Card,5,Terrible experience...,Museum,Russia
+2041,894,Debit Card,2,Excellent service!,Gas Station,Australia
+2042,450,Debit Card,3,Terrible experience...,Retail Store,Brazil
+2043,311,Credit Card,3,Excellent service!,Museum,Brazil
+2044,739,Credit Card,1,Terrible experience...,Supermarket,Germany
+2045,170,PayPal,2,Terrible experience...,Retail Store,Australia
+2046,546,PayPal,1,Average quality.,Restaurant,New Zealand
+2047,414,Debit Card,4,Excellent service!,Retail Store,China
+2048,251,Credit Card,5,Average quality.,ATM,Switzerland
+2049,759,Debit Card,1,Average quality.,Museum,Russia
+2050,781,PayPal,5,Terrible experience...,Supermarket,Japan
+2051,141,PayPal,2,Excellent service!,Online,South Africa
+2052,274,Debit Card,4,Terrible experience...,Supermarket,Spain
+2053,416,PayPal,2,Terrible experience...,ATM,South Africa
+2054,608,Debit Card,4,Terrible experience...,Hotel,China
+2055,739,Credit Card,4,Excellent service!,Retail Store,France
+2056,891,Debit Card,5,Excellent service!,Supermarket,Germany
+2057,39,Credit Card,2,Terrible experience...,Bar,Switzerland
+2058,814,Credit Card,2,Excellent service!,Online,Japan
+2059,29,PayPal,1,Terrible experience...,Museum,Mexico
+2060,958,PayPal,2,Excellent service!,Museum,New Zealand
+2061,477,PayPal,1,Excellent service!,Cinema,Singapore
+2062,318,Debit Card,3,Average quality.,Restaurant,France
+2063,245,Debit Card,3,Terrible experience...,Restaurant,China
+2064,748,PayPal,3,Average quality.,Fitness Center,India
+2065,697,Debit Card,2,Average quality.,Restaurant,United Kingdom
+2066,272,PayPal,2,Terrible experience...,Supermarket,China
+2067,440,Debit Card,1,Terrible experience...,Retail Store,South Africa
+2068,748,Credit Card,4,Excellent service!,Supermarket,Netherlands
+2069,239,Credit Card,1,Terrible experience...,Museum,Mexico
+2070,377,PayPal,3,Average quality.,Gas Station,Canada
+2071,266,Debit Card,1,Average quality.,Bar,Spain
+2072,926,Debit Card,4,Terrible experience...,Museum,Japan
+2073,921,Credit Card,2,Average quality.,Cinema,Netherlands
+2074,359,Credit Card,1,Excellent service!,Cinema,Germany
+2075,340,PayPal,3,Average quality.,Bar,Sweden
+2076,389,Credit Card,3,Excellent service!,ATM,Australia
+2077,577,PayPal,2,Average quality.,Amusement Park,Australia
+2078,990,Credit Card,1,Excellent service!,Museum,India
+2079,689,Credit Card,4,Excellent service!,Museum,Singapore
+2080,3,Debit Card,2,Terrible experience...,Gas Station,Germany
+2081,429,Credit Card,1,Excellent service!,Online,Australia
+2082,142,Credit Card,5,Terrible experience...,Cinema,Brazil
+2083,376,PayPal,3,Average quality.,Restaurant,New Zealand
+2084,670,Credit Card,4,Average quality.,Supermarket,South Africa
+2085,324,PayPal,4,Average quality.,ATM,USA
+2086,146,Credit Card,4,Excellent service!,Museum,Japan
+2087,958,Credit Card,3,Average quality.,Amusement Park,Brazil
+2088,293,PayPal,1,Average quality.,Bar,Russia
+2089,665,Debit Card,2,Terrible experience...,Hotel,Spain
+2090,432,PayPal,1,Terrible experience...,Online,Singapore
+2091,705,PayPal,2,Average quality.,Amusement Park,New Zealand
+2092,949,PayPal,4,Average quality.,Fitness Center,USA
+2093,975,Debit Card,1,Excellent service!,Restaurant,Japan
+2094,585,Credit Card,4,Excellent service!,Amusement Park,United Kingdom
+2095,399,PayPal,5,Average quality.,Cinema,United Kingdom
+2096,817,PayPal,4,Terrible experience...,Fitness Center,New Zealand
+2097,889,Debit Card,4,Average quality.,Museum,South Africa
+2098,344,PayPal,2,Excellent service!,Fitness Center,Singapore
+2099,964,Credit Card,5,Terrible experience...,Supermarket,United Kingdom
+2100,140,Debit Card,4,Terrible experience...,Bar,Mexico
+2101,187,Credit Card,4,Excellent service!,Amusement Park,India
+2102,805,Credit Card,5,Average quality.,Online,USA
+2103,61,Debit Card,5,Average quality.,Amusement Park,Italy
+2104,997,PayPal,1,Average quality.,Museum,India
+2105,939,Credit Card,2,Excellent service!,Hotel,Spain
+2106,380,Credit Card,5,Terrible experience...,ATM,France
+2107,710,Credit Card,5,Excellent service!,Cinema,USA
+2108,807,Credit Card,3,Average quality.,Supermarket,South Africa
+2109,440,Debit Card,5,Excellent service!,Restaurant,South Africa
+2110,319,Debit Card,2,Terrible experience...,Bar,Mexico
+2111,302,Credit Card,4,Excellent service!,Bar,Russia
+2112,344,PayPal,4,Average quality.,Fitness Center,Singapore
+2113,11,Credit Card,4,Terrible experience...,Fitness Center,China
+2114,62,PayPal,4,Excellent service!,ATM,Brazil
+2115,845,Credit Card,3,Excellent service!,Retail Store,Brazil
+2116,226,PayPal,5,Terrible experience...,Retail Store,Singapore
+2117,153,Credit Card,4,Terrible experience...,Restaurant,Japan
+2118,711,PayPal,1,Average quality.,Amusement Park,New Zealand
+2119,564,Credit Card,4,Terrible experience...,Fitness Center,Singapore
+2120,772,Credit Card,5,Average quality.,Hotel,Sweden
+2121,571,PayPal,4,Excellent service!,Bar,Russia
+2122,584,Debit Card,3,Average quality.,Amusement Park,Spain
+2123,660,PayPal,2,Excellent service!,Bar,China
+2124,861,Debit Card,2,Terrible experience...,Fitness Center,United Kingdom
+2125,575,Credit Card,5,Excellent service!,Bar,Canada
+2126,310,PayPal,2,Terrible experience...,Amusement Park,Japan
+2127,885,PayPal,2,Excellent service!,Fitness Center,New Zealand
+2128,243,PayPal,1,Excellent service!,Museum,France
+2129,493,Debit Card,5,Excellent service!,ATM,Singapore
+2130,366,Debit Card,5,Excellent service!,Museum,Netherlands
+2131,330,Credit Card,2,Average quality.,Retail Store,China
+2132,107,Debit Card,2,Excellent service!,Gas Station,Italy
+2133,226,Debit Card,2,Average quality.,Online,Netherlands
+2134,825,Credit Card,3,Terrible experience...,ATM,Russia
+2135,218,PayPal,4,Terrible experience...,Museum,Spain
+2136,937,PayPal,3,Average quality.,Cinema,India
+2137,753,Credit Card,5,Terrible experience...,Hotel,Sweden
+2138,506,PayPal,1,Terrible experience...,Hotel,Japan
+2139,259,Debit Card,4,Excellent service!,Online,Switzerland
+2140,888,Credit Card,1,Excellent service!,Hotel,France
+2141,774,Credit Card,5,Excellent service!,Amusement Park,Sweden
+2142,517,Credit Card,5,Average quality.,Hotel,Australia
+2143,773,PayPal,1,Average quality.,Gas Station,Russia
+2144,54,Credit Card,1,Terrible experience...,Hotel,France
+2145,47,Credit Card,1,Excellent service!,Bar,Spain
+2146,727,Credit Card,5,Average quality.,ATM,Netherlands
+2147,689,PayPal,2,Average quality.,Amusement Park,USA
+2148,521,Debit Card,1,Excellent service!,Retail Store,France
+2149,99,Credit Card,4,Average quality.,Hotel,United Kingdom
+2150,20,Debit Card,5,Excellent service!,Restaurant,New Zealand
+2151,890,PayPal,3,Terrible experience...,Restaurant,Canada
+2152,753,PayPal,3,Terrible experience...,Restaurant,Russia
+2153,573,PayPal,4,Terrible experience...,Hotel,France
+2154,891,PayPal,2,Excellent service!,Cinema,Australia
+2155,490,Debit Card,1,Average quality.,Museum,Canada
+2156,419,Credit Card,5,Terrible experience...,Bar,South Africa
+2157,690,PayPal,1,Terrible experience...,Supermarket,Canada
+2158,850,PayPal,5,Terrible experience...,Hotel,Canada
+2159,62,Debit Card,3,Average quality.,Cinema,Netherlands
+2160,145,Debit Card,1,Average quality.,Museum,Switzerland
+2161,216,PayPal,4,Excellent service!,Supermarket,India
+2162,3,Credit Card,2,Terrible experience...,Online,Italy
+2163,160,Credit Card,4,Average quality.,Gas Station,Netherlands
+2164,739,PayPal,2,Excellent service!,Bar,Brazil
+2165,998,Debit Card,1,Terrible experience...,Hotel,Italy
+2166,781,PayPal,1,Average quality.,ATM,Germany
+2167,120,PayPal,2,Average quality.,Amusement Park,United Kingdom
+2168,893,Debit Card,3,Excellent service!,ATM,Germany
+2169,89,PayPal,5,Terrible experience...,Museum,Italy
+2170,329,PayPal,4,Terrible experience...,ATM,Switzerland
+2171,580,PayPal,4,Average quality.,Fitness Center,Netherlands
+2172,910,Debit Card,4,Terrible experience...,Online,Brazil
+2173,357,Credit Card,1,Excellent service!,Amusement Park,Sweden
+2174,610,Credit Card,4,Average quality.,Online,Switzerland
+2175,267,Debit Card,5,Average quality.,Supermarket,Mexico
+2176,617,Credit Card,5,Excellent service!,Online,Italy
+2177,952,PayPal,2,Average quality.,Restaurant,Australia
+2178,323,Credit Card,1,Terrible experience...,Gas Station,France
+2179,635,PayPal,5,Terrible experience...,Restaurant,Brazil
+2180,988,Credit Card,3,Average quality.,Hotel,Singapore
+2181,541,Debit Card,1,Excellent service!,Supermarket,China
+2182,649,Credit Card,1,Excellent service!,Fitness Center,Canada
+2183,195,Credit Card,5,Terrible experience...,Cinema,Spain
+2184,921,Credit Card,3,Excellent service!,Supermarket,Japan
+2185,738,Debit Card,2,Average quality.,Cinema,New Zealand
+2186,332,Credit Card,5,Average quality.,Gas Station,USA
+2187,170,Debit Card,3,Terrible experience...,Online,Canada
+2188,521,PayPal,1,Terrible experience...,Online,Canada
+2189,463,Credit Card,3,Terrible experience...,Amusement Park,Japan
+2190,40,Debit Card,1,Excellent service!,Hotel,Australia
+2191,537,Debit Card,5,Average quality.,ATM,France
+2192,261,Credit Card,5,Average quality.,Retail Store,Russia
+2193,395,PayPal,4,Average quality.,Supermarket,Canada
+2194,955,Debit Card,4,Terrible experience...,Supermarket,United Kingdom
+2195,226,Credit Card,4,Average quality.,Hotel,Mexico
+2196,984,PayPal,5,Excellent service!,Restaurant,Spain
+2197,124,Debit Card,2,Excellent service!,Bar,USA
+2198,975,Debit Card,5,Average quality.,Hotel,Canada
+2199,38,PayPal,3,Terrible experience...,Retail Store,Canada
+2200,328,PayPal,5,Average quality.,Online,Germany
+2201,251,Credit Card,5,Excellent service!,Cinema,Japan
+2202,901,Credit Card,1,Excellent service!,Restaurant,Italy
+2203,176,Debit Card,1,Excellent service!,Fitness Center,Australia
+2204,602,PayPal,1,Average quality.,Museum,Switzerland
+2205,914,PayPal,5,Excellent service!,Restaurant,Singapore
+2206,454,PayPal,2,Terrible experience...,Fitness Center,Switzerland
+2207,37,Debit Card,3,Average quality.,Amusement Park,New Zealand
+2208,316,PayPal,3,Average quality.,Gas Station,Singapore
+2209,688,PayPal,2,Excellent service!,Retail Store,USA
+2210,973,Debit Card,2,Excellent service!,Restaurant,India
+2211,796,Credit Card,3,Terrible experience...,Retail Store,Mexico
+2212,965,Credit Card,4,Average quality.,Fitness Center,Canada
+2213,973,Debit Card,1,Excellent service!,Hotel,Brazil
+2214,593,PayPal,1,Terrible experience...,Museum,Switzerland
+2215,114,Debit Card,3,Excellent service!,Cinema,New Zealand
+2216,40,Credit Card,2,Average quality.,Cinema,Sweden
+2217,301,Credit Card,4,Excellent service!,Museum,Japan
+2218,224,Debit Card,3,Average quality.,Supermarket,Spain
+2219,318,Debit Card,1,Excellent service!,Online,New Zealand
+2220,349,Credit Card,5,Average quality.,Supermarket,Switzerland
+2221,115,Debit Card,2,Terrible experience...,Restaurant,Spain
+2222,698,Credit Card,5,Average quality.,Gas Station,Sweden
+2223,323,Debit Card,3,Terrible experience...,Fitness Center,France
+2224,568,Debit Card,1,Average quality.,Supermarket,USA
+2225,40,Debit Card,4,Terrible experience...,Supermarket,India
+2226,866,Credit Card,5,Excellent service!,Supermarket,Sweden
+2227,40,Debit Card,4,Average quality.,Retail Store,Switzerland
+2228,859,Credit Card,1,Excellent service!,Hotel,USA
+2229,973,Credit Card,5,Terrible experience...,Gas Station,South Africa
+2230,749,Debit Card,4,Average quality.,Fitness Center,France
+2231,289,Debit Card,4,Average quality.,Cinema,China
+2232,262,Credit Card,5,Excellent service!,Amusement Park,New Zealand
+2233,216,Credit Card,1,Average quality.,Retail Store,Brazil
+2234,147,PayPal,4,Average quality.,Restaurant,United Kingdom
+2235,336,Credit Card,3,Excellent service!,Gas Station,Brazil
+2236,168,PayPal,5,Average quality.,Cinema,France
+2237,92,PayPal,2,Excellent service!,Gas Station,Japan
+2238,353,PayPal,2,Excellent service!,Bar,Italy
+2239,571,Debit Card,1,Excellent service!,Bar,Spain
+2240,571,Debit Card,3,Excellent service!,Supermarket,Japan
+2241,816,Credit Card,4,Excellent service!,Supermarket,USA
+2242,681,PayPal,2,Terrible experience...,Museum,USA
+2243,781,Debit Card,1,Terrible experience...,Bar,Brazil
+2244,363,Debit Card,3,Excellent service!,Fitness Center,Netherlands
+2245,557,Debit Card,3,Terrible experience...,Fitness Center,USA
+2246,345,Debit Card,1,Terrible experience...,Amusement Park,United Kingdom
+2247,693,Debit Card,1,Average quality.,Cinema,New Zealand
+2248,170,PayPal,4,Excellent service!,Restaurant,China
+2249,356,PayPal,1,Terrible experience...,Museum,India
+2250,191,PayPal,4,Average quality.,Online,Canada
+2251,667,PayPal,4,Average quality.,Online,Netherlands
+2252,422,Credit Card,5,Excellent service!,Retail Store,Japan
+2253,700,PayPal,3,Excellent service!,Amusement Park,Spain
+2254,7,Debit Card,3,Average quality.,Amusement Park,Mexico
+2255,133,PayPal,3,Excellent service!,Restaurant,Spain
+2256,747,Credit Card,5,Excellent service!,Gas Station,Mexico
+2257,557,Debit Card,4,Average quality.,Online,Sweden
+2258,826,PayPal,4,Average quality.,Gas Station,South Africa
+2259,761,PayPal,1,Excellent service!,Gas Station,Brazil
+2260,31,PayPal,5,Terrible experience...,Amusement Park,United Kingdom
+2261,535,Debit Card,1,Excellent service!,Gas Station,Australia
+2262,426,Debit Card,5,Terrible experience...,Online,France
+2263,394,Credit Card,1,Average quality.,Cinema,New Zealand
+2264,672,Debit Card,2,Terrible experience...,ATM,China
+2265,363,Debit Card,3,Average quality.,Gas Station,France
+2266,437,PayPal,3,Excellent service!,Restaurant,Mexico
+2267,670,Debit Card,4,Excellent service!,Hotel,Germany
+2268,551,PayPal,2,Average quality.,Supermarket,United Kingdom
+2269,927,PayPal,3,Average quality.,Restaurant,China
+2270,82,Debit Card,4,Average quality.,Bar,Singapore
+2271,356,Credit Card,2,Excellent service!,Online,Russia
+2272,258,Credit Card,3,Excellent service!,Hotel,Canada
+2273,718,Debit Card,1,Terrible experience...,Fitness Center,United Kingdom
+2274,589,Credit Card,5,Average quality.,Supermarket,Sweden
+2275,989,PayPal,2,Terrible experience...,Museum,South Africa
+2276,524,PayPal,4,Excellent service!,Restaurant,China
+2277,295,Debit Card,2,Terrible experience...,Hotel,Singapore
+2278,962,Credit Card,4,Terrible experience...,ATM,Germany
+2279,224,Credit Card,2,Excellent service!,Online,Switzerland
+2280,525,PayPal,4,Excellent service!,Cinema,United Kingdom
+2281,46,Debit Card,3,Average quality.,Retail Store,Italy
+2282,667,Credit Card,1,Terrible experience...,Amusement Park,Spain
+2283,113,Debit Card,3,Excellent service!,ATM,Netherlands
+2284,233,Credit Card,1,Excellent service!,Bar,France
+2285,17,PayPal,3,Terrible experience...,Fitness Center,Switzerland
+2286,360,PayPal,3,Excellent service!,Amusement Park,Italy
+2287,223,Debit Card,2,Average quality.,Cinema,Germany
+2288,866,PayPal,5,Average quality.,ATM,Italy
+2289,700,Credit Card,4,Terrible experience...,Supermarket,USA
+2290,448,PayPal,4,Average quality.,Hotel,Switzerland
+2291,856,Debit Card,4,Excellent service!,Online,United Kingdom
+2292,365,Debit Card,1,Excellent service!,Hotel,Italy
+2293,675,Debit Card,4,Excellent service!,Gas Station,Netherlands
+2294,326,Credit Card,4,Excellent service!,Restaurant,Spain
+2295,467,Credit Card,2,Terrible experience...,Bar,France
+2296,414,Credit Card,3,Average quality.,Gas Station,France
+2297,455,Credit Card,4,Average quality.,Gas Station,Japan
+2298,586,Credit Card,5,Excellent service!,Bar,Russia
+2299,233,PayPal,4,Terrible experience...,Restaurant,Sweden
+2300,224,Credit Card,1,Excellent service!,Supermarket,Brazil
+2301,994,Credit Card,1,Excellent service!,Fitness Center,Australia
+2302,831,PayPal,1,Terrible experience...,Museum,USA
+2303,412,Credit Card,4,Terrible experience...,Restaurant,Italy
+2304,572,Debit Card,2,Excellent service!,Online,China
+2305,335,Credit Card,5,Average quality.,Hotel,Mexico
+2306,222,Credit Card,4,Excellent service!,Supermarket,Singapore
+2307,37,Debit Card,2,Average quality.,Retail Store,Canada
+2308,989,Debit Card,2,Average quality.,Museum,Japan
+2309,278,Debit Card,4,Terrible experience...,Hotel,France
+2310,196,Debit Card,4,Terrible experience...,Supermarket,France
+2311,916,Credit Card,2,Excellent service!,Restaurant,South Africa
+2312,864,Debit Card,2,Average quality.,Bar,Russia
+2313,484,Debit Card,2,Average quality.,Restaurant,Japan
+2314,242,PayPal,4,Excellent service!,Museum,India
+2315,324,Debit Card,2,Excellent service!,Retail Store,Sweden
+2316,731,Debit Card,1,Excellent service!,Supermarket,Japan
+2317,192,PayPal,4,Terrible experience...,Fitness Center,Australia
+2318,17,PayPal,1,Excellent service!,Online,Switzerland
+2319,524,Credit Card,3,Excellent service!,Restaurant,India
+2320,918,PayPal,4,Average quality.,Supermarket,Brazil
+2321,401,Credit Card,3,Excellent service!,Hotel,Russia
+2322,906,PayPal,2,Average quality.,Retail Store,Italy
+2323,886,PayPal,2,Average quality.,Online,United Kingdom
+2324,705,Credit Card,5,Terrible experience...,Supermarket,Switzerland
+2325,22,PayPal,2,Excellent service!,ATM,South Africa
+2326,474,Credit Card,3,Excellent service!,Restaurant,Canada
+2327,120,PayPal,2,Average quality.,Fitness Center,Spain
+2328,210,Debit Card,4,Terrible experience...,Museum,South Africa
+2329,306,PayPal,2,Terrible experience...,Retail Store,Switzerland
+2330,270,Credit Card,5,Excellent service!,Online,United Kingdom
+2331,704,PayPal,2,Average quality.,Online,Japan
+2332,687,Credit Card,3,Excellent service!,Museum,United Kingdom
+2333,285,Credit Card,3,Excellent service!,Gas Station,Switzerland
+2334,716,Debit Card,2,Excellent service!,Amusement Park,India
+2335,676,Debit Card,3,Excellent service!,Retail Store,Japan
+2336,763,Credit Card,3,Average quality.,Online,United Kingdom
+2337,227,PayPal,5,Terrible experience...,Supermarket,Spain
+2338,948,Credit Card,4,Excellent service!,Gas Station,Germany
+2339,381,Credit Card,5,Excellent service!,Amusement Park,China
+2340,460,PayPal,1,Excellent service!,Fitness Center,South Africa
+2341,7,PayPal,5,Excellent service!,Hotel,Brazil
+2342,29,PayPal,2,Terrible experience...,Museum,Russia
+2343,907,PayPal,4,Terrible experience...,Supermarket,Brazil
+2344,33,Credit Card,2,Terrible experience...,Restaurant,Brazil
+2345,646,Credit Card,1,Terrible experience...,Amusement Park,New Zealand
+2346,879,Debit Card,4,Excellent service!,Fitness Center,Singapore
+2347,79,Credit Card,3,Average quality.,Fitness Center,New Zealand
+2348,928,PayPal,5,Terrible experience...,Fitness Center,Russia
+2349,947,Debit Card,2,Terrible experience...,Fitness Center,Singapore
+2350,459,PayPal,1,Excellent service!,Retail Store,Brazil
+2351,570,Credit Card,3,Excellent service!,Restaurant,Brazil
+2352,983,Debit Card,5,Excellent service!,Cinema,Brazil
+2353,538,PayPal,3,Excellent service!,Cinema,Germany
+2354,482,Debit Card,5,Average quality.,Retail Store,USA
+2355,430,Debit Card,4,Average quality.,Hotel,Russia
+2356,738,Credit Card,3,Terrible experience...,Amusement Park,New Zealand
+2357,285,PayPal,3,Average quality.,Gas Station,Spain
+2358,516,Debit Card,3,Terrible experience...,ATM,South Africa
+2359,977,Debit Card,4,Terrible experience...,Museum,South Africa
+2360,99,PayPal,1,Average quality.,Online,Singapore
+2361,397,Debit Card,5,Terrible experience...,ATM,France
+2362,489,Debit Card,3,Excellent service!,Museum,India
+2363,39,Debit Card,4,Terrible experience...,Cinema,China
+2364,271,PayPal,1,Excellent service!,Cinema,China
+2365,887,PayPal,5,Average quality.,Hotel,United Kingdom
+2366,797,PayPal,4,Average quality.,ATM,South Africa
+2367,157,PayPal,5,Terrible experience...,ATM,Sweden
+2368,75,Credit Card,3,Excellent service!,Gas Station,Switzerland
+2369,884,Debit Card,1,Terrible experience...,Hotel,China
+2370,800,PayPal,4,Average quality.,Hotel,Australia
+2371,130,Debit Card,1,Terrible experience...,Fitness Center,India
+2372,687,Debit Card,3,Terrible experience...,Fitness Center,South Africa
+2373,974,Credit Card,1,Excellent service!,Retail Store,United Kingdom
+2374,84,PayPal,1,Average quality.,Fitness Center,China
+2375,22,PayPal,2,Terrible experience...,Restaurant,Spain
+2376,459,Debit Card,1,Excellent service!,Hotel,Switzerland
+2377,539,PayPal,5,Terrible experience...,Hotel,China
+2378,707,Debit Card,4,Excellent service!,Supermarket,New Zealand
+2379,849,Debit Card,2,Excellent service!,Amusement Park,Spain
+2380,382,Credit Card,4,Terrible experience...,Amusement Park,South Africa
+2381,748,Credit Card,4,Average quality.,Fitness Center,Russia
+2382,440,Credit Card,3,Average quality.,Bar,Mexico
+2383,604,Debit Card,3,Excellent service!,ATM,India
+2384,989,PayPal,2,Average quality.,Online,USA
+2385,21,Credit Card,3,Excellent service!,ATM,Canada
+2386,303,PayPal,3,Average quality.,Museum,Spain
+2387,976,Credit Card,3,Terrible experience...,Retail Store,USA
+2388,869,Credit Card,4,Average quality.,Retail Store,Japan
+2389,955,Debit Card,2,Excellent service!,Retail Store,Canada
+2390,84,Credit Card,4,Excellent service!,Restaurant,Switzerland
+2391,774,Credit Card,5,Average quality.,Online,United Kingdom
+2392,659,Debit Card,4,Terrible experience...,Amusement Park,Australia
+2393,953,PayPal,5,Excellent service!,Gas Station,France
+2394,453,Credit Card,1,Excellent service!,Amusement Park,Germany
+2395,387,Debit Card,1,Excellent service!,Restaurant,South Africa
+2396,507,Credit Card,5,Excellent service!,Retail Store,Italy
+2397,257,Debit Card,5,Excellent service!,Restaurant,Italy
+2398,570,PayPal,4,Terrible experience...,Amusement Park,USA
+2399,892,PayPal,5,Average quality.,Gas Station,USA
+2400,934,Debit Card,2,Terrible experience...,Bar,China
+2401,527,Debit Card,1,Terrible experience...,Online,France
+2402,162,Debit Card,1,Excellent service!,Fitness Center,Canada
+2403,957,PayPal,5,Terrible experience...,Restaurant,France
+2404,163,Credit Card,3,Excellent service!,Museum,Switzerland
+2405,832,PayPal,3,Terrible experience...,Fitness Center,Netherlands
+2406,793,Debit Card,5,Excellent service!,Amusement Park,Italy
+2407,792,Debit Card,2,Excellent service!,Online,Japan
+2408,524,PayPal,3,Terrible experience...,Amusement Park,Spain
+2409,786,Debit Card,5,Terrible experience...,Amusement Park,Japan
+2410,271,PayPal,2,Average quality.,Gas Station,Brazil
+2411,492,Debit Card,2,Average quality.,Bar,Russia
+2412,208,Credit Card,4,Average quality.,Online,Netherlands
+2413,539,Credit Card,2,Terrible experience...,Museum,USA
+2414,584,Debit Card,3,Terrible experience...,Retail Store,USA
+2415,60,PayPal,3,Excellent service!,Online,Switzerland
+2416,430,Credit Card,5,Average quality.,Museum,Japan
+2417,985,PayPal,5,Excellent service!,Hotel,USA
+2418,657,Debit Card,2,Excellent service!,Retail Store,Singapore
+2419,605,PayPal,1,Excellent service!,Online,Canada
+2420,309,Credit Card,4,Excellent service!,Fitness Center,China
+2421,520,PayPal,1,Average quality.,Supermarket,Australia
+2422,591,PayPal,2,Excellent service!,Supermarket,Netherlands
+2423,27,Debit Card,2,Terrible experience...,Amusement Park,France
+2424,686,Debit Card,1,Terrible experience...,Retail Store,Spain
+2425,562,Debit Card,4,Terrible experience...,Online,Australia
+2426,199,Credit Card,1,Average quality.,Amusement Park,Japan
+2427,387,Credit Card,5,Excellent service!,ATM,Japan
+2428,349,Debit Card,3,Average quality.,Amusement Park,Mexico
+2429,960,Debit Card,5,Excellent service!,Restaurant,Brazil
+2430,940,Credit Card,3,Average quality.,Supermarket,Mexico
+2431,693,Credit Card,2,Average quality.,ATM,Mexico
+2432,536,Credit Card,4,Excellent service!,Cinema,Singapore
+2433,828,Credit Card,1,Average quality.,Museum,Germany
+2434,378,Debit Card,4,Excellent service!,Restaurant,Spain
+2435,899,Credit Card,1,Terrible experience...,Retail Store,Italy
+2436,916,Debit Card,5,Terrible experience...,Amusement Park,Singapore
+2437,558,PayPal,5,Terrible experience...,Supermarket,Brazil
+2438,527,PayPal,1,Average quality.,Fitness Center,Sweden
+2439,153,Credit Card,4,Terrible experience...,Bar,Sweden
+2440,734,PayPal,1,Excellent service!,Museum,Sweden
+2441,206,PayPal,2,Terrible experience...,Supermarket,Italy
+2442,455,PayPal,5,Terrible experience...,Gas Station,Switzerland
+2443,273,Credit Card,2,Average quality.,Supermarket,China
+2444,894,Credit Card,5,Excellent service!,Bar,Germany
+2445,236,PayPal,5,Average quality.,Bar,Russia
+2446,852,Debit Card,3,Average quality.,Amusement Park,Italy
+2447,740,PayPal,2,Excellent service!,Retail Store,Mexico
+2448,521,Credit Card,2,Average quality.,Bar,Germany
+2449,678,Credit Card,3,Excellent service!,Supermarket,United Kingdom
+2450,944,Credit Card,4,Terrible experience...,Retail Store,New Zealand
+2451,956,PayPal,2,Excellent service!,Online,Italy
+2452,831,Debit Card,1,Excellent service!,Supermarket,Germany
+2453,726,Credit Card,3,Excellent service!,Hotel,United Kingdom
+2454,501,Credit Card,2,Average quality.,Amusement Park,Italy
+2455,117,PayPal,4,Excellent service!,Restaurant,Canada
+2456,386,Debit Card,2,Excellent service!,Amusement Park,India
+2457,344,PayPal,5,Excellent service!,Bar,Japan
+2458,584,Credit Card,1,Terrible experience...,Museum,Spain
+2459,395,Debit Card,3,Excellent service!,Fitness Center,Singapore
+2460,64,Debit Card,5,Average quality.,Cinema,France
+2461,717,Credit Card,4,Excellent service!,Gas Station,Russia
+2462,721,Debit Card,5,Excellent service!,Hotel,China
+2463,72,Debit Card,5,Terrible experience...,Bar,South Africa
+2464,789,PayPal,4,Excellent service!,Supermarket,New Zealand
+2465,274,Credit Card,5,Average quality.,Retail Store,Australia
+2466,990,Credit Card,3,Excellent service!,Hotel,France
+2467,320,Credit Card,2,Average quality.,Cinema,Brazil
+2468,338,Credit Card,5,Terrible experience...,Restaurant,Spain
+2469,366,Credit Card,3,Excellent service!,Retail Store,United Kingdom
+2470,495,Debit Card,2,Terrible experience...,Gas Station,Germany
+2471,607,PayPal,2,Excellent service!,ATM,Japan
+2472,166,Credit Card,5,Average quality.,Gas Station,Singapore
+2473,544,PayPal,3,Terrible experience...,Amusement Park,Spain
+2474,11,PayPal,5,Excellent service!,Hotel,Singapore
+2475,301,Debit Card,4,Average quality.,Amusement Park,Russia
+2476,729,Credit Card,2,Terrible experience...,Bar,Italy
+2477,801,Debit Card,5,Excellent service!,Online,USA
+2478,102,Credit Card,2,Terrible experience...,Bar,Switzerland
+2479,425,Debit Card,3,Excellent service!,Restaurant,Switzerland
+2480,392,PayPal,1,Average quality.,Fitness Center,Brazil
+2481,779,Credit Card,5,Average quality.,Hotel,Netherlands
+2482,214,PayPal,5,Terrible experience...,Museum,South Africa
+2483,691,PayPal,2,Terrible experience...,Museum,Spain
+2484,88,Debit Card,3,Excellent service!,Online,Russia
+2485,553,Credit Card,4,Average quality.,Retail Store,Italy
+2486,401,PayPal,3,Excellent service!,Online,South Africa
+2487,588,Debit Card,5,Average quality.,Restaurant,New Zealand
+2488,889,Credit Card,4,Terrible experience...,Supermarket,United Kingdom
+2489,46,Credit Card,3,Excellent service!,Amusement Park,Mexico
+2490,672,PayPal,1,Excellent service!,Cinema,United Kingdom
+2491,463,Credit Card,2,Average quality.,Bar,Russia
+2492,592,PayPal,3,Average quality.,Hotel,Australia
+2493,310,Credit Card,3,Average quality.,Fitness Center,Canada
+2494,86,Debit Card,1,Terrible experience...,Restaurant,Australia
+2495,92,PayPal,5,Excellent service!,ATM,Japan
+2496,660,PayPal,2,Average quality.,Cinema,Germany
+2497,673,Credit Card,3,Terrible experience...,Restaurant,Singapore
+2498,714,Credit Card,4,Average quality.,ATM,Switzerland
+2499,936,PayPal,3,Excellent service!,ATM,Canada
+2500,928,Credit Card,2,Average quality.,ATM,Italy
+2501,242,Debit Card,3,Excellent service!,Supermarket,Germany
+2502,865,Credit Card,1,Terrible experience...,Online,Germany
+2503,2,Debit Card,3,Terrible experience...,Museum,USA
+2504,225,Debit Card,3,Average quality.,Gas Station,Japan
+2505,801,Debit Card,4,Excellent service!,Bar,Italy
+2506,745,Debit Card,1,Excellent service!,ATM,Italy
+2507,973,Debit Card,1,Excellent service!,Restaurant,United Kingdom
+2508,926,Credit Card,3,Average quality.,Retail Store,France
+2509,929,Debit Card,4,Excellent service!,Retail Store,Singapore
+2510,589,Credit Card,3,Excellent service!,Museum,France
+2511,116,Debit Card,3,Excellent service!,Hotel,France
+2512,666,PayPal,2,Excellent service!,Amusement Park,New Zealand
+2513,918,Debit Card,2,Average quality.,ATM,Canada
+2514,103,PayPal,4,Average quality.,Restaurant,Japan
+2515,194,Debit Card,5,Excellent service!,ATM,Sweden
+2516,166,Debit Card,2,Excellent service!,Supermarket,Mexico
+2517,871,Debit Card,5,Terrible experience...,Amusement Park,France
+2518,90,PayPal,1,Terrible experience...,ATM,Italy
+2519,686,PayPal,2,Excellent service!,Bar,Canada
+2520,122,Debit Card,2,Excellent service!,Retail Store,India
+2521,143,Credit Card,4,Terrible experience...,ATM,Netherlands
+2522,994,Debit Card,5,Terrible experience...,Bar,Germany
+2523,106,PayPal,2,Excellent service!,Bar,Switzerland
+2524,887,Debit Card,2,Average quality.,Online,Netherlands
+2525,428,PayPal,4,Average quality.,Bar,South Africa
+2526,305,PayPal,4,Excellent service!,Amusement Park,Switzerland
+2527,872,PayPal,5,Excellent service!,Retail Store,South Africa
+2528,971,Debit Card,1,Terrible experience...,Fitness Center,India
+2529,317,PayPal,1,Terrible experience...,Hotel,Australia
+2530,963,PayPal,3,Average quality.,Supermarket,Germany
+2531,635,Debit Card,2,Excellent service!,Retail Store,Netherlands
+2532,902,PayPal,5,Terrible experience...,Restaurant,Brazil
+2533,9,Debit Card,2,Average quality.,Hotel,Japan
+2534,774,PayPal,5,Average quality.,Bar,Brazil
+2535,73,Credit Card,5,Average quality.,ATM,Germany
+2536,359,Credit Card,5,Terrible experience...,Online,Mexico
+2537,223,PayPal,2,Terrible experience...,Hotel,China
+2538,416,Credit Card,4,Excellent service!,Restaurant,Canada
+2539,553,Debit Card,2,Excellent service!,Restaurant,Spain
+2540,370,Credit Card,5,Average quality.,Hotel,United Kingdom
+2541,716,PayPal,3,Average quality.,Online,Brazil
+2542,264,PayPal,1,Terrible experience...,Bar,South Africa
+2543,840,Debit Card,5,Terrible experience...,Fitness Center,India
+2544,690,PayPal,3,Excellent service!,Amusement Park,Brazil
+2545,860,Debit Card,4,Excellent service!,Restaurant,New Zealand
+2546,318,Credit Card,5,Excellent service!,Bar,Switzerland
+2547,84,Credit Card,3,Terrible experience...,Amusement Park,Brazil
+2548,318,Debit Card,5,Average quality.,Amusement Park,Australia
+2549,111,Debit Card,2,Excellent service!,Restaurant,Germany
+2550,251,PayPal,3,Excellent service!,Fitness Center,USA
+2551,383,Credit Card,2,Terrible experience...,Hotel,China
+2552,7,Debit Card,2,Excellent service!,Amusement Park,Australia
+2553,459,Credit Card,3,Average quality.,ATM,South Africa
+2554,84,Debit Card,1,Terrible experience...,Retail Store,Netherlands
+2555,208,Credit Card,3,Excellent service!,Supermarket,China
+2556,900,PayPal,1,Excellent service!,Restaurant,Singapore
+2557,390,Credit Card,5,Terrible experience...,Cinema,Canada
+2558,314,Credit Card,5,Terrible experience...,Amusement Park,Switzerland
+2559,22,Credit Card,3,Excellent service!,Gas Station,Germany
+2560,410,Credit Card,5,Average quality.,Museum,Sweden
+2561,895,Credit Card,4,Terrible experience...,ATM,Spain
+2562,515,PayPal,2,Average quality.,Cinema,Mexico
+2563,127,Debit Card,2,Excellent service!,Bar,USA
+2564,809,Credit Card,1,Average quality.,Supermarket,China
+2565,700,PayPal,5,Excellent service!,Online,New Zealand
+2566,874,Credit Card,1,Excellent service!,Amusement Park,United Kingdom
+2567,14,Credit Card,2,Excellent service!,Fitness Center,Netherlands
+2568,971,Debit Card,2,Excellent service!,Museum,USA
+2569,978,Credit Card,5,Average quality.,Online,Mexico
+2570,12,PayPal,4,Excellent service!,Fitness Center,Netherlands
+2571,87,PayPal,4,Excellent service!,Supermarket,Mexico
+2572,524,Debit Card,5,Average quality.,ATM,Spain
+2573,909,Credit Card,5,Terrible experience...,ATM,Canada
+2574,537,PayPal,1,Average quality.,Supermarket,Russia
+2575,301,Credit Card,5,Average quality.,ATM,India
+2576,243,Credit Card,4,Average quality.,Museum,South Africa
+2577,122,Credit Card,5,Excellent service!,Amusement Park,New Zealand
+2578,147,Debit Card,1,Excellent service!,Supermarket,United Kingdom
+2579,567,Credit Card,1,Excellent service!,Restaurant,Italy
+2580,750,PayPal,1,Terrible experience...,Gas Station,Mexico
+2581,356,Credit Card,1,Excellent service!,Bar,India
+2582,685,PayPal,3,Terrible experience...,Retail Store,Australia
+2583,904,Credit Card,5,Excellent service!,Fitness Center,Russia
+2584,733,PayPal,2,Average quality.,Museum,Canada
+2585,631,PayPal,5,Excellent service!,Hotel,Mexico
+2586,309,Credit Card,3,Terrible experience...,Gas Station,Australia
+2587,695,Credit Card,1,Terrible experience...,Retail Store,New Zealand
+2588,288,PayPal,3,Excellent service!,Hotel,USA
+2589,307,Debit Card,4,Average quality.,Online,USA
+2590,812,Credit Card,4,Excellent service!,Gas Station,Italy
+2591,594,Debit Card,5,Excellent service!,Cinema,China
+2592,966,Credit Card,5,Excellent service!,Gas Station,Germany
+2593,914,Credit Card,2,Average quality.,Fitness Center,India
+2594,723,Credit Card,2,Terrible experience...,ATM,United Kingdom
+2595,662,Credit Card,4,Average quality.,Amusement Park,Italy
+2596,549,Debit Card,1,Terrible experience...,Amusement Park,Italy
+2597,352,Credit Card,3,Terrible experience...,Retail Store,Australia
+2598,312,PayPal,2,Terrible experience...,ATM,Canada
+2599,873,PayPal,2,Average quality.,Online,Brazil
+2600,59,Debit Card,1,Excellent service!,Amusement Park,Canada
+2601,643,Credit Card,1,Excellent service!,Bar,Brazil
+2602,924,PayPal,5,Excellent service!,Online,Mexico
+2603,714,Debit Card,3,Excellent service!,ATM,Mexico
+2604,755,Credit Card,1,Excellent service!,ATM,Russia
+2605,35,PayPal,2,Average quality.,Retail Store,Australia
+2606,445,PayPal,2,Average quality.,Restaurant,Russia
+2607,93,Debit Card,4,Average quality.,Amusement Park,Mexico
+2608,950,Credit Card,1,Average quality.,ATM,Japan
+2609,959,Credit Card,5,Average quality.,ATM,France
+2610,207,PayPal,3,Average quality.,Bar,United Kingdom
+2611,353,PayPal,5,Average quality.,Gas Station,Australia
+2612,903,PayPal,2,Excellent service!,Gas Station,Singapore
+2613,332,Credit Card,5,Terrible experience...,ATM,China
+2614,817,Debit Card,2,Average quality.,Museum,South Africa
+2615,862,Debit Card,2,Terrible experience...,Online,New Zealand
+2616,725,Credit Card,2,Average quality.,Bar,Australia
+2617,159,Debit Card,2,Average quality.,Online,Brazil
+2618,954,PayPal,2,Excellent service!,Hotel,Singapore
+2619,957,Debit Card,4,Terrible experience...,Restaurant,Switzerland
+2620,24,Debit Card,5,Excellent service!,Gas Station,Netherlands
+2621,404,Debit Card,4,Excellent service!,Gas Station,Russia
+2622,805,PayPal,4,Terrible experience...,Bar,Russia
+2623,516,Credit Card,1,Excellent service!,Museum,Mexico
+2624,732,PayPal,1,Average quality.,Museum,USA
+2625,364,Credit Card,1,Average quality.,Supermarket,Japan
+2626,382,Credit Card,3,Average quality.,Fitness Center,India
+2627,532,Credit Card,1,Average quality.,Online,Germany
+2628,956,Debit Card,5,Average quality.,Amusement Park,Australia
+2629,152,Debit Card,4,Excellent service!,Bar,Canada
+2630,562,Credit Card,5,Excellent service!,Retail Store,Australia
+2631,689,Credit Card,1,Average quality.,Supermarket,Netherlands
+2632,947,Debit Card,3,Average quality.,Cinema,Sweden
+2633,608,PayPal,3,Excellent service!,Online,Sweden
+2634,617,Credit Card,4,Terrible experience...,Supermarket,France
+2635,420,PayPal,5,Excellent service!,Bar,New Zealand
+2636,250,Debit Card,2,Excellent service!,Amusement Park,Mexico
+2637,117,Credit Card,5,Excellent service!,Retail Store,Italy
+2638,866,PayPal,1,Excellent service!,Restaurant,Australia
+2639,512,PayPal,2,Excellent service!,Supermarket,New Zealand
+2640,740,PayPal,3,Terrible experience...,Restaurant,India
+2641,578,Debit Card,4,Average quality.,ATM,Brazil
+2642,335,Debit Card,4,Average quality.,Gas Station,USA
+2643,418,PayPal,3,Terrible experience...,Hotel,India
+2644,932,PayPal,1,Average quality.,Gas Station,New Zealand
+2645,774,Debit Card,3,Average quality.,Cinema,Spain
+2646,295,PayPal,1,Average quality.,Museum,Sweden
+2647,938,PayPal,2,Terrible experience...,Fitness Center,Brazil
+2648,755,Debit Card,3,Terrible experience...,Amusement Park,Sweden
+2649,371,PayPal,1,Average quality.,Retail Store,Netherlands
+2650,186,PayPal,2,Average quality.,Restaurant,Australia
+2651,246,PayPal,3,Average quality.,Bar,Italy
+2652,637,Debit Card,4,Excellent service!,Restaurant,Switzerland
+2653,268,PayPal,3,Excellent service!,Amusement Park,New Zealand
+2654,643,Debit Card,5,Excellent service!,Fitness Center,South Africa
+2655,237,Debit Card,3,Terrible experience...,Bar,Netherlands
+2656,530,Credit Card,5,Average quality.,Bar,Spain
+2657,552,Credit Card,2,Terrible experience...,Cinema,South Africa
+2658,21,PayPal,3,Terrible experience...,Amusement Park,Singapore
+2659,911,Debit Card,2,Terrible experience...,Supermarket,France
+2660,737,Credit Card,2,Average quality.,Fitness Center,Brazil
+2661,867,PayPal,1,Excellent service!,Gas Station,France
+2662,794,Credit Card,2,Average quality.,Fitness Center,New Zealand
+2663,520,Credit Card,2,Average quality.,Museum,Canada
+2664,100,Debit Card,3,Terrible experience...,ATM,Australia
+2665,752,Debit Card,3,Terrible experience...,Fitness Center,Sweden
+2666,478,Credit Card,4,Terrible experience...,Restaurant,USA
+2667,599,Credit Card,1,Excellent service!,Supermarket,Singapore
+2668,298,Debit Card,2,Excellent service!,ATM,Russia
+2669,940,PayPal,1,Excellent service!,Retail Store,Spain
+2670,526,Debit Card,5,Average quality.,Hotel,Netherlands
+2671,334,Credit Card,2,Terrible experience...,Museum,India
+2672,2,PayPal,1,Average quality.,Restaurant,India
+2673,375,Credit Card,4,Excellent service!,Cinema,Sweden
+2674,293,PayPal,4,Terrible experience...,ATM,Singapore
+2675,837,Credit Card,2,Excellent service!,Bar,Australia
+2676,934,PayPal,5,Terrible experience...,Supermarket,New Zealand
+2677,553,PayPal,4,Terrible experience...,Gas Station,Sweden
+2678,318,Credit Card,4,Average quality.,Fitness Center,Germany
+2679,502,PayPal,5,Average quality.,Fitness Center,Mexico
+2680,828,Debit Card,1,Excellent service!,Cinema,Singapore
+2681,381,Credit Card,4,Average quality.,Restaurant,France
+2682,623,Debit Card,3,Average quality.,Amusement Park,Japan
+2683,14,Credit Card,4,Average quality.,Supermarket,New Zealand
+2684,504,PayPal,1,Terrible experience...,Cinema,New Zealand
+2685,231,PayPal,1,Average quality.,Hotel,USA
+2686,985,PayPal,2,Excellent service!,Fitness Center,Russia
+2687,84,Credit Card,3,Terrible experience...,Restaurant,South Africa
+2688,130,Debit Card,1,Terrible experience...,Retail Store,Canada
+2689,743,Debit Card,5,Average quality.,Gas Station,Sweden
+2690,838,Credit Card,3,Terrible experience...,Retail Store,China
+2691,145,Credit Card,3,Excellent service!,ATM,Canada
+2692,891,Debit Card,5,Excellent service!,Amusement Park,Japan
+2693,857,Debit Card,4,Terrible experience...,Fitness Center,USA
+2694,28,Debit Card,5,Average quality.,ATM,Sweden
+2695,66,Debit Card,5,Average quality.,Gas Station,Singapore
+2696,163,Credit Card,4,Terrible experience...,Supermarket,USA
+2697,229,Credit Card,4,Excellent service!,Fitness Center,Switzerland
+2698,261,PayPal,4,Terrible experience...,ATM,China
+2699,449,Debit Card,4,Average quality.,Amusement Park,Japan
+2700,424,PayPal,4,Average quality.,Online,Brazil
+2701,460,Credit Card,5,Terrible experience...,Online,Brazil
+2702,952,Credit Card,2,Excellent service!,Cinema,New Zealand
+2703,676,PayPal,2,Terrible experience...,Cinema,Spain
+2704,301,Debit Card,1,Excellent service!,Restaurant,Singapore
+2705,919,Debit Card,2,Excellent service!,Cinema,South Africa
+2706,303,Debit Card,2,Terrible experience...,Museum,Singapore
+2707,287,Debit Card,5,Terrible experience...,Hotel,Russia
+2708,395,PayPal,4,Excellent service!,Cinema,Russia
+2709,10,PayPal,4,Excellent service!,Fitness Center,Switzerland
+2710,707,Credit Card,5,Excellent service!,Hotel,Mexico
+2711,630,Debit Card,2,Excellent service!,Cinema,India
+2712,270,Debit Card,5,Average quality.,Retail Store,USA
+2713,592,Debit Card,1,Terrible experience...,Museum,Sweden
+2714,970,PayPal,4,Excellent service!,Museum,Brazil
+2715,605,Debit Card,3,Terrible experience...,Bar,New Zealand
+2716,778,PayPal,1,Excellent service!,Hotel,Australia
+2717,844,Debit Card,1,Terrible experience...,Supermarket,Switzerland
+2718,862,Debit Card,5,Terrible experience...,Restaurant,Mexico
+2719,361,Credit Card,2,Excellent service!,Gas Station,Germany
+2720,257,Debit Card,4,Excellent service!,Hotel,Sweden
+2721,133,Debit Card,3,Terrible experience...,ATM,Canada
+2722,276,Credit Card,1,Terrible experience...,Bar,Japan
+2723,776,PayPal,3,Terrible experience...,Retail Store,Singapore
+2724,683,PayPal,2,Average quality.,Online,Canada
+2725,972,Debit Card,2,Excellent service!,Museum,South Africa
+2726,513,PayPal,3,Average quality.,Retail Store,USA
+2727,313,Debit Card,4,Average quality.,Cinema,India
+2728,576,Credit Card,2,Excellent service!,Restaurant,Mexico
+2729,886,Credit Card,3,Excellent service!,Museum,Singapore
+2730,980,Debit Card,1,Average quality.,Bar,Spain
+2731,284,Credit Card,3,Excellent service!,ATM,USA
+2732,121,Credit Card,3,Terrible experience...,Hotel,Canada
+2733,107,Debit Card,5,Terrible experience...,Retail Store,Australia
+2734,933,Debit Card,2,Average quality.,Bar,Netherlands
+2735,687,Credit Card,4,Average quality.,Hotel,Germany
+2736,997,PayPal,4,Excellent service!,Fitness Center,Singapore
+2737,204,PayPal,5,Excellent service!,Restaurant,Singapore
+2738,165,Debit Card,4,Average quality.,Fitness Center,Italy
+2739,305,Debit Card,3,Average quality.,Museum,New Zealand
+2740,497,PayPal,5,Terrible experience...,Gas Station,USA
+2741,632,Credit Card,1,Terrible experience...,Online,Australia
+2742,556,PayPal,2,Excellent service!,Restaurant,Germany
+2743,824,PayPal,2,Terrible experience...,Fitness Center,France
+2744,156,PayPal,2,Excellent service!,Cinema,South Africa
+2745,367,PayPal,3,Excellent service!,Amusement Park,France
+2746,719,Debit Card,1,Excellent service!,Gas Station,Netherlands
+2747,902,Debit Card,5,Terrible experience...,Cinema,India
+2748,620,Credit Card,5,Average quality.,Fitness Center,France
+2749,251,Credit Card,2,Average quality.,Retail Store,South Africa
+2750,957,Credit Card,1,Terrible experience...,Gas Station,Brazil
+2751,916,Credit Card,1,Average quality.,Cinema,Brazil
+2752,882,PayPal,1,Excellent service!,Gas Station,China
+2753,334,Debit Card,4,Average quality.,Restaurant,Brazil
+2754,642,Debit Card,4,Terrible experience...,Museum,South Africa
+2755,969,Credit Card,2,Average quality.,Bar,Netherlands
+2756,511,Credit Card,1,Excellent service!,Online,China
+2757,293,PayPal,1,Excellent service!,Online,Canada
+2758,20,PayPal,5,Terrible experience...,Cinema,Brazil
+2759,282,Credit Card,5,Terrible experience...,Cinema,China
+2760,797,Debit Card,2,Terrible experience...,Gas Station,New Zealand
+2761,1,Debit Card,1,Excellent service!,Retail Store,New Zealand
+2762,119,Debit Card,2,Average quality.,Cinema,Singapore
+2763,35,Credit Card,5,Average quality.,Gas Station,New Zealand
+2764,198,Debit Card,5,Terrible experience...,Supermarket,USA
+2765,485,PayPal,4,Average quality.,Fitness Center,Brazil
+2766,757,PayPal,2,Average quality.,Online,Australia
+2767,59,Credit Card,2,Terrible experience...,Fitness Center,Russia
+2768,837,PayPal,1,Terrible experience...,Cinema,Italy
+2769,161,Credit Card,1,Excellent service!,Restaurant,Russia
+2770,691,Debit Card,4,Excellent service!,ATM,Japan
+2771,206,Debit Card,3,Excellent service!,Gas Station,Spain
+2772,12,Debit Card,3,Excellent service!,Online,United Kingdom
+2773,490,PayPal,3,Average quality.,Cinema,United Kingdom
+2774,276,Credit Card,2,Average quality.,Bar,Germany
+2775,693,Debit Card,2,Excellent service!,Gas Station,Switzerland
+2776,242,Credit Card,5,Excellent service!,Retail Store,India
+2777,216,Debit Card,2,Terrible experience...,Cinema,India
+2778,251,PayPal,2,Average quality.,Gas Station,New Zealand
+2779,811,PayPal,2,Average quality.,Cinema,India
+2780,126,Credit Card,4,Excellent service!,Amusement Park,Brazil
+2781,994,PayPal,2,Average quality.,ATM,United Kingdom
+2782,217,PayPal,1,Terrible experience...,Hotel,Netherlands
+2783,306,Credit Card,1,Terrible experience...,Hotel,Spain
+2784,797,Debit Card,5,Average quality.,Amusement Park,Italy
+2785,185,PayPal,4,Excellent service!,Gas Station,Sweden
+2786,39,Credit Card,1,Average quality.,Retail Store,USA
+2787,223,PayPal,4,Terrible experience...,Museum,South Africa
+2788,184,PayPal,4,Excellent service!,Cinema,Japan
+2789,495,PayPal,5,Average quality.,Gas Station,Sweden
+2790,427,PayPal,4,Excellent service!,Bar,Germany
+2791,178,Credit Card,2,Excellent service!,Retail Store,France
+2792,919,Credit Card,4,Terrible experience...,Bar,Australia
+2793,428,Credit Card,5,Excellent service!,Museum,Sweden
+2794,294,PayPal,5,Average quality.,Amusement Park,USA
+2795,852,PayPal,5,Excellent service!,Restaurant,USA
+2796,151,PayPal,1,Excellent service!,Hotel,Switzerland
+2797,384,Credit Card,2,Average quality.,Hotel,Netherlands
+2798,638,PayPal,1,Terrible experience...,Fitness Center,Germany
+2799,813,Debit Card,3,Terrible experience...,Cinema,Brazil
+2800,308,PayPal,2,Average quality.,ATM,India
+2801,336,Debit Card,4,Average quality.,Amusement Park,France
+2802,946,PayPal,5,Terrible experience...,Gas Station,France
+2803,746,Credit Card,3,Excellent service!,Amusement Park,Spain
+2804,892,PayPal,2,Average quality.,Gas Station,Italy
+2805,375,Debit Card,1,Excellent service!,Amusement Park,Japan
+2806,8,Debit Card,5,Average quality.,Restaurant,South Africa
+2807,341,PayPal,1,Terrible experience...,Supermarket,Germany
+2808,129,Debit Card,2,Excellent service!,ATM,Germany
+2809,776,Debit Card,2,Excellent service!,Gas Station,Spain
+2810,669,Credit Card,3,Average quality.,ATM,Mexico
+2811,352,PayPal,4,Excellent service!,Retail Store,South Africa
+2812,358,PayPal,1,Average quality.,Amusement Park,South Africa
+2813,517,PayPal,3,Terrible experience...,Fitness Center,USA
+2814,495,Debit Card,5,Excellent service!,Cinema,Spain
+2815,86,PayPal,4,Average quality.,Online,Germany
+2816,175,PayPal,3,Excellent service!,Retail Store,South Africa
+2817,802,Credit Card,1,Average quality.,Bar,France
+2818,193,Credit Card,2,Average quality.,Hotel,Spain
+2819,311,Credit Card,5,Average quality.,Fitness Center,Netherlands
+2820,119,Debit Card,1,Terrible experience...,Online,Canada
+2821,218,PayPal,4,Excellent service!,Restaurant,Sweden
+2822,427,Credit Card,4,Terrible experience...,Amusement Park,Switzerland
+2823,970,Credit Card,2,Average quality.,Supermarket,France
+2824,414,Credit Card,2,Average quality.,Restaurant,Brazil
+2825,114,PayPal,5,Terrible experience...,Gas Station,Australia
+2826,978,PayPal,5,Terrible experience...,Online,Sweden
+2827,145,PayPal,2,Excellent service!,Hotel,Sweden
+2828,538,Debit Card,2,Average quality.,Cinema,Netherlands
+2829,648,Debit Card,4,Terrible experience...,Supermarket,Singapore
+2830,303,Credit Card,2,Average quality.,ATM,Russia
+2831,744,PayPal,3,Average quality.,Amusement Park,New Zealand
+2832,881,Credit Card,1,Excellent service!,Gas Station,China
+2833,588,PayPal,2,Excellent service!,Amusement Park,USA
+2834,987,PayPal,5,Excellent service!,Restaurant,India
+2835,840,PayPal,3,Terrible experience...,Fitness Center,China
+2836,345,Debit Card,5,Average quality.,Fitness Center,India
+2837,814,Debit Card,3,Terrible experience...,Online,New Zealand
+2838,964,PayPal,2,Terrible experience...,Restaurant,USA
+2839,801,Credit Card,1,Excellent service!,Online,Australia
+2840,1,PayPal,5,Average quality.,Cinema,France
+2841,147,PayPal,3,Average quality.,Hotel,United Kingdom
+2842,287,Credit Card,4,Excellent service!,ATM,South Africa
+2843,976,PayPal,2,Average quality.,Cinema,France
+2844,654,Credit Card,1,Excellent service!,Retail Store,South Africa
+2845,53,Debit Card,2,Terrible experience...,Fitness Center,France
+2846,304,Debit Card,4,Terrible experience...,Hotel,Netherlands
+2847,69,Credit Card,1,Excellent service!,Cinema,Italy
+2848,361,Debit Card,4,Terrible experience...,Supermarket,Sweden
+2849,602,Debit Card,2,Terrible experience...,Amusement Park,Japan
+2850,958,Credit Card,3,Excellent service!,Restaurant,Mexico
+2851,220,Debit Card,2,Terrible experience...,Fitness Center,Japan
+2852,962,PayPal,2,Average quality.,Hotel,Russia
+2853,704,PayPal,2,Terrible experience...,Supermarket,Russia
+2854,966,Credit Card,5,Excellent service!,Restaurant,India
+2855,575,Debit Card,4,Average quality.,Retail Store,France
+2856,585,PayPal,4,Average quality.,Bar,Canada
+2857,161,PayPal,4,Terrible experience...,Hotel,South Africa
+2858,681,Debit Card,5,Average quality.,Supermarket,Japan
+2859,89,Debit Card,3,Excellent service!,Restaurant,Singapore
+2860,688,PayPal,2,Average quality.,Restaurant,Brazil
+2861,781,PayPal,3,Terrible experience...,Cinema,Japan
+2862,585,Credit Card,5,Terrible experience...,Online,United Kingdom
+2863,757,Credit Card,4,Average quality.,Cinema,Russia
+2864,589,PayPal,2,Excellent service!,Supermarket,United Kingdom
+2865,159,Credit Card,1,Excellent service!,Gas Station,Netherlands
+2866,489,PayPal,1,Terrible experience...,Amusement Park,Japan
+2867,971,PayPal,3,Terrible experience...,Hotel,India
+2868,324,Credit Card,4,Excellent service!,Cinema,USA
+2869,610,Credit Card,1,Average quality.,Restaurant,Brazil
+2870,381,Debit Card,3,Average quality.,Restaurant,USA
+2871,102,Debit Card,5,Average quality.,Bar,Sweden
+2872,494,Debit Card,3,Average quality.,Hotel,South Africa
+2873,644,PayPal,3,Excellent service!,Bar,Australia
+2874,614,Credit Card,3,Terrible experience...,Museum,USA
+2875,19,PayPal,2,Terrible experience...,Fitness Center,USA
+2876,454,Credit Card,3,Average quality.,Amusement Park,Brazil
+2877,482,PayPal,3,Excellent service!,Retail Store,Spain
+2878,594,Debit Card,2,Excellent service!,Cinema,USA
+2879,397,Debit Card,2,Average quality.,ATM,United Kingdom
+2880,279,Debit Card,5,Average quality.,Supermarket,Russia
+2881,851,PayPal,4,Average quality.,Supermarket,Japan
+2882,365,Credit Card,1,Terrible experience...,Retail Store,Italy
+2883,331,Credit Card,1,Average quality.,Fitness Center,Italy
+2884,641,Debit Card,3,Terrible experience...,Hotel,France
+2885,344,Debit Card,5,Excellent service!,Cinema,China
+2886,822,Debit Card,3,Excellent service!,Fitness Center,Singapore
+2887,455,Debit Card,1,Terrible experience...,Amusement Park,Australia
+2888,601,Credit Card,2,Terrible experience...,Museum,Switzerland
+2889,725,PayPal,4,Terrible experience...,Online,Switzerland
+2890,655,PayPal,5,Terrible experience...,Bar,Italy
+2891,65,PayPal,2,Average quality.,Retail Store,USA
+2892,76,PayPal,4,Excellent service!,Online,USA
+2893,711,Debit Card,5,Average quality.,Bar,Singapore
+2894,143,Debit Card,5,Terrible experience...,Retail Store,New Zealand
+2895,917,Debit Card,1,Average quality.,Supermarket,China
+2896,915,PayPal,2,Average quality.,Supermarket,Canada
+2897,828,Debit Card,5,Excellent service!,Restaurant,France
+2898,605,Debit Card,5,Average quality.,Bar,South Africa
+2899,473,Credit Card,4,Excellent service!,ATM,Netherlands
+2900,417,Credit Card,1,Terrible experience...,Amusement Park,Switzerland
+2901,305,Debit Card,3,Average quality.,Gas Station,Mexico
+2902,736,Credit Card,1,Terrible experience...,Hotel,India
+2903,497,Credit Card,3,Excellent service!,Hotel,Russia
+2904,291,Debit Card,2,Terrible experience...,Fitness Center,USA
+2905,940,Debit Card,2,Terrible experience...,Bar,Brazil
+2906,102,Debit Card,5,Excellent service!,Retail Store,Netherlands
+2907,986,Debit Card,2,Terrible experience...,Museum,Mexico
+2908,267,PayPal,5,Terrible experience...,Fitness Center,United Kingdom
+2909,867,PayPal,1,Terrible experience...,Retail Store,Sweden
+2910,968,Debit Card,2,Average quality.,Gas Station,Canada
+2911,622,Credit Card,1,Terrible experience...,Amusement Park,China
+2912,974,Debit Card,1,Excellent service!,Cinema,Australia
+2913,842,Debit Card,2,Average quality.,Amusement Park,Japan
+2914,962,Credit Card,1,Average quality.,Fitness Center,Switzerland
+2915,942,PayPal,2,Excellent service!,Cinema,Brazil
+2916,777,Debit Card,2,Terrible experience...,Gas Station,Italy
+2917,3,Debit Card,2,Average quality.,Cinema,Japan
+2918,85,PayPal,3,Average quality.,ATM,Singapore
+2919,794,PayPal,1,Average quality.,Fitness Center,India
+2920,328,Credit Card,4,Terrible experience...,Restaurant,Russia
+2921,816,PayPal,2,Average quality.,Amusement Park,Australia
+2922,450,PayPal,1,Excellent service!,Cinema,France
+2923,454,PayPal,5,Terrible experience...,Supermarket,Mexico
+2924,924,Credit Card,2,Excellent service!,ATM,Singapore
+2925,629,PayPal,2,Excellent service!,Amusement Park,Singapore
+2926,221,PayPal,4,Average quality.,Cinema,Singapore
+2927,154,Credit Card,3,Average quality.,Supermarket,Australia
+2928,665,PayPal,3,Average quality.,Gas Station,China
+2929,12,PayPal,2,Excellent service!,Gas Station,France
+2930,133,Credit Card,1,Terrible experience...,Bar,New Zealand
+2931,994,Debit Card,5,Average quality.,Hotel,Sweden
+2932,304,Credit Card,5,Average quality.,Online,Sweden
+2933,293,PayPal,1,Excellent service!,Supermarket,Italy
+2934,975,PayPal,2,Terrible experience...,Bar,Germany
+2935,300,PayPal,5,Excellent service!,ATM,United Kingdom
+2936,740,Credit Card,3,Average quality.,Cinema,China
+2937,783,PayPal,1,Excellent service!,Amusement Park,China
+2938,43,PayPal,4,Average quality.,Retail Store,India
+2939,944,Credit Card,2,Terrible experience...,Supermarket,Italy
+2940,343,Debit Card,1,Excellent service!,Fitness Center,Canada
+2941,326,Debit Card,5,Average quality.,Online,Switzerland
+2942,814,PayPal,2,Average quality.,Fitness Center,Netherlands
+2943,498,Credit Card,3,Average quality.,Museum,Japan
+2944,364,PayPal,2,Average quality.,Retail Store,Germany
+2945,891,Credit Card,2,Excellent service!,Restaurant,South Africa
+2946,427,Credit Card,3,Average quality.,Online,Singapore
+2947,21,Debit Card,3,Excellent service!,Bar,Brazil
+2948,407,Debit Card,2,Average quality.,Online,Russia
+2949,619,Credit Card,3,Excellent service!,Cinema,Germany
+2950,336,PayPal,1,Excellent service!,Amusement Park,United Kingdom
+2951,815,Debit Card,3,Average quality.,Museum,China
+2952,117,PayPal,3,Average quality.,ATM,Germany
+2953,124,Debit Card,2,Average quality.,Fitness Center,Australia
+2954,399,Debit Card,1,Average quality.,Retail Store,Singapore
+2955,793,PayPal,4,Terrible experience...,Online,Germany
+2956,804,Debit Card,4,Average quality.,Cinema,China
+2957,715,Debit Card,5,Average quality.,Gas Station,New Zealand
+2958,51,PayPal,3,Average quality.,Fitness Center,South Africa
+2959,783,Debit Card,3,Excellent service!,Online,Canada
+2960,324,Debit Card,1,Average quality.,Online,South Africa
+2961,789,Debit Card,4,Excellent service!,Hotel,South Africa
+2962,141,PayPal,5,Excellent service!,Retail Store,Japan
+2963,470,Credit Card,1,Excellent service!,Hotel,Sweden
+2964,787,PayPal,3,Excellent service!,Fitness Center,New Zealand
+2965,802,Credit Card,4,Terrible experience...,Hotel,USA
+2966,334,Debit Card,5,Average quality.,Amusement Park,Switzerland
+2967,893,Credit Card,2,Excellent service!,Cinema,China
+2968,964,PayPal,4,Average quality.,Hotel,New Zealand
+2969,373,PayPal,5,Excellent service!,Online,Italy
+2970,564,Debit Card,1,Terrible experience...,Fitness Center,USA
+2971,494,Credit Card,2,Excellent service!,Bar,Brazil
+2972,539,Debit Card,5,Average quality.,Bar,Sweden
+2973,669,Debit Card,5,Average quality.,Gas Station,USA
+2974,751,PayPal,3,Terrible experience...,Bar,Brazil
+2975,156,Credit Card,4,Average quality.,Gas Station,Canada
+2976,291,Credit Card,3,Average quality.,Bar,Brazil
+2977,648,Credit Card,2,Excellent service!,Restaurant,Sweden
+2978,144,Credit Card,5,Average quality.,Gas Station,Spain
+2979,106,Debit Card,3,Excellent service!,Supermarket,Germany
+2980,420,Debit Card,4,Terrible experience...,Retail Store,Sweden
+2981,670,PayPal,2,Average quality.,Fitness Center,USA
+2982,658,Debit Card,1,Excellent service!,Retail Store,USA
+2983,2,Debit Card,3,Average quality.,Retail Store,New Zealand
+2984,945,PayPal,2,Excellent service!,Cinema,USA
+2985,589,PayPal,1,Terrible experience...,Amusement Park,Germany
+2986,644,PayPal,3,Excellent service!,ATM,Netherlands
+2987,90,Debit Card,2,Average quality.,Amusement Park,Italy
+2988,345,Debit Card,2,Excellent service!,Gas Station,Netherlands
+2989,350,PayPal,3,Average quality.,Amusement Park,New Zealand
+2990,459,PayPal,2,Terrible experience...,Fitness Center,Mexico
+2991,263,PayPal,5,Excellent service!,Bar,USA
+2992,351,Debit Card,3,Average quality.,Gas Station,Sweden
+2993,108,Debit Card,2,Average quality.,Museum,Singapore
+2994,586,Credit Card,1,Average quality.,Amusement Park,Canada
+2995,39,Debit Card,1,Excellent service!,Amusement Park,Brazil
+2996,909,Debit Card,5,Excellent service!,Hotel,Switzerland
+2997,159,Debit Card,3,Excellent service!,Restaurant,Canada
+2998,583,PayPal,2,Terrible experience...,Cinema,Sweden
+2999,959,Debit Card,2,Average quality.,Gas Station,India
+3000,312,PayPal,1,Average quality.,ATM,Singapore
