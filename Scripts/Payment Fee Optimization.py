@@ -6,7 +6,6 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
 import joblib
 from sklearn.metrics import r2_score, root_mean_squared_error
-
 import numpy as np
 
 # Load data
